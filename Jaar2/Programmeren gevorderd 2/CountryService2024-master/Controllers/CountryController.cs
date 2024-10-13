@@ -17,19 +17,19 @@ namespace CountryService2024.Controllers
             this.repo = repo;
             this.logger = loggerFactory.CreateLogger("Country");
         }
-        //[HttpGet]
-        //[Route("startmetcountry/api")]
-        //[Route("/begin/[Action]/{id:int=3}")]
-        //public Country Get(int id)
-        //{
-        //    logger.LogInformation(1001, "GetAll called");
-        //    logger.LogTrace("Trace log");
-        //    logger.LogDebug("Debug log");
-        //    logger.LogInformation("Informationlog");
-        //    logger.LogError("Error log");
-        //    logger.LogCritical("Critical log");
-        //    return repo.GetCountry(id);
-        //}
+        [HttpGet]
+        [Route("startmetcountry/api")]
+        [Route("/begin/[Action]/{id:int=3}")]
+        public Country Get(int id)
+        {
+            logger.LogInformation(1001, "GetAll called");
+            logger.LogTrace("Trace log");
+            logger.LogDebug("Debug log");
+            logger.LogInformation("Informationlog");
+            logger.LogError("Error log");
+            logger.LogCritical("Critical log");
+            return repo.GetCountry(id);
+        }
 
         [Route("[Action]/{id}")]
         [HttpGet]
