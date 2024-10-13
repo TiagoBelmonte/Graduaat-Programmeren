@@ -1,0 +1,11 @@
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionStrips\StripsBL\bin\Debug\net8.0\StripsBL.deps.json
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionStrips\StripsBL\bin\Debug\net8.0\StripsBL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionStrips\StripsBL\bin\Debug\net8.0\StripsBL.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionStrips\StripsBL\obj\Debug\net8.0\StripsBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionStrips\StripsBL\obj\Debug\net8.0\StripsBL.AssemblyInfoInputs.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionStrips\StripsBL\obj\Debug\net8.0\StripsBL.AssemblyInfo.cs
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionStrips\StripsBL\obj\Debug\net8.0\StripsBL.csproj.CoreCompileInputs.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionStrips\StripsBL\obj\Debug\net8.0\StripsBL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionStrips\StripsBL\obj\Debug\net8.0\refint\StripsBL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionStrips\StripsBL\obj\Debug\net8.0\StripsBL.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionStrips\StripsBL\obj\Debug\net8.0\ref\StripsBL.dll

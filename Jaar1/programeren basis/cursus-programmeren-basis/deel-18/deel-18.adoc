@@ -1,0 +1,19 @@
+= Programmeren Basis - Deel 18
+Yanic Inghelbrecht
+v2022.11.14.14.00
+include::../common/header-theorie.adoc[]
+
+
+//preamble
+[.text-right]
+versie {revnumber}
+ 
+== Interfaces
+
+link:attachments/deel-18.pdf[klik hier voor de pdf-versie,window="_blank"]
+
+De zip files met de voorbeeld projecten :
+
+* link:attachments/deel-18-demo1-apart.zip[deel-18-demo1-apart.zip,window="_blank"]
+* link:attachments/deel-18-demo2-samen.zip[deel-18-demo2-samen.zip,window="_blank"]
+* link:attachments/deel-18-demo3-interface.zip[deel-18-demo3-interface.zip,window="_blank"]

@@ -1,0 +1,13 @@
+= Programmeren Basis - Deel 17
+Yanic Inghelbrecht
+v2022.12.15.12.00
+include::../common/header-theorie.adoc[]
+
+
+//preamble
+[.text-right]
+versie {revnumber}
+ 
+== Collectieklassen (vervolg)
+
+link:attachments/deel-17.pdf[klik hier voor de pdf-versie,window="_blank"]

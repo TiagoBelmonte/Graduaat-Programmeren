@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tbelm\\source\\repos\\TestEventService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE69AF52-5871-4001-9791-C7EEDF9372B8}|TestEventService\\TestEventService.csproj|c:\\users\\tbelm\\source\\repos\\testeventservice\\testeventservice\\model\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE69AF52-5871-4001-9791-C7EEDF9372B8}|TestEventService\\TestEventService.csproj|solutionrelative:testeventservice\\model\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE69AF52-5871-4001-9791-C7EEDF9372B8}|TestEventService\\TestEventService.csproj|c:\\users\\tbelm\\source\\repos\\testeventservice\\testeventservice\\model\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE69AF52-5871-4001-9791-C7EEDF9372B8}|TestEventService\\TestEventService.csproj|solutionrelative:testeventservice\\model\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE69AF52-5871-4001-9791-C7EEDF9372B8}|TestEventService\\TestEventService.csproj|c:\\users\\tbelm\\source\\repos\\testeventservice\\testeventservice\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE69AF52-5871-4001-9791-C7EEDF9372B8}|TestEventService\\TestEventService.csproj|solutionrelative:testeventservice\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE69AF52-5871-4001-9791-C7EEDF9372B8}|TestEventService\\TestEventService.csproj|c:\\users\\tbelm\\source\\repos\\testeventservice\\testeventservice\\controllers\\visitorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE69AF52-5871-4001-9791-C7EEDF9372B8}|TestEventService\\TestEventService.csproj|solutionrelative:testeventservice\\controllers\\visitorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE69AF52-5871-4001-9791-C7EEDF9372B8}|TestEventService\\TestEventService.csproj|c:\\users\\tbelm\\source\\repos\\testeventservice\\testeventservice\\model\\visitorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE69AF52-5871-4001-9791-C7EEDF9372B8}|TestEventService\\TestEventService.csproj|solutionrelative:testeventservice\\model\\visitorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE69AF52-5871-4001-9791-C7EEDF9372B8}|TestEventService\\TestEventService.csproj|c:\\users\\tbelm\\source\\repos\\testeventservice\\testeventservice\\model\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE69AF52-5871-4001-9791-C7EEDF9372B8}|TestEventService\\TestEventService.csproj|solutionrelative:testeventservice\\model\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE69AF52-5871-4001-9791-C7EEDF9372B8}|TestEventService\\TestEventService.csproj|c:\\users\\tbelm\\source\\repos\\testeventservice\\testeventservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE69AF52-5871-4001-9791-C7EEDF9372B8}|TestEventService\\TestEventService.csproj|solutionrelative:testeventservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VisitorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\source\\repos\\TestEventService\\TestEventService\\Model\\VisitorRepository.cs",
+              "RelativeDocumentMoniker": "TestEventService\\Model\\VisitorRepository.cs",
+              "ToolTip": "C:\\Users\\tbelm\\source\\repos\\TestEventService\\TestEventService\\Model\\VisitorRepository.cs",
+              "RelativeToolTip": "TestEventService\\Model\\VisitorRepository.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAmwCUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T09:25:14.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IEventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\source\\repos\\TestEventService\\TestEventService\\Model\\IEventRepository.cs",
+              "RelativeDocumentMoniker": "TestEventService\\Model\\IEventRepository.cs",
+              "ToolTip": "C:\\Users\\tbelm\\source\\repos\\TestEventService\\TestEventService\\Model\\IEventRepository.cs",
+              "RelativeToolTip": "TestEventService\\Model\\IEventRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T08:32:53.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VisitorController.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\source\\repos\\TestEventService\\TestEventService\\Controllers\\VisitorController.cs",
+              "RelativeDocumentMoniker": "TestEventService\\Controllers\\VisitorController.cs",
+              "ToolTip": "C:\\Users\\tbelm\\source\\repos\\TestEventService\\TestEventService\\Controllers\\VisitorController.cs",
+              "RelativeToolTip": "TestEventService\\Controllers\\VisitorController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T08:15:48.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\source\\repos\\TestEventService\\TestEventService\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "TestEventService\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\tbelm\\source\\repos\\TestEventService\\TestEventService\\Controllers\\EventController.cs",
+              "RelativeToolTip": "TestEventService\\Controllers\\EventController.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAgwEwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T08:15:42.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\source\\repos\\TestEventService\\TestEventService\\Model\\Event.cs",
+              "RelativeDocumentMoniker": "TestEventService\\Model\\Event.cs",
+              "ToolTip": "C:\\Users\\tbelm\\source\\repos\\TestEventService\\TestEventService\\Model\\Event.cs",
+              "RelativeToolTip": "TestEventService\\Model\\Event.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAADwvxUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T08:15:27.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\source\\repos\\TestEventService\\TestEventService\\Model\\EventRepository.cs",
+              "RelativeDocumentMoniker": "TestEventService\\Model\\EventRepository.cs",
+              "ToolTip": "C:\\Users\\tbelm\\source\\repos\\TestEventService\\TestEventService\\Model\\EventRepository.cs",
+              "RelativeToolTip": "TestEventService\\Model\\EventRepository.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEsAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T08:07:26.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\source\\repos\\TestEventService\\TestEventService\\Program.cs",
+              "RelativeDocumentMoniker": "TestEventService\\Program.cs",
+              "ToolTip": "C:\\Users\\tbelm\\source\\repos\\TestEventService\\TestEventService\\Program.cs",
+              "RelativeToolTip": "TestEventService\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T07:59:35.962Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

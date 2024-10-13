@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\OpgaveCollectionOvererving\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB6D509-A5E9-4FD4-8CCF-CB3FBEAC7FBA}|UnitTest\\UnitTest.csproj|c:\\users\\tbelm\\documenten\\programmeren gevorderd\\opgavecollectionovererving\\unittest\\unittestrederij.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB6D509-A5E9-4FD4-8CCF-CB3FBEAC7FBA}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\unittestrederij.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C64A625-B373-48ED-86C9-33DDEF2D3BB5}|ScheepsvaartBL\\ScheepsvaartBL.csproj|c:\\users\\tbelm\\documenten\\programmeren gevorderd\\opgavecollectionovererving\\scheepsvaartbl\\model\\rederij.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C64A625-B373-48ED-86C9-33DDEF2D3BB5}|ScheepsvaartBL\\ScheepsvaartBL.csproj|solutionrelative:scheepsvaartbl\\model\\rederij.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C64A625-B373-48ED-86C9-33DDEF2D3BB5}|ScheepsvaartBL\\ScheepsvaartBL.csproj|c:\\users\\tbelm\\documenten\\programmeren gevorderd\\opgavecollectionovererving\\scheepsvaartbl\\model\\vloot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C64A625-B373-48ED-86C9-33DDEF2D3BB5}|ScheepsvaartBL\\ScheepsvaartBL.csproj|solutionrelative:scheepsvaartbl\\model\\vloot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C64A625-B373-48ED-86C9-33DDEF2D3BB5}|ScheepsvaartBL\\ScheepsvaartBL.csproj|c:\\users\\tbelm\\documenten\\programmeren gevorderd\\opgavecollectionovererving\\scheepsvaartbl\\exceptions\\rederijexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C64A625-B373-48ED-86C9-33DDEF2D3BB5}|ScheepsvaartBL\\ScheepsvaartBL.csproj|solutionrelative:scheepsvaartbl\\exceptions\\rederijexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C64A625-B373-48ED-86C9-33DDEF2D3BB5}|ScheepsvaartBL\\ScheepsvaartBL.csproj|c:\\users\\tbelm\\documenten\\programmeren gevorderd\\opgavecollectionovererving\\scheepsvaartbl\\model\\cruiseschip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C64A625-B373-48ED-86C9-33DDEF2D3BB5}|ScheepsvaartBL\\ScheepsvaartBL.csproj|solutionrelative:scheepsvaartbl\\model\\cruiseschip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C64A625-B373-48ED-86C9-33DDEF2D3BB5}|ScheepsvaartBL\\ScheepsvaartBL.csproj|c:\\users\\tbelm\\documenten\\programmeren gevorderd\\opgavecollectionovererving\\scheepsvaartbl\\model\\veerboot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C64A625-B373-48ED-86C9-33DDEF2D3BB5}|ScheepsvaartBL\\ScheepsvaartBL.csproj|solutionrelative:scheepsvaartbl\\model\\veerboot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C64A625-B373-48ED-86C9-33DDEF2D3BB5}|ScheepsvaartBL\\ScheepsvaartBL.csproj|c:\\users\\tbelm\\documenten\\programmeren gevorderd\\opgavecollectionovererving\\scheepsvaartbl\\model\\passagiersschip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C64A625-B373-48ED-86C9-33DDEF2D3BB5}|ScheepsvaartBL\\ScheepsvaartBL.csproj|solutionrelative:scheepsvaartbl\\model\\passagiersschip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C64A625-B373-48ED-86C9-33DDEF2D3BB5}|ScheepsvaartBL\\ScheepsvaartBL.csproj|c:\\users\\tbelm\\documenten\\programmeren gevorderd\\opgavecollectionovererving\\scheepsvaartbl\\model\\schip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C64A625-B373-48ED-86C9-33DDEF2D3BB5}|ScheepsvaartBL\\ScheepsvaartBL.csproj|solutionrelative:scheepsvaartbl\\model\\schip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vloot.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\OpgaveCollectionOvererving\\ScheepsvaartBL\\Model\\Vloot.cs",
+              "RelativeDocumentMoniker": "ScheepsvaartBL\\Model\\Vloot.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\OpgaveCollectionOvererving\\ScheepsvaartBL\\Model\\Vloot.cs",
+              "RelativeToolTip": "ScheepsvaartBL\\Model\\Vloot.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwCgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T08:33:33.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Rederij.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\OpgaveCollectionOvererving\\ScheepsvaartBL\\Model\\Rederij.cs",
+              "RelativeDocumentMoniker": "ScheepsvaartBL\\Model\\Rederij.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\OpgaveCollectionOvererving\\ScheepsvaartBL\\Model\\Rederij.cs*",
+              "RelativeToolTip": "ScheepsvaartBL\\Model\\Rederij.cs*",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwB0AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T08:30:35.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RederijException.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\OpgaveCollectionOvererving\\ScheepsvaartBL\\Exceptions\\RederijException.cs",
+              "RelativeDocumentMoniker": "ScheepsvaartBL\\Exceptions\\RederijException.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\OpgaveCollectionOvererving\\ScheepsvaartBL\\Exceptions\\RederijException.cs",
+              "RelativeToolTip": "ScheepsvaartBL\\Exceptions\\RederijException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T08:30:31.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cruiseschip.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\OpgaveCollectionOvererving\\ScheepsvaartBL\\Model\\Cruiseschip.cs",
+              "RelativeDocumentMoniker": "ScheepsvaartBL\\Model\\Cruiseschip.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\OpgaveCollectionOvererving\\ScheepsvaartBL\\Model\\Cruiseschip.cs",
+              "RelativeToolTip": "ScheepsvaartBL\\Model\\Cruiseschip.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T08:29:26.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Veerboot.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\OpgaveCollectionOvererving\\ScheepsvaartBL\\Model\\Veerboot.cs",
+              "RelativeDocumentMoniker": "ScheepsvaartBL\\Model\\Veerboot.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\OpgaveCollectionOvererving\\ScheepsvaartBL\\Model\\Veerboot.cs",
+              "RelativeToolTip": "ScheepsvaartBL\\Model\\Veerboot.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T08:28:54.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Passagiersschip.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\OpgaveCollectionOvererving\\ScheepsvaartBL\\Model\\Passagiersschip.cs",
+              "RelativeDocumentMoniker": "ScheepsvaartBL\\Model\\Passagiersschip.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\OpgaveCollectionOvererving\\ScheepsvaartBL\\Model\\Passagiersschip.cs",
+              "RelativeToolTip": "ScheepsvaartBL\\Model\\Passagiersschip.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T08:28:40.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Schip.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\OpgaveCollectionOvererving\\ScheepsvaartBL\\Model\\Schip.cs",
+              "RelativeDocumentMoniker": "ScheepsvaartBL\\Model\\Schip.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\OpgaveCollectionOvererving\\ScheepsvaartBL\\Model\\Schip.cs",
+              "RelativeToolTip": "ScheepsvaartBL\\Model\\Schip.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T08:28:28.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTestRederij.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\OpgaveCollectionOvererving\\UnitTest\\UnitTestRederij.cs",
+              "RelativeDocumentMoniker": "UnitTest\\UnitTestRederij.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\OpgaveCollectionOvererving\\UnitTest\\UnitTestRederij.cs",
+              "RelativeToolTip": "UnitTest\\UnitTestRederij.cs",
+              "ViewState": "AQIAABQBAAAAAAAAAAA+wCMBAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T08:28:21.312Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

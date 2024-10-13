@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ConsoleAppTestBL/1.0.0": {
+        "dependencies": {
+          "StripsBL": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleAppTestBL.dll": {}
+        }
+      },
+      "StripsBL/1.0.0": {
+        "runtime": {
+          "StripsBL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleAppTestBL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StripsBL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+﻿= Programmeren Basis - Deel 13 - Oplossingen
+Frederiek De Wolf
+v2022.11.14.14.00
+include::../common/header-oplossingen.adoc[]
+
+//preamble
+[.text-right]
+versie {revnumber}
+
+== Tekstbestanden en exceptions
+
+=== Oplossing D13srt {missing-icon}
+
+Voor deze oefening is er geen voorbeeld oplossing beschikbaar.

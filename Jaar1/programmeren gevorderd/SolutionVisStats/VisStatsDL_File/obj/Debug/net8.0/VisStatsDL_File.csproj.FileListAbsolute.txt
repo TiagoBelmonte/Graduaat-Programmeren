@@ -1,0 +1,46 @@
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_File\bin\Debug\net8.0\VisStatsDL_File.deps.json
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_File\bin\Debug\net8.0\VisStatsDL_File.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_File\bin\Debug\net8.0\VisStatsDL_File.pdb
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_File\bin\Debug\net8.0\VisStatsBL.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_File\bin\Debug\net8.0\VisStatsBL.pdb
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\VisStatsDL_File.csproj.AssemblyReference.cache
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\VisStatsDL_File.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\VisStatsDL_File.AssemblyInfoInputs.cache
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\VisStatsDL_File.AssemblyInfo.cs
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\VisStatsDL_File.csproj.CoreCompileInputs.cache
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\VisStatsDL_File.sourcelink.json
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\VisStats.4EA2C64D.Up2Date
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\VisStatsDL_File.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\refint\VisStatsDL_File.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\VisStatsDL_File.pdb
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\ref\VisStatsDL_File.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_File\bin\Debug\net8.0\VisStatsDL_File.deps.json
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_File\bin\Debug\net8.0\VisStatsDL_File.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_File\bin\Debug\net8.0\VisStatsDL_File.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_File\bin\Debug\net8.0\VisStatsBL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_File\bin\Debug\net8.0\VisStatsBL.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\VisStatsDL_File.csproj.AssemblyReference.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\VisStatsDL_File.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\VisStatsDL_File.AssemblyInfoInputs.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\VisStatsDL_File.AssemblyInfo.cs
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\VisStatsDL_File.csproj.CoreCompileInputs.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\VisStats.4EA2C64D.Up2Date
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\VisStatsDL_File.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\refint\VisStatsDL_File.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\VisStatsDL_File.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\ref\VisStatsDL_File.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_File\bin\Debug\net8.0\VisStatsDL_File.deps.json
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_File\bin\Debug\net8.0\VisStatsDL_File.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_File\bin\Debug\net8.0\VisStatsDL_File.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_File\bin\Debug\net8.0\VisStatsBL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_File\bin\Debug\net8.0\VisStatsBL.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\VisStatsDL_File.csproj.AssemblyReference.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\VisStatsDL_File.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\VisStatsDL_File.AssemblyInfoInputs.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\VisStatsDL_File.AssemblyInfo.cs
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\VisStatsDL_File.csproj.CoreCompileInputs.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\VisStats.4EA2C64D.Up2Date
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\VisStatsDL_File.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\refint\VisStatsDL_File.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\VisStatsDL_File.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_File\obj\Debug\net8.0\ref\VisStatsDL_File.dll

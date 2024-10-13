@@ -1,0 +1,190 @@
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.exe
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.deps.json
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.runtimeconfig.json
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.pdb
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsBL.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsDL_File.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsDL_SQL.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsBL.pdb
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsDL_File.pdb
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsDL_SQL.pdb
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.csproj.AssemblyReference.cache
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\StatistiekenWindow.g.cs
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand_MarkupCompile.cache
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand_MarkupCompile.lref
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\StatistiekenWindow.baml
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.g.resources
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.AssemblyInfoInputs.cache
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.AssemblyInfo.cs
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.csproj.CoreCompileInputs.cache
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.sourcelink.json
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStats.DD330263.Up2Date
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\refint\VisStatsUi_StatistiekenOpdrachtMaand.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.pdb
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.genruntimeconfig.cache
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\ref\VisStatsUi_StatistiekenOpdrachtMaand.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.exe
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.deps.json
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.runtimeconfig.json
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsBL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsDL_File.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsDL_SQL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsBL.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsDL_File.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsDL_SQL.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.csproj.AssemblyReference.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\StatistiekenWindow.g.cs
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand_MarkupCompile.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand_MarkupCompile.lref
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\StatistiekenWindow.baml
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.g.resources
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.AssemblyInfoInputs.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.AssemblyInfo.cs
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.csproj.CoreCompileInputs.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStats.DD330263.Up2Date
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\refint\VisStatsUi_StatistiekenOpdrachtMaand.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.genruntimeconfig.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\ref\VisStatsUi_StatistiekenOpdrachtMaand.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.exe
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.deps.json
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.runtimeconfig.json
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsBL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsDL_File.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsDL_SQL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsBL.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsDL_File.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\bin\Debug\net8.0-windows\VisStatsDL_SQL.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.csproj.AssemblyReference.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\StatistiekenWindow.g.cs
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand_MarkupCompile.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand_MarkupCompile.lref
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\StatistiekenWindow.baml
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.g.resources
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.AssemblyInfoInputs.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.AssemblyInfo.cs
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.csproj.CoreCompileInputs.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStats.DD330263.Up2Date
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\refint\VisStatsUi_StatistiekenOpdrachtMaand.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\VisStatsUi_StatistiekenOpdrachtMaand.genruntimeconfig.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsUi_StatistiekenOpdrachtMaand\obj\Debug\net8.0-windows\ref\VisStatsUi_StatistiekenOpdrachtMaand.dll

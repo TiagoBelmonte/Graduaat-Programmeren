@@ -1,0 +1,13 @@
+= Programmeren Basis - Deel 16
+Yanic Inghelbrecht
+v2022.11.14.14.00
+include::../common/header-theorie.adoc[]
+
+
+//preamble
+[.text-right]
+versie {revnumber}
+ 
+== Collectieklassen
+
+link:attachments/deel-16.pdf[klik hier voor de pdf-versie,window="_blank"]

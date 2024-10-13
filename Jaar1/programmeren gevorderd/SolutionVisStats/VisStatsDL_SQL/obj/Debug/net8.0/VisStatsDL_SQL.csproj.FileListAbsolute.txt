@@ -1,0 +1,46 @@
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_SQL\bin\Debug\net8.0\VisStatsDL_SQL.deps.json
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_SQL\bin\Debug\net8.0\VisStatsDL_SQL.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_SQL\bin\Debug\net8.0\VisStatsDL_SQL.pdb
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_SQL\bin\Debug\net8.0\VisStatsBL.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_SQL\bin\Debug\net8.0\VisStatsBL.pdb
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\VisStatsDL_SQL.csproj.AssemblyReference.cache
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\VisStatsDL_SQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\VisStatsDL_SQL.AssemblyInfoInputs.cache
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\VisStatsDL_SQL.AssemblyInfo.cs
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\VisStatsDL_SQL.csproj.CoreCompileInputs.cache
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\VisStatsDL_SQL.sourcelink.json
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\VisStats.783EA13C.Up2Date
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\VisStatsDL_SQL.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\refint\VisStatsDL_SQL.dll
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\VisStatsDL_SQL.pdb
+C:\Users\runeh\Documents\School\GraduaatRH\prog2\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\ref\VisStatsDL_SQL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_SQL\bin\Debug\net8.0\VisStatsDL_SQL.deps.json
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_SQL\bin\Debug\net8.0\VisStatsDL_SQL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_SQL\bin\Debug\net8.0\VisStatsDL_SQL.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_SQL\bin\Debug\net8.0\VisStatsBL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_SQL\bin\Debug\net8.0\VisStatsBL.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\VisStatsDL_SQL.csproj.AssemblyReference.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\VisStatsDL_SQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\VisStatsDL_SQL.AssemblyInfoInputs.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\VisStatsDL_SQL.AssemblyInfo.cs
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\VisStatsDL_SQL.csproj.CoreCompileInputs.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\VisStats.783EA13C.Up2Date
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\VisStatsDL_SQL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\refint\VisStatsDL_SQL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\VisStatsDL_SQL.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats (1)\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\ref\VisStatsDL_SQL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_SQL\bin\Debug\net8.0\VisStatsDL_SQL.deps.json
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_SQL\bin\Debug\net8.0\VisStatsDL_SQL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_SQL\bin\Debug\net8.0\VisStatsDL_SQL.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_SQL\bin\Debug\net8.0\VisStatsBL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_SQL\bin\Debug\net8.0\VisStatsBL.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\VisStatsDL_SQL.csproj.AssemblyReference.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\VisStatsDL_SQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\VisStatsDL_SQL.AssemblyInfoInputs.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\VisStatsDL_SQL.AssemblyInfo.cs
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\VisStatsDL_SQL.csproj.CoreCompileInputs.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\VisStats.783EA13C.Up2Date
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\VisStatsDL_SQL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\refint\VisStatsDL_SQL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\VisStatsDL_SQL.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\SolutionVisStats\VisStatsDL_SQL\obj\Debug\net8.0\ref\VisStatsDL_SQL.dll

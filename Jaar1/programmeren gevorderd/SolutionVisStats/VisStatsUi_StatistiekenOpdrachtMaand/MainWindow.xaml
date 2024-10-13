@@ -1,0 +1,81 @@
+﻿<Window x:Class="VisStatsUi_Statistieken.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VisStatsUi_Statistieken"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height ="auto"/>
+            <RowDefinition Height ="*"/>
+            <RowDefinition Height ="auto"/>
+
+        </Grid.RowDefinitions>
+
+        <Grid Background="LightBlue">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="215*"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="24*"/>
+                <ColumnDefinition Width="auto" MinWidth="94.177"/>
+                <ColumnDefinition Width="auto" MinWidth="48"/>
+                <ColumnDefinition Width="auto" MinWidth="110.935"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Column="0" Content="Vissoort" Margin="5,5,5,5"/>
+            <ComboBox Grid.Column="1" Name="VissoortComboBox" Margin="5,5,5,5"/>
+            <Label Grid.Column="4" Content="Eenheid" Margin="32,5,10,5"/>
+            <RadioButton Grid.Column="5" Content="kg" Margin="5,0,5,0" Name="kgRadioButton" IsChecked="True" VerticalAlignment="Center" Height="15"/>
+            <RadioButton Grid.Column="6" Content="euro" Margin="5,0,5,0" Name="euroRadioButton" IsChecked="false" VerticalAlignment="Center" Height="15"/>
+        </Grid>
+
+
+
+        <Border Grid.Row="1" BorderBrush="Gray" BorderThickness="1" Margin="2" >
+
+            <Grid Background="CornflowerBlue" Height="363" VerticalAlignment="Center">
+
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="4*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="4*"/>
+
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Column="0" Content="Havens" Margin="6,10,4,0"/>
+                <ListBox Grid.Column="1" Name="AlleHavensListBox" SelectionMode="Extended" Margin="0,10,36,247" Width="290.874074074074" Height="84"/>
+                <StackPanel Grid.Column="2" Margin="5" VerticalAlignment="Center"/>
+                <ListBox Grid.Column="3" Name="GeselecteerdeHavensListBox" SelectionMode="Extended" Margin="10,21,26,258" Width="290.874074074074" Height="84"/>
+                <Button x:Name="VoegAlleHavensToe" Content="&gt;&gt;" FontSize="8" Click="VoegAlleHavensToeButton_Click" Grid.Column="2" Height="18" Margin="4,41,23,304" Width="53.7185185185185"/>
+                <Button x:Name="VoegHavenToe_Copy" Content="&gt;" FontSize="8" Click="VoegHavenToeButton_Click" Grid.Column="2" Height="18" Width="53.7185185185185" Margin="4,21,23,324"/>
+                <Button x:Name="VerwijderAlleHavens" Content="&lt;&lt;" FontSize="8" Click="VerwijderAlleHavensButton_Click"  Grid.Column="2" Width="53.7185185185185" Height="18" Margin="4,87,23,258"/>
+                <Button x:Name="VerwijderHaven" Content="&lt;" FontSize="8" Click="VerwijderHavenButton_Click" Grid.Column="2" Height="18" Width="53.7185185185185" Margin="4,67,23,278"/>
+
+                <Label Grid.Column="0" Content="Jaren" Margin="5,106,5,-96"/>
+                <ListBox Name="AllejarenListBox" SelectionMode="Extended" Margin="0,118,36,161" Height="84" Grid.Column="1"/>
+                <StackPanel Grid.Column="2" Margin="5" VerticalAlignment="Center"/>
+                <ListBox Grid.Column="3" Name="GeselecteerdejarenListBox" SelectionMode="Extended" Margin="10,118,26,161" Width="290.874074074074" Height="84"/>
+                <Button x:Name="VoegAllejarenToe" Content="&gt;&gt;" FontSize="8" Click="VoegAllejarenToeButton_Click" Grid.Column="2" Height="18" Margin="4,138,23,207" Width="53.7185185185185"/>
+                <Button x:Name="VoegJaarToe_Copy" Content="&gt;" FontSize="8" Click="VoegJaarToeButton_Click" Grid.Column="2" Height="18" Width="53.7185185185185" Margin="4,118,23,227"/>
+                <Button x:Name="VerwijderAllejaren" Content="&lt;&lt;" FontSize="8" Click="VerwijderAllejarenButton_Click"  Grid.Column="2" Width="53.7185185185185" Height="18" Margin="4,184,23,161"/>
+                <Button x:Name="VerwijderJaar" Content="&lt;" FontSize="8" Click="VerwijderJaarButton_Click" Grid.Column="2" Height="18" Width="53.7185185185185" Margin="4,164,23,181"/>
+
+                <Label Grid.Column="0" Content="Maanden" Margin="5,209,5,-199"/>
+                <ListBox Name="AlleMaandenListBox" SelectionMode="Extended" Margin="0,219,36,10" Grid.Column="1"/>
+                <StackPanel Grid.Column="2" Margin="5" VerticalAlignment="Center"/>
+                <ListBox Grid.Column="3" Name="GeselecteerdeMaandenListBox" SelectionMode="Extended" Margin="10,219,21,10" Width="290.874074074074"/>
+                <Button x:Name="VoegAlleMaandenToe" Content="&gt;&gt;" FontSize="8" Click="VoegAlleMaandenToeButton_Click" Grid.Column="2" Height="18" Margin="4,261,23,84" Width="53.7185185185185"/>
+                <Button x:Name="VoegMaandToe" Content="&gt;" FontSize="8" Click="VoegMaandToeButton_Click" Grid.Column="2" Height="18" Width="53.7185185185185" Margin="4,241,23,104"/>
+                <Button x:Name="VerwijderAlleMaanden" Content="&lt;&lt;" FontSize="8" Click="VerwijderAlleMaandenButton_Click"  Grid.Column="2" Width="53.7185185185185" Height="18" Margin="4,313,23,32"/>
+                <Button x:Name="VerwijderMaand" Content="&lt;" FontSize="8" Click="VerwijderMaandButton_Click" Grid.Column="2" Height="18" Width="53.7185185185185" Margin="4,293,23,52"/>
+            </Grid>
+
+        </Border>
+        <Button Grid.Row="2" Content="Toon Statistieken" Margin="5" Click="ToonStatistiekenButton_Click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "VisStatsDL_File/1.0.0": {
+        "dependencies": {
+          "VisStatsBL": "1.0.0"
+        },
+        "runtime": {
+          "VisStatsDL_File.dll": {}
+        }
+      },
+      "VisStatsBL/1.0.0": {
+        "runtime": {
+          "VisStatsBL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VisStatsDL_File/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VisStatsBL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

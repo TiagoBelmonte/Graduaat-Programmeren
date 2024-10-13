@@ -1,0 +1,80 @@
+// toc and section numbering
+:toc: preamble
+:toclevels: 4
+:sectnums: 
+:sectlinks:
+:sectnumlevels: 4
+// source code formatting
+:prewrap!:
+:source-highlighter: rouge
+:source-language: csharp
+:rouge-style: github
+:rouge-css: class
+// inject css for highlights using docinfo
+:docinfodir: ../common
+:docinfo: shared-head
+// paths
+:imagesdir: images
+:url-verdieping: ../{docname}-verdieping/{docname}-verdieping.adoc
+
+:deel-00: ../deel-00/deel-00.adoc
+:deel-01: ../deel-01/deel-01.adoc
+:deel-02: ../deel-02/deel-02.adoc
+:deel-03: ../deel-03/deel-03.adoc
+:deel-04: ../deel-04/deel-04.adoc
+:deel-05: ../deel-05/deel-05.adoc
+:deel-06: ../deel-06/deel-06.adoc
+:deel-07: ../deel-07/deel-07.adoc
+:deel-08: ../deel-08/deel-08.adoc
+:deel-09: ../deel-09/deel-09.adoc
+:deel-10: ../deel-10/deel-10.adoc
+:deel-11: ../deel-11/deel-11.adoc
+:deel-12: ../deel-12/deel-12.adoc
+:deel-13: ../deel-13/deel-13.adoc
+:deel-14: ../deel-14/deel-14.adoc
+:deel-15: ../deel-15/deel-15.adoc
+:deel-16: ../deel-16/deel-16.adoc
+:deel-17: ../deel-17/deel-17.adoc
+:deel-18: ../deel-18/deel-18.adoc
+
+:deel-01-oefeningen: ../deel-01-oefeningen/deel-01-oefeningen.adoc
+:deel-02-oefeningen: ../deel-02-oefeningen/deel-02-oefeningen.adoc
+:deel-03-oefeningen: ../deel-03-oefeningen/deel-03-oefeningen.adoc
+:deel-04-oefeningen: ../deel-04-oefeningen/deel-04-oefeningen.adoc
+:deel-05-oefeningen: ../deel-05-oefeningen/deel-05-oefeningen.adoc
+:deel-06-oefeningen: ../deel-06-oefeningen/deel-06-oefeningen.adoc
+:deel-07-oefeningen: ../deel-07-oefeningen/deel-07-oefeningen.adoc
+:deel-08-oefeningen: ../deel-08-oefeningen/deel-08-oefeningen.adoc
+:deel-09-oefeningen: ../deel-09-oefeningen/deel-09-oefeningen.adoc
+:deel-10-oefeningen: ../deel-10-oefeningen/deel-10-oefeningen.adoc
+:deel-11-oefeningen: ../deel-11-oefeningen/deel-11-oefeningen.adoc
+:deel-12-oefeningen: ../deel-12-oefeningen/deel-12-oefeningen.adoc
+:deel-13-oefeningen: ../deel-13-oefeningen/deel-13-oefeningen.adoc
+:deel-14-oefeningen: ../deel-14-oefeningen/deel-14-oefeningen.adoc
+:deel-15-oefeningen: ../deel-15-oefeningen/deel-15-oefeningen.adoc
+:deel-16-oefeningen: ../deel-16-oefeningen/deel-16-oefeningen.adoc
+:deel-17-oefeningen: ../deel-17-oefeningen/deel-17-oefeningen.adoc
+:deel-18-oefeningen: ../deel-18-oefeningen/deel-17-oefeningen.adoc
+
+:deel-01-oplossingen: ../deel-01-oplossingen/deel-01-oplossingen.adoc
+:deel-02-oplossingen: ../deel-02-oplossingen/deel-02-oplossingen.adoc
+:deel-03-oplossingen: ../deel-03-oplossingen/deel-03-oplossingen.adoc
+:deel-04-oplossingen: ../deel-04-oplossingen/deel-04-oplossingen.adoc
+:deel-05-oplossingen: ../deel-05-oplossingen/deel-05-oplossingen.adoc
+:deel-06-oplossingen: ../deel-06-oplossingen/deel-06-oplossingen.adoc
+:deel-07-oplossingen: ../deel-07-oplossingen/deel-07-oplossingen.adoc
+:deel-08-oplossingen: ../deel-08-oplossingen/deel-08-oplossingen.adoc
+:deel-09-oplossingen: ../deel-09-oplossingen/deel-09-oplossingen.adoc
+:deel-10-oplossingen: ../deel-10-oplossingen/deel-10-oplossingen.adoc
+:deel-11-oplossingen: ../deel-11-oplossingen/deel-11-oplossingen.adoc
+:deel-12-oplossingen: ../deel-12-oplossingen/deel-12-oplossingen.adoc
+:deel-13-oplossingen: ../deel-13-oplossingen/deel-13-oplossingen.adoc
+:deel-14-oplossingen: ../deel-14-oplossingen/deel-14-oplossingen.adoc
+:deel-15-oplossingen: ../deel-15-oplossingen/deel-15-oplossingen.adoc
+:deel-16-oplossingen: ../deel-16-oplossingen/deel-16-oplossingen.adoc
+:deel-17-oplossingen: ../deel-17-oplossingen/deel-17-oplossingen.adoc
+:deel-18-oplossingen: ../deel-18-oplossingen/deel-18-oplossingen.adoc
+
+// experimental voor kdb: en btn: macro's van AsciiDoctor
+:experimental:
+
