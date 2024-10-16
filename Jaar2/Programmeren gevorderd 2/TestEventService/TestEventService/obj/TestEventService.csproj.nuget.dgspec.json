@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tbelm\\source\\repos\\TestEventService\\TestEventService\\TestEventService.csproj": {}
+    "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\TestEventService\\TestEventService\\TestEventService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tbelm\\source\\repos\\TestEventService\\TestEventService\\TestEventService.csproj": {
+    "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\TestEventService\\TestEventService\\TestEventService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tbelm\\source\\repos\\TestEventService\\TestEventService\\TestEventService.csproj",
+        "projectUniqueName": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\TestEventService\\TestEventService\\TestEventService.csproj",
         "projectName": "TestEventService",
-        "projectPath": "C:\\Users\\tbelm\\source\\repos\\TestEventService\\TestEventService\\TestEventService.csproj",
+        "projectPath": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\TestEventService\\TestEventService\\TestEventService.csproj",
         "packagesPath": "C:\\Users\\tbelm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tbelm\\source\\repos\\TestEventService\\TestEventService\\obj\\",
+        "outputPath": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\TestEventService\\TestEventService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tbelm\\AppData\\Roaming\\NuGet\\NuGet.Config",
