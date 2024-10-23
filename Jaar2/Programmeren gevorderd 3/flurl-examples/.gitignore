@@ -1,0 +1,8 @@
+/.vs
+/FlurlExamples/obj
+/FlurlExamples/bin
+/FlurlTests/obj
+/FlurlTests/bin
+/*.user
+/.idea/.idea.FlurlExamples/.idea
+/.idea/.idea.FlurlExamples
