@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Scalar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b17843a9c9c874c42e8bc5319976a05ec0b10b9b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35d60f19c432135924fc541e2ec89c8aefd5fd99")]
 [assembly: System.Reflection.AssemblyProductAttribute("Scalar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Scalar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
