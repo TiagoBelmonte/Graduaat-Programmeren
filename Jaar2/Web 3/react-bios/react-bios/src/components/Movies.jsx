@@ -9,20 +9,11 @@ import logoImg from "../assets/logo.png";
 const Movies = () => {
   return (
     <>
-      <header>
-        <h1>Web3 bioscoop</h1>
-        <img src={logoImg} />
-      </header>
-
-      <div className="grid grid-cols-1 md:grid-cols-2  lg: grid-cols-3 xl: grid-cols-4 2xl: grid-cols-5 gap-8 my-4 justify-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-8 my-4 justify-items-center">
         {movies.map((m) => {
           return <Movie key={m.id} movie={m} />;
         })}
       </div>
-
-      <footer>
-        <p>This is a footer</p>
-      </footer>
     </>
   );
 };
