@@ -4,12 +4,18 @@ import React from "react";
 import duneImg from "../assets/dune_poster.jpg";
 import { useNavigate } from "react-router-dom";
 import { MdFavorite, MdOutlineFavorite } from "react-icons/md";
+import FavoritesContextProvider, {
+  useFavorites,
+} from "../contexts/FavoritesContext";
+import Button from "./Button";
 const Movie = ({ movie }) => {
   // Hook om te kunnen navigeren in JS code -> useNavigate();
 
   const navigate = useNavigate();
 
-  const favorites = [];
+  const { favorites, toggleFavorite } = useFavorites();
+
+  const isInFavorite = favorites.some((f) => f.id === movie.id);
 
   return (
     <div
@@ -20,9 +26,11 @@ const Movie = ({ movie }) => {
       {/*<img src={duneImg} />*/}
 
       <button
-        className="absolute top-4 right-4 rounded-full p-2 text-2xl text-emerald-300 bg-emerald-600"
+        className={`absolute top-4 right-4 rounded-full p-2 text-2xl bg-emerald-600 ${
+          isInFavorite ? "text-red-500" : "text-emerald-300"
+        }`}
         onClick={(event) => {
-          favorites.push(movie);
+          toggleFavorite(movie);
           event.stopPropagation();
         }}
       >

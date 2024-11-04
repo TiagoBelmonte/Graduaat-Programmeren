@@ -13,6 +13,9 @@ import Footer from "./components/Footer.jsx";
 import RootLayout from "./pages/RootLayout.jsx";
 import NotFoundPage from "./pages/NotFoundPage.jsx";
 import FavoritesPAge from "./pages/FavoritesPAge.jsx";
+import FavoritesContextProvider from "./contexts/FavoritesContext.jsx";
+import StarWarsPage from "./pages/StarWarsPage.jsx";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 // Router
 
@@ -44,16 +47,26 @@ const browserRouter = createBrowserRouter([
         path: "favorites",
         element: <FavoritesPAge />,
       },
+      {
+        path: "starwars",
+        element: <StarWarsPage />,
+      },
     ],
   },
 ]);
 
+const queryClient = new QueryClient();
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <DarkmodeContextProvider>
-      <RouterProvider router={browserRouter} />
-      {/*<App />*/}
-      {/*<Movies />*/}
-    </DarkmodeContextProvider>
+    <QueryClientProvider client={queryClient}>
+      <DarkmodeContextProvider>
+        <FavoritesContextProvider>
+          <RouterProvider router={browserRouter} />
+          {/*<App />*/}
+          {/*<Movies />*/}
+        </FavoritesContextProvider>
+      </DarkmodeContextProvider>
+    </QueryClientProvider>
   </StrictMode>
 );
