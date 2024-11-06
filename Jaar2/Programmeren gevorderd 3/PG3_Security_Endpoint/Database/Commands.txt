@@ -1,0 +1,7 @@
+## dotnet ef tool
+dotnet tool install --global dotnet-ef
+dotnet tool update --global dotnet-ef
+## dotnet ef commando's altijd in de hoofdfolder van je solution!
+dotnet ef dbcontext scaffold "Name=ConnectionStrings:DefaultConnectionString" Microsoft.EntityFrameworkCore.SqlServer --context-dir Context --output-dir Models -p .\Libraries\Assignment.Repository -s Apps\Assignment.Api --force
+dotnet ef migrations add InitialCreate -p Libraries\Assignment.Repository -s Apps\Assignment.Api --context CarwashContext
+dotnet ef database update -p Libraries\Assignment.Repository -s Apps\Assignment.Api --context CarwashContext

@@ -1,0 +1,79 @@
+1. Selecteer alle klanten en hun voertuigen:
+
+SELECT K.Naam AS KlantNaam, V.Kenteken, V.Merk, V.Model
+FROM Klanten K
+JOIN Voertuigen V ON K.KlantID = V.KlantID;
+
+2. Selecteer alle bestellingen met de details van de klant en het voertuig:
+
+SELECT B.BestellingID, K.Naam AS KlantNaam, V.Kenteken, V.Merk, V.Model, B.BestelDatum, B.TotaalBedrag
+FROM Bestellingen B
+JOIN Klanten K ON B.KlantID = K.KlantID
+JOIN Voertuigen V ON B.VoertuigID = V.VoertuigID;
+
+3. Selecteer alle bestellingen en de bijbehorende bestellingsregels:
+
+SELECT B.BestellingID, K.Naam AS KlantNaam, V.Kenteken, D.Naam AS DienstNaam, BR.Aantal, BR.PrijsPerStuk, BR.TotaalPrijs
+FROM Bestellingen B
+JOIN Klanten K ON B.KlantID = K.KlantID
+JOIN Voertuigen V ON B.VoertuigID = V.VoertuigID
+JOIN Bestellingsregels BR ON B.BestellingID = BR.BestellingID
+JOIN Diensten D ON BR.DienstID = D.DienstID;
+
+4. Selecteer het totale bedrag van alle bestellingen per klant:
+
+SELECT K.Naam AS KlantNaam, SUM(B.TotaalBedrag) AS TotaalUitgegeven
+FROM Bestellingen B
+JOIN Klanten K ON B.KlantID = K.KlantID
+GROUP BY K.Naam;
+
+5. Selecteer alle diensten en het aantal keren dat elke dienst besteld is:
+
+SELECT D.Naam AS DienstNaam, COUNT(BR.BestellingsregelID) AS AantalBestellingen
+FROM Diensten D
+JOIN Bestellingsregels BR ON D.DienstID = BR.DienstID
+GROUP BY D.Naam;
+
+6. Selecteer de bestellingen met hun totale bedragen en bestellingsregels, gesorteerd op datum:
+
+SELECT B.BestellingID, K.Naam AS KlantNaam, B.BestelDatum, BR.DienstID, D.Naam AS DienstNaam, BR.Aantal, BR.TotaalPrijs
+FROM Bestellingen B
+JOIN Klanten K ON B.KlantID = K.KlantID
+JOIN Bestellingsregels BR ON B.BestellingID = BR.BestellingID
+JOIN Diensten D ON BR.DienstID = D.DienstID
+ORDER BY B.BestelDatum;
+
+7. Selecteer de klanten die een specifieke dienst hebben besteld:
+
+SELECT DISTINCT K.Naam AS KlantNaam, D.Naam AS DienstNaam
+FROM Klanten K
+JOIN Bestellingen B ON K.KlantID = B.KlantID
+JOIN Bestellingsregels BR ON B.BestellingID = BR.BestellingID
+JOIN Diensten D ON BR.DienstID = D.DienstID
+WHERE D.Naam = 'Buitenwassen';
+
+8. Selecteer het aantal bestellingen per voertuig:
+
+SELECT V.Kenteken, V.Merk, V.Model, COUNT(B.BestellingID) AS AantalBestellingen
+FROM Voertuigen V
+JOIN Bestellingen B ON V.VoertuigID = B.VoertuigID
+GROUP BY V.Kenteken, V.Merk, V.Model;
+
+9. Selecteer de details van bestellingen geplaatst op een specifieke datum:
+sql
+
+SELECT B.BestellingID, K.Naam AS KlantNaam, V.Kenteken, V.Merk, V.Model, B.BestelDatum, B.TotaalBedrag
+FROM Bestellingen B
+JOIN Klanten K ON B.KlantID = K.KlantID
+JOIN Voertuigen V ON B.VoertuigID = V.VoertuigID
+WHERE B.BestelDatum = '2023-06-14';
+
+10. Selecteer de klanten met het hoogste totale bestellingsbedrag:
+
+SELECT TOP 1 K.Naam AS KlantNaam, SUM(B.TotaalBedrag) AS TotaalUitgegeven
+FROM Bestellingen B
+JOIN Klanten K ON B.KlantID = K.KlantID
+GROUP BY K.Naam
+ORDER BY TotaalUitgegeven DESC;
+
+
