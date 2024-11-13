@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionVisStats\\VisStatsBL\\VisStatsBL.csproj": {}
+    "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionVisStats\\VisStatsBL\\VisStatsBL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionVisStats\\VisStatsBL\\VisStatsBL.csproj": {
+    "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionVisStats\\VisStatsBL\\VisStatsBL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionVisStats\\VisStatsBL\\VisStatsBL.csproj",
+        "projectUniqueName": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionVisStats\\VisStatsBL\\VisStatsBL.csproj",
         "projectName": "VisStatsBL",
-        "projectPath": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionVisStats\\VisStatsBL\\VisStatsBL.csproj",
+        "projectPath": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionVisStats\\VisStatsBL\\VisStatsBL.csproj",
         "packagesPath": "C:\\Users\\tbelm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionVisStats\\VisStatsBL\\obj\\",
+        "outputPath": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionVisStats\\VisStatsBL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tbelm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

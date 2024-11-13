@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "60PwVtx0G6fpRI2jV2IA3Fkref7iD6PGTEmX/c615O7bEPOTuoaJvpq+aPz4GZLYYUkK922PrhMB9M86X5NUVw==",
+  "dgSpecHash": "1eEwOrrgPjA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionVisStats\\VisStatsUi_StatistiekenOpdrachtMaand\\VisStatsUi_StatistiekenOpdrachtMaand.csproj",
+  "projectFilePath": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionVisStats\\VisStatsUi_StatistiekenOpdrachtMaand\\VisStatsUi_StatistiekenOpdrachtMaand.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tbelm\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\tbelm\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

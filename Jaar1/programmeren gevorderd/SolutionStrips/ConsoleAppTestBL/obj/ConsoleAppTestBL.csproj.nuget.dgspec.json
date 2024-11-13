@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionStrips\\ConsoleAppTestBL\\ConsoleAppTestBL.csproj": {}
+    "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionStrips\\ConsoleAppTestBL\\ConsoleAppTestBL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionStrips\\ConsoleAppTestBL\\ConsoleAppTestBL.csproj": {
+    "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionStrips\\ConsoleAppTestBL\\ConsoleAppTestBL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionStrips\\ConsoleAppTestBL\\ConsoleAppTestBL.csproj",
+        "projectUniqueName": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionStrips\\ConsoleAppTestBL\\ConsoleAppTestBL.csproj",
         "projectName": "ConsoleAppTestBL",
-        "projectPath": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionStrips\\ConsoleAppTestBL\\ConsoleAppTestBL.csproj",
+        "projectPath": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionStrips\\ConsoleAppTestBL\\ConsoleAppTestBL.csproj",
         "packagesPath": "C:\\Users\\tbelm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionStrips\\ConsoleAppTestBL\\obj\\",
+        "outputPath": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionStrips\\ConsoleAppTestBL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tbelm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,14 +22,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionStrips\\StripsBL\\StripsBL.csproj": {
-                "projectPath": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionStrips\\StripsBL\\StripsBL.csproj"
+              "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionStrips\\StripsBL\\StripsBL.csproj": {
+                "projectPath": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionStrips\\StripsBL\\StripsBL.csproj"
               }
             }
           }
@@ -64,18 +65,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionStrips\\StripsBL\\StripsBL.csproj": {
+    "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionStrips\\StripsBL\\StripsBL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionStrips\\StripsBL\\StripsBL.csproj",
+        "projectUniqueName": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionStrips\\StripsBL\\StripsBL.csproj",
         "projectName": "StripsBL",
-        "projectPath": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionStrips\\StripsBL\\StripsBL.csproj",
+        "projectPath": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionStrips\\StripsBL\\StripsBL.csproj",
         "packagesPath": "C:\\Users\\tbelm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionStrips\\StripsBL\\obj\\",
+        "outputPath": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionStrips\\StripsBL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tbelm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -86,6 +87,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -124,7 +126,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

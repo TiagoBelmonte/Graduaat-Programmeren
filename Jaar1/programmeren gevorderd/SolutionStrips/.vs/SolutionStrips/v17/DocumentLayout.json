@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionStrips\\",
+  "WorkspaceRootPath": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionStrips\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{591A3D32-D53C-4494-8B9A-90DE34507E31}|StripsBL\\StripsBL.csproj|c:\\users\\tbelm\\documenten\\programmeren gevorderd\\solutionstrips\\stripsbl\\model\\strip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{591A3D32-D53C-4494-8B9A-90DE34507E31}|StripsBL\\StripsBL.csproj|solutionrelative:stripsbl\\model\\strip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{591A3D32-D53C-4494-8B9A-90DE34507E31}|StripsBL\\StripsBL.csproj|c:\\users\\tbelm\\documenten\\programmeren gevorderd\\solutionstrips\\stripsbl\\exceptions\\domeinexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{591A3D32-D53C-4494-8B9A-90DE34507E31}|StripsBL\\StripsBL.csproj|solutionrelative:stripsbl\\exceptions\\domeinexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{591A3D32-D53C-4494-8B9A-90DE34507E31}|StripsBL\\StripsBL.csproj|c:\\users\\tbelm\\documenten\\programmeren gevorderd\\solutionstrips\\stripsbl\\model\\auteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{591A3D32-D53C-4494-8B9A-90DE34507E31}|StripsBL\\StripsBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar1\\programmeren gevorderd\\solutionstrips\\stripsbl\\model\\auteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{591A3D32-D53C-4494-8B9A-90DE34507E31}|StripsBL\\StripsBL.csproj|solutionrelative:stripsbl\\model\\auteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316FF559-43DD-46D3-8CCD-2121F7C6B89C}|ConsoleAppTestBL\\ConsoleAppTestBL.csproj|c:\\users\\tbelm\\documenten\\programmeren gevorderd\\solutionstrips\\consoleapptestbl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{591A3D32-D53C-4494-8B9A-90DE34507E31}|StripsBL\\StripsBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar1\\programmeren gevorderd\\solutionstrips\\stripsbl\\model\\uitgeverij.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{591A3D32-D53C-4494-8B9A-90DE34507E31}|StripsBL\\StripsBL.csproj|solutionrelative:stripsbl\\model\\uitgeverij.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{591A3D32-D53C-4494-8B9A-90DE34507E31}|StripsBL\\StripsBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar1\\programmeren gevorderd\\solutionstrips\\stripsbl\\model\\strip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{591A3D32-D53C-4494-8B9A-90DE34507E31}|StripsBL\\StripsBL.csproj|solutionrelative:stripsbl\\model\\strip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316FF559-43DD-46D3-8CCD-2121F7C6B89C}|ConsoleAppTestBL\\ConsoleAppTestBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar1\\programmeren gevorderd\\solutionstrips\\consoleapptestbl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{316FF559-43DD-46D3-8CCD-2121F7C6B89C}|ConsoleAppTestBL\\ConsoleAppTestBL.csproj|solutionrelative:consoleapptestbl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{591A3D32-D53C-4494-8B9A-90DE34507E31}|StripsBL\\StripsBL.csproj|c:\\users\\tbelm\\documenten\\programmeren gevorderd\\solutionstrips\\stripsbl\\model\\reeks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{591A3D32-D53C-4494-8B9A-90DE34507E31}|StripsBL\\StripsBL.csproj|solutionrelative:stripsbl\\model\\reeks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{591A3D32-D53C-4494-8B9A-90DE34507E31}|StripsBL\\StripsBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar1\\programmeren gevorderd\\solutionstrips\\stripsbl\\exceptions\\domeinexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{591A3D32-D53C-4494-8B9A-90DE34507E31}|StripsBL\\StripsBL.csproj|solutionrelative:stripsbl\\exceptions\\domeinexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{591A3D32-D53C-4494-8B9A-90DE34507E31}|StripsBL\\StripsBL.csproj|c:\\users\\tbelm\\documenten\\programmeren gevorderd\\solutionstrips\\stripsbl\\model\\uitgeverij.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{591A3D32-D53C-4494-8B9A-90DE34507E31}|StripsBL\\StripsBL.csproj|solutionrelative:stripsbl\\model\\uitgeverij.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{591A3D32-D53C-4494-8B9A-90DE34507E31}|StripsBL\\StripsBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar1\\programmeren gevorderd\\solutionstrips\\stripsbl\\model\\reeks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{591A3D32-D53C-4494-8B9A-90DE34507E31}|StripsBL\\StripsBL.csproj|solutionrelative:stripsbl\\model\\reeks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,27 +34,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 112,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionStrips\\ConsoleAppTestBL\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionStrips\\ConsoleAppTestBL\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleAppTestBL\\Program.cs",
-              "ToolTip": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionStrips\\ConsoleAppTestBL\\Program.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionStrips\\ConsoleAppTestBL\\Program.cs",
               "RelativeToolTip": "ConsoleAppTestBL\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAwBEAAAAzAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T08:28:43.834Z"
+              "WhenOpened": "2024-03-11T08:28:43.834Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "DomeinException.cs",
-              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionStrips\\StripsBL\\Exceptions\\DomeinException.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionStrips\\StripsBL\\Exceptions\\DomeinException.cs",
               "RelativeDocumentMoniker": "StripsBL\\Exceptions\\DomeinException.cs",
-              "ToolTip": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionStrips\\StripsBL\\Exceptions\\DomeinException.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionStrips\\StripsBL\\Exceptions\\DomeinException.cs",
               "RelativeToolTip": "StripsBL\\Exceptions\\DomeinException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -62,11 +63,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Reeks.cs",
-              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionStrips\\StripsBL\\Model\\Reeks.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionStrips\\StripsBL\\Model\\Reeks.cs",
               "RelativeDocumentMoniker": "StripsBL\\Model\\Reeks.cs",
-              "ToolTip": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionStrips\\StripsBL\\Model\\Reeks.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionStrips\\StripsBL\\Model\\Reeks.cs",
               "RelativeToolTip": "StripsBL\\Model\\Reeks.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -74,37 +75,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Auteur.cs",
-              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionStrips\\StripsBL\\Model\\Auteur.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionStrips\\StripsBL\\Model\\Auteur.cs",
               "RelativeDocumentMoniker": "StripsBL\\Model\\Auteur.cs",
-              "ToolTip": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionStrips\\StripsBL\\Model\\Auteur.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionStrips\\StripsBL\\Model\\Auteur.cs",
               "RelativeToolTip": "StripsBL\\Model\\Auteur.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAACIAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T07:43:10.655Z"
+              "WhenOpened": "2024-03-11T07:43:10.655Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Uitgeverij.cs",
-              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionStrips\\StripsBL\\Model\\Uitgeverij.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionStrips\\StripsBL\\Model\\Uitgeverij.cs",
               "RelativeDocumentMoniker": "StripsBL\\Model\\Uitgeverij.cs",
-              "ToolTip": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionStrips\\StripsBL\\Model\\Uitgeverij.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionStrips\\StripsBL\\Model\\Uitgeverij.cs",
               "RelativeToolTip": "StripsBL\\Model\\Uitgeverij.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T07:42:56.511Z"
+              "WhenOpened": "2024-03-11T07:42:56.511Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Strip.cs",
-              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionStrips\\StripsBL\\Model\\Strip.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionStrips\\StripsBL\\Model\\Strip.cs",
               "RelativeDocumentMoniker": "StripsBL\\Model\\Strip.cs",
-              "ToolTip": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionStrips\\StripsBL\\Model\\Strip.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionStrips\\StripsBL\\Model\\Strip.cs",
               "RelativeToolTip": "StripsBL\\Model\\Strip.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAA7wDAAAAAgAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-11T07:42:35.567Z",
               "EditorCaption": ""

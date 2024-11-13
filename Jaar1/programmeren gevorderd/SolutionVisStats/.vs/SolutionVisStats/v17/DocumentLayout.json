@@ -1,13 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionVisStats\\",
+  "WorkspaceRootPath": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionVisStats\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E37D9C9C-ECFF-4D7C-B5E2-4B4B826D32E4}|VisStatsUI_DataUpload\\VisStatsUI_DataUpload.csproj|c:\\users\\tbelm\\documenten\\programmeren gevorderd\\solutionvisstats\\visstatsui_dataupload\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F67DB153-1DF7-4429-B1AF-4EA546CC9E58}|VisStatsBL\\VisStatsBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar1\\programmeren gevorderd\\solutionvisstats\\visstatsbl\\model\\vissoort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67DB153-1DF7-4429-B1AF-4EA546CC9E58}|VisStatsBL\\VisStatsBL.csproj|solutionrelative:visstatsbl\\model\\vissoort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67DB153-1DF7-4429-B1AF-4EA546CC9E58}|VisStatsBL\\VisStatsBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar1\\programmeren gevorderd\\solutionvisstats\\visstatsbl\\model\\eenheid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67DB153-1DF7-4429-B1AF-4EA546CC9E58}|VisStatsBL\\VisStatsBL.csproj|solutionrelative:visstatsbl\\model\\eenheid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67DB153-1DF7-4429-B1AF-4EA546CC9E58}|VisStatsBL\\VisStatsBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar1\\programmeren gevorderd\\solutionvisstats\\visstatsbl\\model\\haven.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67DB153-1DF7-4429-B1AF-4EA546CC9E58}|VisStatsBL\\VisStatsBL.csproj|solutionrelative:visstatsbl\\model\\haven.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67DB153-1DF7-4429-B1AF-4EA546CC9E58}|VisStatsBL\\VisStatsBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar1\\programmeren gevorderd\\solutionvisstats\\visstatsbl\\model\\jaarvangst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67DB153-1DF7-4429-B1AF-4EA546CC9E58}|VisStatsBL\\VisStatsBL.csproj|solutionrelative:visstatsbl\\model\\jaarvangst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E37D9C9C-ECFF-4D7C-B5E2-4B4B826D32E4}|VisStatsUI_DataUpload\\VisStatsUI_DataUpload.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar1\\programmeren gevorderd\\solutionvisstats\\visstatsui_dataupload\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E37D9C9C-ECFF-4D7C-B5E2-4B4B826D32E4}|VisStatsUI_DataUpload\\VisStatsUI_DataUpload.csproj|solutionrelative:visstatsui_dataupload\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CD2312B-EF84-472F-A2F5-ECC976EACFFC}|VisStatsDL_File\\VisStatsDL_File.csproj|c:\\users\\tbelm\\documenten\\programmeren gevorderd\\solutionvisstats\\visstatsdl_file\\fileprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CD2312B-EF84-472F-A2F5-ECC976EACFFC}|VisStatsDL_File\\VisStatsDL_File.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar1\\programmeren gevorderd\\solutionvisstats\\visstatsdl_file\\fileprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CD2312B-EF84-472F-A2F5-ECC976EACFFC}|VisStatsDL_File\\VisStatsDL_File.csproj|solutionrelative:visstatsdl_file\\fileprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,34 +34,81 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FileProcessor.cs",
-              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionVisStats\\VisStatsDL_File\\FileProcessor.cs",
-              "RelativeDocumentMoniker": "VisStatsDL_File\\FileProcessor.cs",
-              "ToolTip": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionVisStats\\VisStatsDL_File\\FileProcessor.cs",
-              "RelativeToolTip": "VisStatsDL_File\\FileProcessor.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Vissoort.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionVisStats\\VisStatsBL\\Model\\Vissoort.cs",
+              "RelativeDocumentMoniker": "VisStatsBL\\Model\\Vissoort.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionVisStats\\VisStatsBL\\Model\\Vissoort.cs",
+              "RelativeToolTip": "VisStatsBL\\Model\\Vissoort.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T07:00:10.856Z",
+              "WhenOpened": "2024-11-13T07:16:46.784Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Eenheid.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionVisStats\\VisStatsBL\\Model\\Eenheid.cs",
+              "RelativeDocumentMoniker": "VisStatsBL\\Model\\Eenheid.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionVisStats\\VisStatsBL\\Model\\Eenheid.cs",
+              "RelativeToolTip": "VisStatsBL\\Model\\Eenheid.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T07:16:44.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Haven.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionVisStats\\VisStatsBL\\Model\\Haven.cs",
+              "RelativeDocumentMoniker": "VisStatsBL\\Model\\Haven.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionVisStats\\VisStatsBL\\Model\\Haven.cs",
+              "RelativeToolTip": "VisStatsBL\\Model\\Haven.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T07:16:37.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JaarVangst.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionVisStats\\VisStatsBL\\Model\\JaarVangst.cs",
+              "RelativeDocumentMoniker": "VisStatsBL\\Model\\JaarVangst.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionVisStats\\VisStatsBL\\Model\\JaarVangst.cs",
+              "RelativeToolTip": "VisStatsBL\\Model\\JaarVangst.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T07:16:35.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FileProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionVisStats\\VisStatsDL_File\\FileProcessor.cs",
+              "RelativeDocumentMoniker": "VisStatsDL_File\\FileProcessor.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionVisStats\\VisStatsDL_File\\FileProcessor.cs",
+              "RelativeToolTip": "VisStatsDL_File\\FileProcessor.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T07:00:10.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionVisStats\\VisStatsUI_DataUpload\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionVisStats\\VisStatsUI_DataUpload\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "VisStatsUI_DataUpload\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\SolutionVisStats\\VisStatsUI_DataUpload\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\SolutionVisStats\\VisStatsUI_DataUpload\\MainWindow.xaml.cs",
               "RelativeToolTip": "VisStatsUI_DataUpload\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAkwDgAAABMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T06:39:59.845Z",
               "EditorCaption": ""
