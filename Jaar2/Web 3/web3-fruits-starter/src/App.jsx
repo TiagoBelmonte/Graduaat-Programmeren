@@ -1,5 +1,6 @@
 import { useState } from "react";
 import fruits from "./utils/fruits.json";
+import Item from "./components/Item";
 
 // Deze properties kunnen gebruikt worden om dynamisch de toggle buttons te maken,
 // en alsook de property die gebruikt moet worden om op te sorteren
@@ -14,8 +15,7 @@ const SORT_PROPERTIES = [
 function App() {
   // TODO: Maak nieuwe state aan, om de sortOrder in te stellen -> keuze tussen volgende properties vanuit de sortProperties array
   // of vanuit de Object.keys(fruit.nutritions) methode - dynamischer
-
-  // const [sortOrder, setSortOrder] = useState("calories");
+  const [sortOrder, setSortOrder] = useState("calories");
 
   return (
     <div className="flex-grow bg-food-yellow p-4">
@@ -31,6 +31,19 @@ function App() {
                 GESELECTEERD      "bg-food-dark-orange" 
                 NIET GESELECTEERD "bg-food-yellow border border-food-dark-orange"
         */}
+        {SORT_PROPERTIES.map((p) => (
+          <button
+            onClick={() => setSortOrder(p)}
+            className={`px-4 py-2 text-white rounded-md uppercase ${
+              sortOrder === p
+                ? "bg-food-dark-orange"
+                : "bg-food-yellow border border-food-dark-orange"
+            }`}
+            key={p}
+          >
+            {p}
+          </button>
+        ))}
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 justify-items-center content-center gap-4">
@@ -38,6 +51,11 @@ function App() {
             op basis van de sortOrder en toon deze dan via de Item component op het scherm.
             Vergeet niet het fruit object mee te geven als data voor de Item component.
         */}
+        {fruits
+          .sort((a, b) => a.nutritions[sortOrder] - b.nutritions[sortOrder])
+          .map((f) => {
+            return <Item key={f.id} fruit={f} />;
+          })}
       </div>
     </div>
   );

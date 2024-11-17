@@ -5,7 +5,10 @@ const RootLayout = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <div className="flex flex-grow">{/* TODO: Niets vergeten??? */}</div>
+      <div className="flex flex-grow">
+        {/* TODO: Niets vergeten??? */}
+        <Outlet />
+      </div>
     </div>
   );
 };

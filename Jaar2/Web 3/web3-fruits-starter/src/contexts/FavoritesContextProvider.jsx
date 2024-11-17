@@ -1,29 +1,39 @@
-import React, { createContext, useState } from "react";
+import React, { createContext, useState, useEffect } from "react";
 
 export const FavoritesContext = createContext();
 
-// TODO:  EXTRA PUNTEN
-//        Zorg ervoor dat de favorieten bewaard blijven ook bij het refreshen van de pagina.
-
 const FavoritesContextProvider = (props) => {
-  // TODO:  Maak een nieuwe state aan om da favorieten bij te houden
+  // Haal favorieten op uit sessionStorage (indien aanwezig) bij het starten van de applicatie
+  const [favorites, setFavorites] = useState(() => {
+    const storedFavorites = sessionStorage.getItem("favorites");
+    return storedFavorites ? JSON.parse(storedFavorites) : [];
+  });
 
-  // TODO:  Implementeer addFavorite
-  //        Favoriet toevoegen enkel en alleen als deze er nog niet in staat. TIP: findIndex() retourneert -1 als niet gevonden
-  //        Indien gevonden -> roep dan removeFavorite op met de id van het te verwijderen fruit (je hebt de index al gevonden)
-  //        TIP: State aanpassen
-  const addFavorite = (fruit) => {};
+  // Sla de favorieten op in sessionStorage telkens als de state verandert
+  useEffect(() => {
+    sessionStorage.setItem("favorites", JSON.stringify(favorites));
+  }, [favorites]);
 
-  // TODO:  Implementeer removeFavorite
-  //        Favoriet verwijderen op basis van id.
-  //        TIP: kan ook met filter(), state aanpassen
-  const removeFavorite = (fruitId) => {};
+  // Voeg een favoriet toe (of verwijder als het al een favoriet is)
+  const addFavorite = (fruit) => {
+    const foundIdx = favorites.findIndex((f) => f.id === fruit.id);
+    if (foundIdx === -1) {
+      setFavorites([...favorites, fruit]);
+    } else {
+      removeFavorite(favorites[foundIdx].id);
+    }
+  };
+
+  // Verwijder een favoriet op basis van id
+  const removeFavorite = (fruitId) => {
+    setFavorites(favorites.filter((f) => f.id !== fruitId));
+  };
 
   return (
     <FavoritesContext.Provider
-    //  TODO:   Bij de value property niet vergeten een object mee te geven met de favorites en de addFavorite
+      value={{ favorites, addFavorite, removeFavorite }}
     >
-      {/* TODO: Mankeert er hier niets??? */}
+      {props.children}
     </FavoritesContext.Provider>
   );
 };

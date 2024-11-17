@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const Header = () => {
   return (
     <div className="bg-food-red text-white h-24 flex items-center justify-between px-4">
@@ -8,10 +10,27 @@ const Header = () => {
                   De classname die je kan gebruiken wanneer deze active staat is "underline underline-offset-8" 
                   als deze niet active staat mag je gewoon "no-underline" gebruiken
       */}
+        <NavLink
+          className={({ isActive }) =>
+            `${isActive ? "underline underline-offset-8" : "no-underline"}`
+          }
+          to="/"
+        >
+          Home
+        </NavLink>
+
         {/* TODO: Maak hier een link naar de favorieten pagina, toon ook aan de gebruiker wanneer deze actief staat met de underline class
                   De classname die je kan gebruiken wanneer deze active staat is "underline underline-offset-8" 
                   als deze niet active staat mag je gewoon "no-underline" gebruiken
         */}
+        <NavLink
+          className={({ isActive }) =>
+            `${isActive ? "underline underline-offset-8" : "no-underline"}`
+          }
+          to="/favorites"
+        >
+          Favorieten
+        </NavLink>
       </div>
     </div>
   );
