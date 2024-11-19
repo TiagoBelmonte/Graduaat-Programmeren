@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\SolutionMongoDB2024\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7D04F821-906D-4EC3-BF5C-F72C937B1E54}|ConsoleAppTestMongoDB\\ConsoleAppTestMongoDB.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\solutionmongodb2024\\consoleapptestmongodb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D04F821-906D-4EC3-BF5C-F72C937B1E54}|ConsoleAppTestMongoDB\\ConsoleAppTestMongoDB.csproj|solutionrelative:consoleapptestmongodb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0019AF6-9CC5-4DC4-B7D7-1437F6CB0F5A}|MongoDBDL\\MongoDBDL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\solutionmongodb2024\\mongodbdl\\postdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0019AF6-9CC5-4DC4-B7D7-1437F6CB0F5A}|MongoDBDL\\MongoDBDL.csproj|solutionrelative:mongodbdl\\postdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0019AF6-9CC5-4DC4-B7D7-1437F6CB0F5A}|MongoDBDL\\MongoDBDL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\solutionmongodb2024\\mongodbdl\\model\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0019AF6-9CC5-4DC4-B7D7-1437F6CB0F5A}|MongoDBDL\\MongoDBDL.csproj|solutionrelative:mongodbdl\\model\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0019AF6-9CC5-4DC4-B7D7-1437F6CB0F5A}|MongoDBDL\\MongoDBDL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\solutionmongodb2024\\mongodbdl\\model\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0019AF6-9CC5-4DC4-B7D7-1437F6CB0F5A}|MongoDBDL\\MongoDBDL.csproj|solutionrelative:mongodbdl\\model\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PostDAO.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\SolutionMongoDB2024\\MongoDBDL\\PostDAO.cs",
+              "RelativeDocumentMoniker": "MongoDBDL\\PostDAO.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\SolutionMongoDB2024\\MongoDBDL\\PostDAO.cs",
+              "RelativeToolTip": "MongoDBDL\\PostDAO.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAuwFYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:25:51.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\SolutionMongoDB2024\\MongoDBDL\\Model\\Post.cs",
+              "RelativeDocumentMoniker": "MongoDBDL\\Model\\Post.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\SolutionMongoDB2024\\MongoDBDL\\Model\\Post.cs",
+              "RelativeToolTip": "MongoDBDL\\Model\\Post.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:19:57.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\SolutionMongoDB2024\\MongoDBDL\\Model\\Comment.cs",
+              "RelativeDocumentMoniker": "MongoDBDL\\Model\\Comment.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\SolutionMongoDB2024\\MongoDBDL\\Model\\Comment.cs",
+              "RelativeToolTip": "MongoDBDL\\Model\\Comment.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:19:44.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\SolutionMongoDB2024\\ConsoleAppTestMongoDB\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleAppTestMongoDB\\Program.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\SolutionMongoDB2024\\ConsoleAppTestMongoDB\\Program.cs",
+              "RelativeToolTip": "ConsoleAppTestMongoDB\\Program.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:12:22.202Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

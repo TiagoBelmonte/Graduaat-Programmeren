@@ -1,0 +1,13 @@
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\SolutionMongoDB2024\MongoDBDL\bin\Debug\net8.0\MongoDBDL.deps.json
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\SolutionMongoDB2024\MongoDBDL\bin\Debug\net8.0\MongoDBDL.dll
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\SolutionMongoDB2024\MongoDBDL\bin\Debug\net8.0\MongoDBDL.pdb
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\SolutionMongoDB2024\MongoDBDL\obj\Debug\net8.0\MongoDBDL.csproj.AssemblyReference.cache
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\SolutionMongoDB2024\MongoDBDL\obj\Debug\net8.0\MongoDBDL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\SolutionMongoDB2024\MongoDBDL\obj\Debug\net8.0\MongoDBDL.AssemblyInfoInputs.cache
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\SolutionMongoDB2024\MongoDBDL\obj\Debug\net8.0\MongoDBDL.AssemblyInfo.cs
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\SolutionMongoDB2024\MongoDBDL\obj\Debug\net8.0\MongoDBDL.csproj.CoreCompileInputs.cache
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\SolutionMongoDB2024\MongoDBDL\obj\Debug\net8.0\MongoDBDL.sourcelink.json
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\SolutionMongoDB2024\MongoDBDL\obj\Debug\net8.0\MongoDBDL.dll
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\SolutionMongoDB2024\MongoDBDL\obj\Debug\net8.0\refint\MongoDBDL.dll
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\SolutionMongoDB2024\MongoDBDL\obj\Debug\net8.0\MongoDBDL.pdb
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\SolutionMongoDB2024\MongoDBDL\obj\Debug\net8.0\ref\MongoDBDL.dll
