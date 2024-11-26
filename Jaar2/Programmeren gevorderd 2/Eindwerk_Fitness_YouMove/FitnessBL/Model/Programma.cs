@@ -14,7 +14,7 @@ namespace FitnessBL.Model
         private List<Klant> klanten;
 
         // Eigenschappen
-        public int? Id { get;} // Wordt door de database gegenereerd
+        public int? Id { get; } // Wordt door de database gegenereerd
 
         public string Naam
         {
@@ -88,7 +88,7 @@ namespace FitnessBL.Model
             Doelpubliek = doelpubliek;
             Startdatum = startdatum;
             MaxLeden = maxLeden;
-            klanten = new List<Klant>();
+            klanten = new List<Klant>(); // Initialiseren van de klantenlijst
         }
 
         public Programma(string naam, string doelpubliek, DateTime startdatum, int maxLeden, List<Klant> klanten)
@@ -97,7 +97,7 @@ namespace FitnessBL.Model
             Doelpubliek = doelpubliek;
             Startdatum = startdatum;
             MaxLeden = maxLeden;
-            Klanten = klanten;
+            Klanten = klanten ?? new List<Klant>(); // Zorgt ervoor dat Klanten nooit null is
         }
 
         // Methoden

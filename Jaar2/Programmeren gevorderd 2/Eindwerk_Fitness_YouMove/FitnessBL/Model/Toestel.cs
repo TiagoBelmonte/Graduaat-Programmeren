@@ -1,34 +1,35 @@
 ﻿using FitnessBL.Exceptions;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FitnessBL.Model
 {
     public class Toestel
     {
-        public int? Id { get; } // Wordt door de database gegenereerd
+        // Dit Id wordt waarschijnlijk door de database gegenereerd en is read-only
+        public int? Id { get; }
+
+        // Private veld voor de beschrijving
         private string beschrijving;
 
+        // Constructor
         public Toestel(string beschrijving)
         {
-            Beschrijving = beschrijving;
+            Beschrijving = beschrijving; // De Beschrijving wordt gevalideerd door de setter
         }
 
+        // Eigenschap voor de Beschrijving
         public string Beschrijving
         {
             get { return beschrijving; }
             set
             {
+                // Valideer of de Beschrijving niet leeg of null is
                 if (string.IsNullOrWhiteSpace(value))
                 {
-                    throw new DomeinExceptions("setBeschrijving");
+                    throw new DomeinExceptions("Beschrijving van dit toestel mag niet leeg zijn.");
                 }
-                beschrijving = value;
+                beschrijving = value; // Toewijzing aan het private veld
             }
         }
-
     }
 }

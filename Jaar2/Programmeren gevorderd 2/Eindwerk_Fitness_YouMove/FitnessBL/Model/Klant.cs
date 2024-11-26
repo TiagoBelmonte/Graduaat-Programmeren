@@ -1,10 +1,8 @@
-﻿using FitnessBL.Enum;
-using FitnessBL.Exceptions;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Text.RegularExpressions;
+using FitnessBL.Enum;
+using FitnessBL.Exceptions;
 
 namespace FitnessBL.Model
 {
@@ -14,9 +12,12 @@ namespace FitnessBL.Model
         private string achternaam;
         private string email;
         private string verblijfplaats;
-        private DateTime GeboorteDatum;
-        public List<String> intereses;
-        public KlantType type;
+        private DateTime geboorteDatum;
+        private readonly int? id;
+
+        public List<string> Interesses { get; private set; } = new List<string>();
+        public KlantType Type { get; set; }
+
         public string Voornaam
         {
             get { return voornaam; }
@@ -24,7 +25,7 @@ namespace FitnessBL.Model
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
-                    throw new DomeinExceptions("setVoornaam"); 
+                    throw new DomeinExceptions("Voornaam mag niet leeg zijn");
                 }
                 voornaam = value;
             }
@@ -37,23 +38,26 @@ namespace FitnessBL.Model
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
-                    throw new DomeinExceptions("setAchternaam"); 
+                    throw new DomeinExceptions("Achternaam mag niet leeg zijn");
                 }
                 achternaam = value;
             }
         }
+
         public string Email
         {
             get { return email; }
             set
             {
-                if (string.IsNullOrWhiteSpace(value))
+                // E-mail validatie met Regex
+                if (string.IsNullOrWhiteSpace(value) || !Regex.IsMatch(value, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
                 {
-                    throw new DomeinExceptions("setEmail"); 
+                    throw new DomeinExceptions("Ongeldig e-mailadres!");
                 }
                 email = value;
             }
         }
+
         public string Verblijfplaats
         {
             get { return verblijfplaats; }
@@ -61,67 +65,69 @@ namespace FitnessBL.Model
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
-                    throw new DomeinExceptions("setVerblijfplaats");
+                    throw new DomeinExceptions("U gemeente mag niet leeg zijn");
                 }
                 verblijfplaats = value;
             }
         }
-        public DateTime GebooorteDatum
-        { 
-            get { return GeboorteDatum; }
+
+        public DateTime GeboorteDatum
+        {
+            get { return geboorteDatum; }
             set
             {
                 if (value > DateTime.Now)
                 {
-                    throw new DomeinExceptions("setGeboorteDatum");
+                    throw new DomeinExceptions("U kan niet geboren zijn in de toekomst");
                 }
-                GeboorteDatum = value;
+                geboorteDatum = value;
             }
         }
 
-        public int? Id { get; } // Wordt door de database gegenereerd
+        public int? Id
+        {
+            get { return id; }
+        }
 
-        public Klant(string voornaam, string achternaam, string email, string verblijfplaats, DateTime gebooorteDatum,KlantType type)
+        // Constructor zonder Id, zodat de database de Id instelt
+        public Klant(string voornaam, string achternaam, string email, string verblijfplaats, DateTime geboorteDatum, KlantType type)
         {
             Voornaam = voornaam;
             Achternaam = achternaam;
-            Email = email;
+            Email = email; // E-mail wordt gevalideerd bij het instellen
             Verblijfplaats = verblijfplaats;
-            GebooorteDatum = gebooorteDatum;
-            this.type = type;
+            GeboorteDatum = geboorteDatum;
+            Type = type;
         }
 
-        public Klant(List<string> intereses, string voornaam, string achternaam, string email, string verblijfplaats, DateTime gebooorteDatum, KlantType type)
+        // Constructor met interesses, zonder Id
+        public Klant(List<string> interesses, string voornaam, string achternaam, string email, string verblijfplaats, DateTime geboorteDatum, KlantType type)
         {
-            this.intereses = intereses;
+            Interesses = interesses ?? new List<string>();
             Voornaam = voornaam;
             Achternaam = achternaam;
-            Email = email;
+            Email = email; // E-mail wordt gevalideerd bij het instellen
             Verblijfplaats = verblijfplaats;
-            GebooorteDatum = gebooorteDatum;
-            this.type = type;
+            GeboorteDatum = geboorteDatum;
+            Type = type;
         }
 
-        public void voegInteresseToe(string interesse)
+        public void VoegInteresseToe(string interesse)
         {
-            if (intereses.Contains(interesse))
+            if (Interesses.Contains(interesse))
             {
-                throw new DomeinExceptions("Interesse zit al in de lijst");
+                throw new DomeinExceptions("Deze interesse zit al in de lijst");
             }
-            else { intereses.Add(interesse); }
-            
-            
+            Interesses.Add(interesse);
         }
 
         public void VerwijderInteresse(string interesse)
         {
-            if (intereses.Contains(interesse))
+            if (!Interesses.Contains(interesse))
             {
-                intereses.Remove(interesse);
+                throw new DomeinExceptions("Deze interesse zit niet in de lijst");
             }
-            else { throw new DomeinExceptions("Interesse zit niet in de lijst"); }           
-            
+            Interesses.Remove(interesse);
         }
-
     }
 }

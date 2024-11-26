@@ -1,9 +1,5 @@
 ﻿using FitnessBL.Exceptions;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FitnessBL.Model
 {
@@ -12,36 +8,43 @@ namespace FitnessBL.Model
         private Klant klant;
         private DateTime startdatum;
 
+        // Constructor
         public Reservatie(Klant klant, DateTime startdatum)
         {
-            Klant = klant;
-            Startdatum = startdatum;
+            Klant = klant; // Valideert de klant via de eigenschap
+            Startdatum = startdatum; // Valideert de startdatum via de eigenschap
         }
 
-        public Klant Klant { 
+        // Klant eigenschap
+        public Klant Klant
+        {
             get { return klant; }
-            set {
+            set
+            {
                 if (value == null)
                 {
-                    throw new DomeinExceptions("Klant mag niet null zijn.");
+                    throw new DomeinExceptions("U moet een klant meegeven die al bestaat.");
                 }
                 klant = value;
             }
         }
+
+        // Startdatum eigenschap
         public DateTime Startdatum
         {
             get { return startdatum; }
-            set 
+            set
             {
-                if (value > DateTime.Now)
+                if (value < DateTime.Now)
                 {
-                    throw new DomeinExceptions("setStartDatum");
+                    throw new DomeinExceptions("Startdatum kan niet in het verleden liggen.");
+                }
+                if (value > DateTime.Now.AddDays(7))
+                {
+                    throw new DomeinExceptions("Toestel reserveren kan maar 1 week op voorhand.");
                 }
                 startdatum = value;
             }
         }
-
-
-                
     }
 }
