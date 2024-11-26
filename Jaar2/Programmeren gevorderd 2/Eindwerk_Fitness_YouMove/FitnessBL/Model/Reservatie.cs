@@ -35,10 +35,6 @@ namespace FitnessBL.Model
             get { return startdatum; }
             set
             {
-                if (value < DateTime.Now)
-                {
-                    throw new DomeinExceptions("Startdatum kan niet in het verleden liggen.");
-                }
                 if (value > DateTime.Now.AddDays(7))
                 {
                     throw new DomeinExceptions("Toestel reserveren kan maar 1 week op voorhand.");
