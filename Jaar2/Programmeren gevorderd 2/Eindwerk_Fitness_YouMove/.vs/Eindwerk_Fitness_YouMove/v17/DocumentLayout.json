@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67ECD513-7E15-42DD-AA52-928F4E4DC945}|FitnessBL\\FitnessBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\eindwerk_fitness_youmove\\fitnessbl\\model\\klant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67ECD513-7E15-42DD-AA52-928F4E4DC945}|FitnessBL\\FitnessBL.csproj|solutionrelative:fitnessbl\\model\\klant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67ECD513-7E15-42DD-AA52-928F4E4DC945}|FitnessBL\\FitnessBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\eindwerk_fitness_youmove\\fitnessbl\\enum\\klanttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67ECD513-7E15-42DD-AA52-928F4E4DC945}|FitnessBL\\FitnessBL.csproj|solutionrelative:fitnessbl\\enum\\klanttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67ECD513-7E15-42DD-AA52-928F4E4DC945}|FitnessBL\\FitnessBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\eindwerk_fitness_youmove\\fitnessbl\\model\\toestel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67ECD513-7E15-42DD-AA52-928F4E4DC945}|FitnessBL\\FitnessBL.csproj|solutionrelative:fitnessbl\\model\\toestel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67ECD513-7E15-42DD-AA52-928F4E4DC945}|FitnessBL\\FitnessBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\eindwerk_fitness_youmove\\fitnessbl\\model\\reservatie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67ECD513-7E15-42DD-AA52-928F4E4DC945}|FitnessBL\\FitnessBL.csproj|solutionrelative:fitnessbl\\model\\reservatie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67ECD513-7E15-42DD-AA52-928F4E4DC945}|FitnessBL\\FitnessBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\eindwerk_fitness_youmove\\fitnessbl\\exceptions\\domeinexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67ECD513-7E15-42DD-AA52-928F4E4DC945}|FitnessBL\\FitnessBL.csproj|solutionrelative:fitnessbl\\exceptions\\domeinexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67ECD513-7E15-42DD-AA52-928F4E4DC945}|FitnessBL\\FitnessBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\eindwerk_fitness_youmove\\fitnessbl\\model\\programma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67ECD513-7E15-42DD-AA52-928F4E4DC945}|FitnessBL\\FitnessBL.csproj|solutionrelative:fitnessbl\\model\\programma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Programma.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessBL\\Model\\Programma.cs",
+              "RelativeDocumentMoniker": "FitnessBL\\Model\\Programma.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessBL\\Model\\Programma.cs",
+              "RelativeToolTip": "FitnessBL\\Model\\Programma.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T08:55:43.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DomeinExceptions.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessBL\\Exceptions\\DomeinExceptions.cs",
+              "RelativeDocumentMoniker": "FitnessBL\\Exceptions\\DomeinExceptions.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessBL\\Exceptions\\DomeinExceptions.cs",
+              "RelativeToolTip": "FitnessBL\\Exceptions\\DomeinExceptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T08:21:09.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Reservatie.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessBL\\Model\\Reservatie.cs",
+              "RelativeDocumentMoniker": "FitnessBL\\Model\\Reservatie.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessBL\\Model\\Reservatie.cs",
+              "RelativeToolTip": "FitnessBL\\Model\\Reservatie.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T08:20:17.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Toestel.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessBL\\Model\\Toestel.cs",
+              "RelativeDocumentMoniker": "FitnessBL\\Model\\Toestel.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessBL\\Model\\Toestel.cs",
+              "RelativeToolTip": "FitnessBL\\Model\\Toestel.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAWwAsAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T08:20:01.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KlantType.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessBL\\Enum\\KlantType.cs",
+              "RelativeDocumentMoniker": "FitnessBL\\Enum\\KlantType.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessBL\\Enum\\KlantType.cs",
+              "RelativeToolTip": "FitnessBL\\Enum\\KlantType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T08:19:09.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Klant.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessBL\\Model\\Klant.cs",
+              "RelativeDocumentMoniker": "FitnessBL\\Model\\Klant.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessBL\\Model\\Klant.cs",
+              "RelativeToolTip": "FitnessBL\\Model\\Klant.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAUwFEAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T08:16:59.19Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
