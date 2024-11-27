@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StripsClientWPFStripView")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+744f3b9420f2bdbcb99070424759f3daa49554df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58c254d44768087935a23beaeb752d1dffa7d7ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("StripsClientWPFStripView")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StripsClientWPFStripView")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

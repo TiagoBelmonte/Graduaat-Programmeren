@@ -1,9 +1,6 @@
 ﻿using StripsBL.Exceptions;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace StripsBL.Model
 {
@@ -11,6 +8,7 @@ namespace StripsBL.Model
     {
         public int? id;
         private string titel;
+
         public string Titel
         {
             get { return titel; }
@@ -18,101 +16,112 @@ namespace StripsBL.Model
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
-                    throw new DomeinException("setTitel"); titel = value;
-                } 
+                    throw new DomeinException("setTitel");
+                }
+                titel = value;
             }
         }
+
         private List<Auteur> auteurs;
+
         public IReadOnlyList<Auteur> Auteurs
         {
             get { return auteurs; }
-            set
-            {
-                if ((value == null) || (value.Count < 1)) throw new DomeinException("SetAuteurs");
-                foreach (Auteur auteur in value) { VoegAuteurToe(auteur); }
-
-            }
         }
 
         private Uitgeverij uitgeverij;
+
         public Uitgeverij Uitgeverij
         {
             get { return uitgeverij; }
             set
             {
-                if ((value == null) || string.IsNullOrWhiteSpace(Convert.ToString(value)))
+                if (value == null)
                 {
-                    throw new DomeinException("setUitgeverij"); 
-                    uitgeverij = value;
+                    throw new DomeinException("setUitgeverij");
                 }
+                uitgeverij = value;
             }
         }
 
         private Reeks reeks;
+
         public Reeks Reeks
         {
-            get { return reeks; ; }
-
+            get { return reeks; }
             set
             {
-                if (Convert.ToString(value) != "<geen serie>")
+                if (value == null)
                 {
-                    reeks = value;
+                    throw new DomeinException("setReeks");
                 }
+                reeks = value;
             }
         }
 
         private int reeksNR;
+
         public int ReeksNR
         {
-            get { return reeksNR; ; }
-
+            get { return reeksNR; }
             set
             {
-                if (value != null)
-                {
-                    reeksNR = value;
-                }
-
+                reeksNR = value;
             }
         }
 
+        // Constructor zonder 'this' en zonder controle op auteurs
         public Strip(string titel, List<Auteur> auteurs, Uitgeverij uitgeverij)
         {
             Titel = titel;
-            Auteurs = auteurs;
+            this.auteurs = new List<Auteur>();
             Uitgeverij = uitgeverij;
+
+            VoegAuteursToe(auteurs); // Auteurs toevoegen via de nieuwe methode
         }
 
         public Strip(string titel, List<Auteur> auteurs, Uitgeverij uitgeverij, Reeks reeks)
         {
             Titel = titel;
-            Auteurs = auteurs;
+            this.auteurs = new List<Auteur>();
             Uitgeverij = uitgeverij;
             Reeks = reeks;
+
+            VoegAuteursToe(auteurs); // Auteurs toevoegen via de nieuwe methode
         }
 
         public Strip(string titel, List<Auteur> auteurs, Uitgeverij uitgeverij, Reeks reeks, int reeksNR)
         {
             Titel = titel;
-            Auteurs = auteurs;
+            this.auteurs = new List<Auteur>();
             Uitgeverij = uitgeverij;
             Reeks = reeks;
             ReeksNR = reeksNR;
+
+            VoegAuteursToe(auteurs); // Auteurs toevoegen via de nieuwe methode
         }
 
-
-        public void VoegAuteurToe(Auteur auteur)
+        // Methode om meerdere auteurs toe te voegen
+        public void VoegAuteursToe(List<Auteur> auteurs)
         {
-            if (auteur == null || auteurs.Contains(auteur))
+            if (auteurs == null || auteurs.Count < 1)
             {
-                throw new DomeinException("VoegAuteurToe");
+                throw new DomeinException("SetAuteurs");
             }
-            auteurs.Add(auteur);
+
+            foreach (var auteur in auteurs)
+            {
+                if (auteur == null || this.auteurs.Contains(auteur))
+                {
+                    throw new DomeinException("VoegAuteursToe");
+                }
+                this.auteurs.Add(auteur);
+            }
         }
+
         public void VerwijderAuteur(Auteur auteur)
         {
-            if (auteur == null || !auteurs.Contains(auteur) || auteurs.Count<=1)
+            if (auteur == null || !auteurs.Contains(auteur) || auteurs.Count <= 1)
             {
                 throw new DomeinException("VerwijderAuteur");
             }

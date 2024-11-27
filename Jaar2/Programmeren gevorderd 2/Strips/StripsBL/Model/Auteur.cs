@@ -1,9 +1,5 @@
 ﻿using StripsBL.Exceptions;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace StripsBL.Model
 {
@@ -11,6 +7,7 @@ namespace StripsBL.Model
     {
         private string naam;
         private string email;
+
         public string Naam
         {
             get { return naam; }
@@ -18,10 +15,12 @@ namespace StripsBL.Model
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
-                    throw new DomeinException("setNaam"); naam = value;
+                    throw new DomeinException("setNaam");
                 }
+                naam = value;
             }
         }
+
         public string Email
         {
             get { return email; }
@@ -29,10 +28,12 @@ namespace StripsBL.Model
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
-                    throw new DomeinException("setEmail"); email = value;
+                    throw new DomeinException("setEmail");
                 }
+                email = value;
             }
         }
+
         public int? id;
 
         public Auteur(string naam, string email)
@@ -48,7 +49,8 @@ namespace StripsBL.Model
                 Auteur compAuteur = (Auteur)obj;
                 if (id.HasValue && compAuteur.id == id.Value)
                 {
-                    if (id == compAuteur.id) return true; else return false;
+                    if (id == compAuteur.id) return true;
+                    else return false;
                 }
                 else
                 {

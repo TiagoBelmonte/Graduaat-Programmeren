@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Strips\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC20ABE2-9E21-4B59-8BEC-8FEE466F9109}|StripsBL\\StripsBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\strips\\stripsbl\\model\\auteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC20ABE2-9E21-4B59-8BEC-8FEE466F9109}|StripsBL\\StripsBL.csproj|solutionrelative:stripsbl\\model\\auteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC20ABE2-9E21-4B59-8BEC-8FEE466F9109}|StripsBL\\StripsBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\strips\\stripsbl\\model\\reeks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC20ABE2-9E21-4B59-8BEC-8FEE466F9109}|StripsBL\\StripsBL.csproj|solutionrelative:stripsbl\\model\\reeks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC20ABE2-9E21-4B59-8BEC-8FEE466F9109}|StripsBL\\StripsBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\strips\\stripsbl\\exceptions\\domeinexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC20ABE2-9E21-4B59-8BEC-8FEE466F9109}|StripsBL\\StripsBL.csproj|solutionrelative:stripsbl\\exceptions\\domeinexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC20ABE2-9E21-4B59-8BEC-8FEE466F9109}|StripsBL\\StripsBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\strips\\stripsbl\\model\\strip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC20ABE2-9E21-4B59-8BEC-8FEE466F9109}|StripsBL\\StripsBL.csproj|solutionrelative:stripsbl\\model\\strip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC20ABE2-9E21-4B59-8BEC-8FEE466F9109}|StripsBL\\StripsBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\strips\\stripsbl\\model\\reeks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC20ABE2-9E21-4B59-8BEC-8FEE466F9109}|StripsBL\\StripsBL.csproj|solutionrelative:stripsbl\\model\\reeks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC20ABE2-9E21-4B59-8BEC-8FEE466F9109}|StripsBL\\StripsBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\strips\\stripsbl\\model\\auteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC20ABE2-9E21-4B59-8BEC-8FEE466F9109}|StripsBL\\StripsBL.csproj|solutionrelative:stripsbl\\model\\auteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC20ABE2-9E21-4B59-8BEC-8FEE466F9109}|StripsBL\\StripsBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\strips\\stripsbl\\model\\uitgeverij.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,54 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "DomeinException.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Strips\\StripsBL\\Exceptions\\DomeinException.cs",
+              "RelativeDocumentMoniker": "StripsBL\\Exceptions\\DomeinException.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Strips\\StripsBL\\Exceptions\\DomeinException.cs",
+              "RelativeToolTip": "StripsBL\\Exceptions\\DomeinException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:18:46.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Uitgeverij.cs",
               "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Strips\\StripsBL\\Model\\Uitgeverij.cs",
               "RelativeDocumentMoniker": "StripsBL\\Model\\Uitgeverij.cs",
               "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Strips\\StripsBL\\Model\\Uitgeverij.cs",
               "RelativeToolTip": "StripsBL\\Model\\Uitgeverij.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAXAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAwwCsAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T07:08:19.304Z"
+              "WhenOpened": "2024-11-13T07:08:19.304Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Reeks.cs",
               "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Strips\\StripsBL\\Model\\Reeks.cs",
               "RelativeDocumentMoniker": "StripsBL\\Model\\Reeks.cs",
               "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Strips\\StripsBL\\Model\\Reeks.cs",
               "RelativeToolTip": "StripsBL\\Model\\Reeks.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T07:05:04.488Z"
+              "WhenOpened": "2024-11-13T07:05:04.488Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Strip.cs",
               "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Strips\\StripsBL\\Model\\Strip.cs",
               "RelativeDocumentMoniker": "StripsBL\\Model\\Strip.cs",
               "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Strips\\StripsBL\\Model\\Strip.cs",
               "RelativeToolTip": "StripsBL\\Model\\Strip.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAA5wGIAAAAkAAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAIwIMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T06:46:50.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Auteur.cs",
               "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Strips\\StripsBL\\Model\\Auteur.cs",
               "RelativeDocumentMoniker": "StripsBL\\Model\\Auteur.cs",
               "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Strips\\StripsBL\\Model\\Auteur.cs",
               "RelativeToolTip": "StripsBL\\Model\\Auteur.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAuwCMAAAAXAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwEQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T06:46:45.365Z",
               "EditorCaption": ""

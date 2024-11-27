@@ -1,45 +1,47 @@
 ﻿using StripsBL.Exceptions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace StripsBL.Model
 {
     public class Uitgeverij
     {
-        public int? id;
+        public int? Id { get; } // Alleen-lezen; wordt ingesteld door de database
         private string naam;
         public string Naam
         {
-            get { return naam; }
+            get => naam;
             set
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
-                    throw new DomeinException("setNaam"); naam = value;
+                    throw new DomeinException("Naam mag niet leeg zijn.");
                 }
+                naam = value;
             }
         }
 
-        private string mail;
-        public string Mail
+        private string adres;
+        public string Adres
         {
-            get { return mail; }
+            get => adres;
             set
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
-                    throw new DomeinException("setMaill"); mail = value;
+                    throw new DomeinException("Adres mag niet leeg zijn.");
                 }
+                adres = value;
             }
         }
 
-        public Uitgeverij(string naam, string mail)
+        public Uitgeverij(string naam, string adres)
         {
             Naam = naam;
-            Mail = mail;
+            Adres = adres;
+        }
+
+        public override string ToString()
+        {
+            return $"Uitgeverij: {Naam}, Adres: {Adres}, Id: {Id}";
         }
     }
 }
