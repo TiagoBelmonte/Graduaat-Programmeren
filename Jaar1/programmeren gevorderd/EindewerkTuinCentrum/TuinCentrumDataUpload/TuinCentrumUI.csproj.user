@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Aanpassen\OfferteAanpassen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Aanpassen\ProductenToevoegen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="KlantenOpzoeken.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="KlantenZoekenViaNaam.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="OfferteAanmaken\OfferteStap2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="OfferteAanmaken\ProductenSelecteren.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="OfferteOpzoeken.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Aanpassen\OfferteAanpassen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Aanpassen\ProductenToevoegen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="KlantenOpzoeken.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="KlantenZoekenViaNaam.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="OfferteAanmaken\OfferteStap2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="OfferteAanmaken\ProductenSelecteren.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="OfferteOpzoeken.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

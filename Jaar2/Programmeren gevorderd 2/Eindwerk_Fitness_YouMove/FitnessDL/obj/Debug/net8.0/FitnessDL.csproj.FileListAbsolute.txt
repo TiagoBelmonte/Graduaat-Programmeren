@@ -1,0 +1,16 @@
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDL\bin\Debug\net8.0\FitnessDL.deps.json
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDL\bin\Debug\net8.0\FitnessDL.dll
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDL\bin\Debug\net8.0\FitnessDL.pdb
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDL\bin\Debug\net8.0\FitnessBL.dll
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDL\bin\Debug\net8.0\FitnessBL.pdb
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDL\obj\Debug\net8.0\FitnessDL.csproj.AssemblyReference.cache
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDL\obj\Debug\net8.0\FitnessDL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDL\obj\Debug\net8.0\FitnessDL.AssemblyInfoInputs.cache
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDL\obj\Debug\net8.0\FitnessDL.AssemblyInfo.cs
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDL\obj\Debug\net8.0\FitnessDL.csproj.CoreCompileInputs.cache
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDL\obj\Debug\net8.0\FitnessDL.sourcelink.json
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDL\obj\Debug\net8.0\FitnessDL.csproj.Up2Date
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDL\obj\Debug\net8.0\FitnessDL.dll
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDL\obj\Debug\net8.0\refint\FitnessDL.dll
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDL\obj\Debug\net8.0\FitnessDL.pdb
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDL\obj\Debug\net8.0\ref\FitnessDL.dll

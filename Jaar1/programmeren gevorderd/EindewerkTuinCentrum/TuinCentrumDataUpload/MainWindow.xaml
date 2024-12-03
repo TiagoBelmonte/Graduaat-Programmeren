@@ -1,0 +1,25 @@
+﻿<Window x:Class="TuinCentrumUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TuinCentrumUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="400">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF355E3B" Offset="1"/>
+                <GradientStop Color="White" Offset="0"/>
+                <GradientStop Color="#FF7F9983" Offset="0.563"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button Content="Data Uploaden" HorizontalAlignment="Center" Height="52" Margin="0,60,0,0" VerticalAlignment="Top" Width="172" Click="Button_Click_DataUploaden" Visibility="Hidden"/>
+        <Button Content="Offerte Aanmaken" HorizontalAlignment="Center" Height="52" Margin="0,128,0,0" VerticalAlignment="Top" Width="172" Click="Button_ClickOfferteAanmaken"/>
+        <Button Content="Offerte Opvragen" HorizontalAlignment="Center" Height="52" Margin="0,199,0,0" VerticalAlignment="Top" Width="172" Click="Button_Click_OfferteOpvragen"/>
+        <Button Content="Klant Opzoeken" HorizontalAlignment="Center" Height="52" Margin="0,270,0,0" VerticalAlignment="Top" Width="172" Click="Button_Click_KlantenOpzoeken"/>
+        <Label x:Name="LabelWelkom" Content="Welkom" HorizontalAlignment="Center" Height="76" Margin="0,24,0,0" VerticalAlignment="Top" Width="156" FontFamily="Stencil" FontSize="37"/>
+        <Label x:Name="LabelZin" Content="Wat wilt u doen vandaag?" HorizontalAlignment="Center" Height="26" Margin="0,94,0,0" VerticalAlignment="Top" Width="152" FontFamily="Segoe UI Variable Display Semibold"/>
+
+    </Grid>
+</Window>

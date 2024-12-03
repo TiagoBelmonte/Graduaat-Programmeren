@@ -1,0 +1,15 @@
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_SQL\bin\Debug\net8.0\TuinCentrumDL_SQL.deps.json
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_SQL\bin\Debug\net8.0\TuinCentrumDL_SQL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_SQL\bin\Debug\net8.0\TuinCentrumDL_SQL.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_SQL\bin\Debug\net8.0\TuinCentrumBL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_SQL\bin\Debug\net8.0\TuinCentrumBL.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_SQL\obj\Debug\net8.0\TuinCentrumDL_SQL.csproj.AssemblyReference.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_SQL\obj\Debug\net8.0\TuinCentrumDL_SQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_SQL\obj\Debug\net8.0\TuinCentrumDL_SQL.AssemblyInfoInputs.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_SQL\obj\Debug\net8.0\TuinCentrumDL_SQL.AssemblyInfo.cs
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_SQL\obj\Debug\net8.0\TuinCentrumDL_SQL.csproj.CoreCompileInputs.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_SQL\obj\Debug\net8.0\TuinCent.DEDFCD14.Up2Date
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_SQL\obj\Debug\net8.0\TuinCentrumDL_SQL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_SQL\obj\Debug\net8.0\refint\TuinCentrumDL_SQL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_SQL\obj\Debug\net8.0\TuinCentrumDL_SQL.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_SQL\obj\Debug\net8.0\ref\TuinCentrumDL_SQL.dll

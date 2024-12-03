@@ -1,0 +1,15 @@
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnesDataEF\bin\Debug\net8.0\FitnesDataEF.deps.json
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnesDataEF\bin\Debug\net8.0\FitnesDataEF.runtimeconfig.json
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnesDataEF\bin\Debug\net8.0\FitnesDataEF.dll
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnesDataEF\bin\Debug\net8.0\FitnesDataEF.pdb
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnesDataEF\obj\Debug\net8.0\FitnesDataEF.csproj.AssemblyReference.cache
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnesDataEF\obj\Debug\net8.0\FitnesDataEF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnesDataEF\obj\Debug\net8.0\FitnesDataEF.AssemblyInfoInputs.cache
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnesDataEF\obj\Debug\net8.0\FitnesDataEF.AssemblyInfo.cs
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnesDataEF\obj\Debug\net8.0\FitnesDataEF.csproj.CoreCompileInputs.cache
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnesDataEF\obj\Debug\net8.0\FitnesDataEF.sourcelink.json
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnesDataEF\obj\Debug\net8.0\FitnesDataEF.dll
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnesDataEF\obj\Debug\net8.0\refint\FitnesDataEF.dll
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnesDataEF\obj\Debug\net8.0\FitnesDataEF.pdb
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnesDataEF\obj\Debug\net8.0\FitnesDataEF.genruntimeconfig.cache
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnesDataEF\obj\Debug\net8.0\ref\FitnesDataEF.dll

@@ -1,0 +1,12 @@
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessBL\bin\Debug\net8.0\FitnessBL.deps.json
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessBL\bin\Debug\net8.0\FitnessBL.dll
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessBL\bin\Debug\net8.0\FitnessBL.pdb
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessBL\obj\Debug\net8.0\FitnessBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessBL\obj\Debug\net8.0\FitnessBL.AssemblyInfoInputs.cache
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessBL\obj\Debug\net8.0\FitnessBL.AssemblyInfo.cs
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessBL\obj\Debug\net8.0\FitnessBL.csproj.CoreCompileInputs.cache
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessBL\obj\Debug\net8.0\FitnessBL.sourcelink.json
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessBL\obj\Debug\net8.0\FitnessBL.dll
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessBL\obj\Debug\net8.0\refint\FitnessBL.dll
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessBL\obj\Debug\net8.0\FitnessBL.pdb
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessBL\obj\Debug\net8.0\ref\FitnessBL.dll

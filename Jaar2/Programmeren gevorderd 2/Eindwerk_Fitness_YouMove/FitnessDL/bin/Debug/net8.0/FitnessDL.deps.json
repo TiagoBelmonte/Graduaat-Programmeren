@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FitnessDL/1.0.0": {
+        "dependencies": {
+          "FitnessBL": "1.0.0"
+        },
+        "runtime": {
+          "FitnessDL.dll": {}
+        }
+      },
+      "FitnessBL/1.0.0": {
+        "runtime": {
+          "FitnessBL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FitnessDL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FitnessBL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

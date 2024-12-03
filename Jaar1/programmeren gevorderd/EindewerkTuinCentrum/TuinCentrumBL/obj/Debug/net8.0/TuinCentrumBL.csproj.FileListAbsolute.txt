@@ -1,0 +1,11 @@
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumBL\bin\Debug\net8.0\TuinCentrumBL.deps.json
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumBL\bin\Debug\net8.0\TuinCentrumBL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumBL\bin\Debug\net8.0\TuinCentrumBL.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumBL\obj\Debug\net8.0\TuinCentrumBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumBL\obj\Debug\net8.0\TuinCentrumBL.AssemblyInfoInputs.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumBL\obj\Debug\net8.0\TuinCentrumBL.AssemblyInfo.cs
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumBL\obj\Debug\net8.0\TuinCentrumBL.csproj.CoreCompileInputs.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumBL\obj\Debug\net8.0\TuinCentrumBL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumBL\obj\Debug\net8.0\refint\TuinCentrumBL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumBL\obj\Debug\net8.0\TuinCentrumBL.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumBL\obj\Debug\net8.0\ref\TuinCentrumBL.dll

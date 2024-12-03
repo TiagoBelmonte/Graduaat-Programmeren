@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TuinCentrumDL_File/1.0.0": {
+        "dependencies": {
+          "TuinCentrumBL": "1.0.0"
+        },
+        "runtime": {
+          "TuinCentrumDL_File.dll": {}
+        }
+      },
+      "TuinCentrumBL/1.0.0": {
+        "runtime": {
+          "TuinCentrumBL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TuinCentrumDL_File/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TuinCentrumBL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

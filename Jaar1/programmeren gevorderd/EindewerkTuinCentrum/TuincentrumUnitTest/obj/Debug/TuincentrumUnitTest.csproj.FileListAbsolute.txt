@@ -1,0 +1,15 @@
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuincentrumUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuincentrumUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuincentrumUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuincentrumUnitTest\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuincentrumUnitTest\bin\Debug\TuincentrumUnitTest.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuincentrumUnitTest\bin\Debug\TuincentrumUnitTest.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuincentrumUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuincentrumUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuincentrumUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuincentrumUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuincentrumUnitTest\obj\Debug\TuincentrumUnitTest.csproj.AssemblyReference.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuincentrumUnitTest\obj\Debug\TuincentrumUnitTest.csproj.CoreCompileInputs.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuincentrumUnitTest\obj\Debug\Tuincent.681E6EA0.Up2Date
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuincentrumUnitTest\obj\Debug\TuincentrumUnitTest.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuincentrumUnitTest\obj\Debug\TuincentrumUnitTest.pdb

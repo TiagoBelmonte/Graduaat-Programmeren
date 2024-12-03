@@ -1,0 +1,269 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumDataUpload\\TuinCentrumDataUpload.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumBL\\TuinCentrumBL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumBL\\TuinCentrumBL.csproj",
+        "projectName": "TuinCentrumBL",
+        "projectPath": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumBL\\TuinCentrumBL.csproj",
+        "packagesPath": "C:\\Users\\tbelm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumBL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tbelm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumDataUpload\\TuinCentrumDataUpload.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumDataUpload\\TuinCentrumDataUpload.csproj",
+        "projectName": "TuinCentrumDataUpload",
+        "projectPath": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumDataUpload\\TuinCentrumDataUpload.csproj",
+        "packagesPath": "C:\\Users\\tbelm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumDataUpload\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tbelm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumBL\\TuinCentrumBL.csproj": {
+                "projectPath": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumBL\\TuinCentrumBL.csproj"
+              },
+              "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumDL_File\\TuinCentrumDL_File.csproj": {
+                "projectPath": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumDL_File\\TuinCentrumDL_File.csproj"
+              },
+              "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumDL_SQL\\TuinCentrumDL_SQL.csproj": {
+                "projectPath": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumDL_SQL\\TuinCentrumDL_SQL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumDL_File\\TuinCentrumDL_File.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumDL_File\\TuinCentrumDL_File.csproj",
+        "projectName": "TuinCentrumDL_File",
+        "projectPath": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumDL_File\\TuinCentrumDL_File.csproj",
+        "packagesPath": "C:\\Users\\tbelm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumDL_File\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tbelm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumBL\\TuinCentrumBL.csproj": {
+                "projectPath": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumBL\\TuinCentrumBL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumDL_SQL\\TuinCentrumDL_SQL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumDL_SQL\\TuinCentrumDL_SQL.csproj",
+        "projectName": "TuinCentrumDL_SQL",
+        "projectPath": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumDL_SQL\\TuinCentrumDL_SQL.csproj",
+        "packagesPath": "C:\\Users\\tbelm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumDL_SQL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tbelm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumBL\\TuinCentrumBL.csproj": {
+                "projectPath": "C:\\Users\\tbelm\\Documenten\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumBL\\TuinCentrumBL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

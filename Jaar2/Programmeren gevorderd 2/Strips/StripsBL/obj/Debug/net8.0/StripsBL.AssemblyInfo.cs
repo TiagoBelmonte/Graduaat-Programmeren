@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StripsBL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+744f3b9420f2bdbcb99070424759f3daa49554df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+213c9272a2928e9e0d60372f621fa6223cd91a27")]
 [assembly: System.Reflection.AssemblyProductAttribute("StripsBL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StripsBL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

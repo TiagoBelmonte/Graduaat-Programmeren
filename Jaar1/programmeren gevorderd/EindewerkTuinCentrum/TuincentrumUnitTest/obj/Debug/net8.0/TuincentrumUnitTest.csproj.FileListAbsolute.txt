@@ -1,0 +1,5 @@
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuincentrumUnitTest\obj\Debug\net8.0\TuincentrumUnitTest.csproj.AssemblyReference.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuincentrumUnitTest\obj\Debug\net8.0\TuincentrumUnitTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuincentrumUnitTest\obj\Debug\net8.0\TuincentrumUnitTest.AssemblyInfoInputs.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuincentrumUnitTest\obj\Debug\net8.0\TuincentrumUnitTest.AssemblyInfo.cs
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuincentrumUnitTest\obj\Debug\net8.0\TuincentrumUnitTest.csproj.CoreCompileInputs.cache

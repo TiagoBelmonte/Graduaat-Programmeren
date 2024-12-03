@@ -5,11 +5,11 @@ VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessBL", "FitnessBL\FitnessBL.csproj", "{67ECD513-7E15-42DD-AA52-928F4E4DC945}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessDL", "FitnessDL\FitnessDL.csproj", "{F8867CA9-8326-43F6-9A13-D77BFB974DCD}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessREST", "FitnessREST\FitnessREST.csproj", "{B239C76E-952F-4CCC-BD1F-0B4F7A7F8E96}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessClient", "FitnessClient\FitnessClient.csproj", "{FE050B0F-8B43-45E8-A588-DDB0EB217476}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnesDataEF", "FitnesDataEF\FitnesDataEF.csproj", "{5883E2B4-CD3F-445D-A4B8-A318C441FAFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		{67ECD513-7E15-42DD-AA52-928F4E4DC945}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67ECD513-7E15-42DD-AA52-928F4E4DC945}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67ECD513-7E15-42DD-AA52-928F4E4DC945}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F8867CA9-8326-43F6-9A13-D77BFB974DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F8867CA9-8326-43F6-9A13-D77BFB974DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F8867CA9-8326-43F6-9A13-D77BFB974DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F8867CA9-8326-43F6-9A13-D77BFB974DCD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B239C76E-952F-4CCC-BD1F-0B4F7A7F8E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B239C76E-952F-4CCC-BD1F-0B4F7A7F8E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B239C76E-952F-4CCC-BD1F-0B4F7A7F8E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{FE050B0F-8B43-45E8-A588-DDB0EB217476}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE050B0F-8B43-45E8-A588-DDB0EB217476}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE050B0F-8B43-45E8-A588-DDB0EB217476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5883E2B4-CD3F-445D-A4B8-A318C441FAFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5883E2B4-CD3F-445D-A4B8-A318C441FAFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5883E2B4-CD3F-445D-A4B8-A318C441FAFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5883E2B4-CD3F-445D-A4B8-A318C441FAFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

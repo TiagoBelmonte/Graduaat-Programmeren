@@ -1,0 +1,15 @@
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_File\bin\Debug\net8.0\TuinCentrumDL_File.deps.json
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_File\bin\Debug\net8.0\TuinCentrumDL_File.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_File\bin\Debug\net8.0\TuinCentrumDL_File.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_File\bin\Debug\net8.0\TuinCentrumBL.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_File\bin\Debug\net8.0\TuinCentrumBL.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_File\obj\Debug\net8.0\TuinCentrumDL_File.csproj.AssemblyReference.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_File\obj\Debug\net8.0\TuinCentrumDL_File.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_File\obj\Debug\net8.0\TuinCentrumDL_File.AssemblyInfoInputs.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_File\obj\Debug\net8.0\TuinCentrumDL_File.AssemblyInfo.cs
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_File\obj\Debug\net8.0\TuinCentrumDL_File.csproj.CoreCompileInputs.cache
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_File\obj\Debug\net8.0\TuinCent.99195999.Up2Date
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_File\obj\Debug\net8.0\TuinCentrumDL_File.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_File\obj\Debug\net8.0\refint\TuinCentrumDL_File.dll
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_File\obj\Debug\net8.0\TuinCentrumDL_File.pdb
+C:\Users\tbelm\Documenten\programmeren gevorderd\EindewerkTuinCentrum\TuinCentrumDL_File\obj\Debug\net8.0\ref\TuinCentrumDL_File.dll
