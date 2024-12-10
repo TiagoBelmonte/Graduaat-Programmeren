@@ -13,3 +13,6 @@ C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\E
 C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnesDataEF\obj\Debug\net8.0\FitnesDataEF.pdb
 C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnesDataEF\obj\Debug\net8.0\FitnesDataEF.genruntimeconfig.cache
 C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnesDataEF\obj\Debug\net8.0\ref\FitnesDataEF.dll
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnesDataEF\bin\Debug\net8.0\FitnessBL.dll
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnesDataEF\bin\Debug\net8.0\FitnessBL.pdb
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnesDataEF\obj\Debug\net8.0\FitnesDa.DB387E19.Up2Date
