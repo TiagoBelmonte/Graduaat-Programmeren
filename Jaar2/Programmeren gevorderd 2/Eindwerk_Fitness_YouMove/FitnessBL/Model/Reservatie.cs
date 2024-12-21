@@ -5,20 +5,20 @@ namespace FitnessBL.Model
 {
     public class Reservatie
     {
-        private Klant klant;
+        private Member klant;
         private DateTime datum;
         private int? Id;
         private List<Tijdslot> tijdslots;
 
         // Constructor
-        public Reservatie(Klant klant, DateTime datum, List<Tijdslot> tijdslots)
+        public Reservatie(Member klant, DateTime datum, List<Tijdslot> tijdslots)
         {
             Klant = klant; // Valideert de klant via de eigenschap
             Datum = datum; // Valideert de startdatum via de eigenschap
             this.tijdslots = tijdslots;
         }
 
-        public Reservatie(int? id, List<Tijdslot> tijdslots, Klant klant, DateTime datum)
+        public Reservatie(int? id, List<Tijdslot> tijdslots, Member klant, DateTime datum)
         {
             Id = id;
             this.tijdslots = tijdslots;
@@ -27,7 +27,7 @@ namespace FitnessBL.Model
         }
 
         // Klant eigenschap
-        public Klant Klant
+        public Member Klant
         {
             get { return klant; }
             set

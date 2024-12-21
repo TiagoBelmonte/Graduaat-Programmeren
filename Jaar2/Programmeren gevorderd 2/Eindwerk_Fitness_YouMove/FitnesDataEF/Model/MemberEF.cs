@@ -14,51 +14,51 @@ namespace FitnesDataEF.Model
         {
         }
 
-        public MemberEF(int memberId, string firstName, string lastName, string email, string address, DateTime birthday, string interests, string memberType, ICollection<ReservationEF> reservations, ICollection<RunningSessionMainEF> runningSessions, ICollection<CyclingSessionEF> cyclingSessions, ICollection<ProgramMemberEF> programMembers)
+        public MemberEF(int memberId, string firstName, string lastName, string Email, string Address, DateTime Birthday, string Interests, string memberType, ICollection<ReservationEF> reservations, ICollection<RunningSessionMainEF> runningSessions, ICollection<CyclingSessionEF> cyclingSessions, ICollection<ProgramMemberEF> programMembers)
         {
-            MemberId = memberId;
-            FirstName = firstName;
-            LastName = lastName;
-            Email = email;
-            Address = address;
-            Birthday = birthday;
-            Interests = interests;
-            MemberType = memberType;
-            Reservations = reservations;
-            RunningSessions = runningSessions;
-            CyclingSessions = cyclingSessions;
-            ProgramMembers = programMembers;
+            member_id = memberId;
+            first_name = firstName;
+            last_name = lastName;
+            email = Email;
+            address = Address;
+            birthday = Birthday;
+            interests = Interests;
+            membertype = memberType;
+            reservation = reservations;
+            runningsession = runningSessions;
+            cyclingsession = cyclingSessions;
+            programmembers = programMembers;
         }
 
         [Key]
-        public int MemberId { get; set; }
+        public int member_id { get; set; }
 
         [Required]
         [MaxLength(45)]
-        public string FirstName { get; set; }
+        public string first_name { get; set; }
 
         [Required]
         [MaxLength(45)]
-        public string LastName { get; set; }
+        public string last_name { get; set; }
 
         [Required]
         [MaxLength(50)]
-        public string Email { get; set; }
+        public string? email { get; set; }
 
         [MaxLength(200)]
-        public string Address { get; set; }
+        public string address { get; set; }
 
-        public DateTime Birthday { get; set; }
+        public DateTime birthday { get; set; }
 
         [MaxLength(500)]
-        public string Interests { get; set; }
+        public string? interests { get; set; }
         [MaxLength(20)]
-        public string MemberType { get; set; }
+        public string? membertype { get; set; }
 
-        public ICollection<ReservationEF> Reservations { get; set; }
-        public ICollection<RunningSessionMainEF> RunningSessions { get; set; }
-        public ICollection<CyclingSessionEF> CyclingSessions { get; set; }
-        public ICollection<ProgramMemberEF> ProgramMembers { get; set; }
+        public ICollection<ReservationEF> reservation { get; set; }
+        public ICollection<RunningSessionMainEF> runningsession { get; set; }
+        public ICollection<CyclingSessionEF> cyclingsession { get; set; }
+        public ICollection<ProgramMemberEF> programmembers { get; set; }
     }
 
 }

@@ -13,31 +13,31 @@ namespace FitnesDataEF.Model
         {
         }
 
-        public ProgramEF(string programCode, string name, string target, DateTime startDate, int maxMembers, ICollection<ProgramMemberEF> programMembers)
+        public ProgramEF(string ProgramCode, string Name, string Target, DateTime startDate, int maxMembers, ICollection<ProgramMemberEF> ProgramMembers)
         {
-            ProgramCode = programCode;
-            Name = name;
-            Target = target;
-            StartDate = startDate;
-            MaxMembers = maxMembers;
-            ProgramMembers = programMembers;
+            programCode = ProgramCode;
+            name = Name;
+            target = Target;
+            startdate = startDate;
+            max_members = maxMembers;
+            programmembers = ProgramMembers;
         }
 
         [Key]
         [MaxLength(10)]
-        public string ProgramCode { get; set; }
+        public string programCode { get; set; }
 
         [Required]
         [MaxLength(45)]
-        public string Name { get; set; }
+        public string name { get; set; }
 
         [MaxLength(25)]
-        public string Target { get; set; }
+        public string target { get; set; }
 
-        public DateTime StartDate { get; set; }
-        public int MaxMembers { get; set; }
+        public DateTime startdate { get; set; }
+        public int max_members { get; set; }
 
-        public ICollection<ProgramMemberEF> ProgramMembers { get; set; }
+        public ICollection<ProgramMemberEF> programmembers { get; set; }
     }
 
 }

@@ -11,19 +11,19 @@ namespace FitnesDataEF.Model
     public class TimeSlotEF
     {
         [Key]
-        public int TimeSlotId { get; set; }
+        public int time_slot_id { get; set; }
 
         [Required]
-        public int StartTime { get; set; }
+        public int start_time { get; set; }
 
         [Required]
-        public int EndTime { get; set; }
+        public int end_time { get; set; }
 
         [Required]
         [MaxLength(20)]
-        public string PartOfDay { get; set; }
+        public string part_of_day { get; set; }
 
-        public ICollection<ReservationEF> Reservations { get; set; }
+        public ICollection<ReservationEF> reservation { get; set; }
     }
 
 }

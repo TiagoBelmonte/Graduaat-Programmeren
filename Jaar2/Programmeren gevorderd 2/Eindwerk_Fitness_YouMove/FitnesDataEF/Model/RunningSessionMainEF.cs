@@ -14,35 +14,35 @@ namespace FitnesDataEF.Model
         {
         }
 
-        public RunningSessionMainEF(int runningSessionId, DateTime date, int memberId, int duration, float avgSpeed, MemberEF member, ICollection<RunningSessionDetailEF> runningSessionDetails)
+        public RunningSessionMainEF(int runningSessionId, DateTime Date, int memberId, int Duration, float avgSpeed, MemberEF member, ICollection<RunningSessionDetailEF> RunningSessionDetails)
         {
-            RunningSessionId = runningSessionId;
-            Date = date;
-            MemberId = memberId;
-            Duration = duration;
-            AvgSpeed = avgSpeed;
-            Member = member;
-            RunningSessionDetails = runningSessionDetails;
+            runningSession_id = runningSessionId;
+            date = Date;
+            member_id = memberId;
+            duration = Duration;
+            avg_speed = avgSpeed;
+            members = member;
+            runningsessiondetail = RunningSessionDetails;
         }
 
         [Key]
-        public int RunningSessionId { get; set; }
+        public int runningSession_id { get; set; }
 
         [Required]
-        public DateTime Date { get; set; }
+        public DateTime date { get; set; }
 
         [Required]
-        public int MemberId { get; set; }
+        public int member_id { get; set; }
 
         [Required]
-        public int Duration { get; set; }
+        public int duration { get; set; }
 
-        public float AvgSpeed { get; set; }
+        public float avg_speed { get; set; }
 
-        [ForeignKey(nameof(MemberId))]
-        public MemberEF Member { get; set; }
+        [ForeignKey(nameof(member_id))]
+        public MemberEF members { get; set; }
 
-        public ICollection<RunningSessionDetailEF> RunningSessionDetails { get; set; }
+        public ICollection<RunningSessionDetailEF> runningsessiondetail { get; set; }
     }
 
 }

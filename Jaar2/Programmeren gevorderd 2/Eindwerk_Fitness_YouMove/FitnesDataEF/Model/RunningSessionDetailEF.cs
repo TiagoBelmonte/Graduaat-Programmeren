@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FitnesDataEF.Model
 {
@@ -14,28 +8,23 @@ namespace FitnesDataEF.Model
         {
         }
 
-        public RunningSessionDetailEF(int seqNr, int runningSessionId, int intervalTime, float intervalSpeed, RunningSessionMainEF runningSession)
+        public RunningSessionDetailEF(int seqNr, int runningSessionId, int intervalTime, float intervalSpeed)
         {
-            SeqNr = seqNr;
-            RunningSessionId = runningSessionId;
-            IntervalTime = intervalTime;
-            IntervalSpeed = intervalSpeed;
-            RunningSession = runningSession;
+            seq_nr = seqNr;
+            runningsession_id = runningSessionId;
+            interval_time = intervalTime;
+            interval_speed = intervalSpeed;
         }
 
-        [Key]
-        public int SeqNr { get; set; }
+        public int seq_nr { get; set; }
 
-        [Required]
-        public int RunningSessionId { get; set; }
+        public int runningsession_id { get; set; }
 
-        [Required]
-        public int IntervalTime { get; set; }
+        public int interval_time { get; set; }
 
-        public float IntervalSpeed { get; set; }
+        public float interval_speed { get; set; }
 
-        [ForeignKey(nameof(RunningSessionId))]
-        public RunningSessionMainEF RunningSession { get; set; }
+        [ForeignKey(nameof(runningsession_id))]
+        public RunningSessionMainEF runningsession { get; set; }
     }
-
 }

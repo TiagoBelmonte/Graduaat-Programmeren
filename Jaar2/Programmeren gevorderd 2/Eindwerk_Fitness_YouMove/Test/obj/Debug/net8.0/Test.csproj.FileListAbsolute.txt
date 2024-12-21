@@ -1,0 +1,6 @@
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\Test\obj\Debug\net8.0\Test.csproj.AssemblyReference.cache
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\Test\obj\Debug\net8.0\Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\Test\obj\Debug\net8.0\Test.AssemblyInfoInputs.cache
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\Test\obj\Debug\net8.0\Test.AssemblyInfo.cs
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\Test\obj\Debug\net8.0\Test.csproj.CoreCompileInputs.cache
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\Test\obj\Debug\net8.0\Test.sourcelink.json

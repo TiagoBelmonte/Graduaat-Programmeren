@@ -11,13 +11,13 @@ namespace FitnesDataEF.Model
     public class EquipmentEF
     {
         [Key]
-        public int EquipmentId { get; set; }
+        public int equipment_id { get; set; }
 
         [Required]
         [MaxLength(45)]
-        public string DeviceType { get; set; }
+        public string device_type { get; set; }
 
-        public ICollection<ReservationEF> Reservations { get; set; }
+        public ICollection<ReservationEF> reservation { get; set; }
     }
 
 }

@@ -11,7 +11,7 @@ namespace FitnessBL.Model
         private string doelpubliek;
         private DateTime startdatum;
         private int maxLeden;
-        private List<Klant> klanten;
+        private List<Member> klanten;
 
         // Eigenschappen
         public int? Id { get; } // Wordt door de database gegenereerd
@@ -68,7 +68,7 @@ namespace FitnessBL.Model
             }
         }
 
-        public List<Klant> Klanten
+        public List<Member> Klanten
         {
             get { return klanten; }
             set
@@ -88,20 +88,20 @@ namespace FitnessBL.Model
             Doelpubliek = doelpubliek;
             Startdatum = startdatum;
             MaxLeden = maxLeden;
-            klanten = new List<Klant>(); // Initialiseren van de klantenlijst
+            klanten = new List<Member>(); // Initialiseren van de klantenlijst
         }
 
-        public Programma(string naam, string doelpubliek, DateTime startdatum, int maxLeden, List<Klant> klanten)
+        public Programma(string naam, string doelpubliek, DateTime startdatum, int maxLeden, List<Member> klanten)
         {
             Naam = naam;
             Doelpubliek = doelpubliek;
             Startdatum = startdatum;
             MaxLeden = maxLeden;
-            Klanten = klanten ?? new List<Klant>(); // Zorgt ervoor dat Klanten nooit null is
+            Klanten = klanten ?? new List<Member>(); // Zorgt ervoor dat Klanten nooit null is
         }
 
         // Methoden
-        public void VoegKlantToe(Klant klant)
+        public void VoegKlantToe(Member klant)
         {
             if (klanten.Count >= maxLeden)
             {
@@ -116,7 +116,7 @@ namespace FitnessBL.Model
             klanten.Add(klant);
         }
 
-        public void VerwijderKlant(Klant klant)
+        public void VerwijderKlant(Member klant)
         {
             if (!klanten.Contains(klant))
             {

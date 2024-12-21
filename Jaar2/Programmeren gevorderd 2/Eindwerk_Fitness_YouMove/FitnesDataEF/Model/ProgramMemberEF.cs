@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FitnesDataEF.Model
 {
@@ -14,30 +9,21 @@ namespace FitnesDataEF.Model
         {
         }
 
-        public ProgramMemberEF(int programMemberId, string programCode, int memberId, ProgramEF program, MemberEF member)
+        public ProgramMemberEF(string ProgramCode, int memberId)
         {
-            ProgramMemberId = programMemberId;
-            ProgramCode = programCode;
-            MemberId = memberId;
-            Program = program;
-            Member = member;
+            programCode = ProgramCode;
+            member_id = memberId;
         }
 
-        [Key]
-        public int ProgramMemberId { get; set; }
-
-        [Required]
         [MaxLength(10)]
-        public string ProgramCode { get; set; }
+        public string programCode { get; set; }
 
-        [Required]
-        public int MemberId { get; set; }
+        public int member_id { get; set; }
 
-        [ForeignKey(nameof(ProgramCode))]
-        public ProgramEF Program { get; set; }
+        [ForeignKey(nameof(programCode))]
+        public ProgramEF program { get; set; }
 
-        [ForeignKey(nameof(MemberId))]
-        public MemberEF Member { get; set; }
+        [ForeignKey(nameof(member_id))]
+        public MemberEF members { get; set; }
     }
-
 }

@@ -1,0 +1,12 @@
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDataLayerProvider\bin\Debug\net8.0\FitnessDataLayerProvider.deps.json
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDataLayerProvider\bin\Debug\net8.0\FitnessDataLayerProvider.dll
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDataLayerProvider\bin\Debug\net8.0\FitnessDataLayerProvider.pdb
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDataLayerProvider\obj\Debug\net8.0\FitnessDataLayerProvider.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDataLayerProvider\obj\Debug\net8.0\FitnessDataLayerProvider.AssemblyInfoInputs.cache
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDataLayerProvider\obj\Debug\net8.0\FitnessDataLayerProvider.AssemblyInfo.cs
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDataLayerProvider\obj\Debug\net8.0\FitnessDataLayerProvider.csproj.CoreCompileInputs.cache
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDataLayerProvider\obj\Debug\net8.0\FitnessDataLayerProvider.sourcelink.json
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDataLayerProvider\obj\Debug\net8.0\FitnessDataLayerProvider.dll
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDataLayerProvider\obj\Debug\net8.0\refint\FitnessDataLayerProvider.dll
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDataLayerProvider\obj\Debug\net8.0\FitnessDataLayerProvider.pdb
+C:\Users\tbelm\Documenten\Graduaat-Programmeren\Jaar2\Programmeren gevorderd 2\Eindwerk_Fitness_YouMove\FitnessDataLayerProvider\obj\Debug\net8.0\ref\FitnessDataLayerProvider.dll

@@ -15,41 +15,41 @@ namespace FitnesDataEF.Model
         {
         }
 
-        public ReservationEF(int reservationId, int equipmentId, int timeSlotId, DateTime date, int memberId, EquipmentEF equipment, TimeSlotEF timeSlot, MemberEF member)
+        public ReservationEF(int reservationId, int equipmentId, int timeSlotId, DateTime Date, int memberId, EquipmentEF Equipment, TimeSlotEF TimeSlot, MemberEF Member)
         {
-            ReservationId = reservationId;
-            EquipmentId = equipmentId;
-            TimeSlotId = timeSlotId;
-            Date = date;
-            MemberId = memberId;
-            Equipment = equipment;
-            TimeSlot = timeSlot;
-            Member = member;
+            reservation_id = reservationId;
+            equipment_id = equipmentId;
+            time_slot_id = timeSlotId;
+            date = Date;
+            member_id = memberId;
+            equipment = Equipment;
+            timeslot = TimeSlot;
+            members = Member;
         }
 
         [Key]
-        public int ReservationId { get; set; }
+        public int reservation_id { get; set; }
 
         [Required]
-        public int EquipmentId { get; set; }
+        public int equipment_id { get; set; }
 
         [Required]
-        public int TimeSlotId { get; set; }
+        public int time_slot_id { get; set; }
 
         [Required]
-        public DateTime Date { get; set; }
+        public DateTime date { get; set; }
 
         [Required]
-        public int MemberId { get; set; }
+        public int member_id { get; set; }
 
-        [ForeignKey(nameof(EquipmentId))]
-        public EquipmentEF Equipment { get; set; }
+        [ForeignKey(nameof(equipment_id))]
+        public EquipmentEF equipment { get; set; }
 
-        [ForeignKey(nameof(TimeSlotId))]
-        public TimeSlotEF TimeSlot { get; set; }
+        [ForeignKey(nameof(time_slot_id))]
+        public TimeSlotEF timeslot { get; set; }
 
-        [ForeignKey(nameof(MemberId))]
-        public MemberEF Member { get; set; }
+        [ForeignKey(nameof(member_id))]
+        public MemberEF members { get; set; }
     }
 
 }
