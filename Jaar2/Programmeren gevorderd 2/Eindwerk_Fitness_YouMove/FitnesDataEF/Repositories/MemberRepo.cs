@@ -20,18 +20,13 @@ namespace FitnesDataEF.Repositories
             this.ctx = new FitnessContext(connectionString);
         }
 
-        private void SaveAndClear()
-        { 
-            ctx.SaveChanges();
-            ctx.ChangeTracker.Clear();
-        }
 
         public Member GetMember(int id)
         {
-           
-            
-                return MapMember.MapToDomain((Model.MemberEF)ctx.members.Where(x => x.member_id == id).AsNoTracking().FirstOrDefault());
-            
+
+
+            return MapMember.MapToDomain(ctx.members.Where(x => x.member_id == id).AsNoTracking().FirstOrDefault());
+
         }
     }
 }

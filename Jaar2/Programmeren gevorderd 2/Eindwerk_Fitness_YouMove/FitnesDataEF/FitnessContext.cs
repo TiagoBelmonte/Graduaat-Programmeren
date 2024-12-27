@@ -23,7 +23,6 @@ namespace FitnesDataEF
 
         public FitnessContext(string connectionString)
         {
-            //this.connectionString = connectionString;
             this.connectionString = connectionString;
         }
 

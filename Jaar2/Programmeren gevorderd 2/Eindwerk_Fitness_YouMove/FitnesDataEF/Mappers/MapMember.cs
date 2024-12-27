@@ -1,4 +1,5 @@
 ﻿using FitnesDataEF.Model;
+using FitnessBL.Enum;
 using FitnessBL.Model;
 using System;
 using System.Collections.Generic;
@@ -12,15 +13,33 @@ namespace FitnesDataEF.Mappers
     {
         public static Member MapToDomain(MemberEF db)
         {
-			try
-			{
-				return new Member(db.first_name, db.last_name, db.email, db.address, db.birthday);
-			}
-			catch (Exception)
-			{
+            try
+            {
+                // Convert string to enum
+                KlantType klantType = Enum.Parse<KlantType>(db.membertype, true);
 
-				throw;
-			}
+                // Convert comma-separated string to list or return empty list if NULL
+                List<string> interests = string.IsNullOrEmpty(db.interests)
+                    ? new List<string>()
+                    : db.interests.Split(',').ToList();
+
+                return new Member(
+                    db.member_id,
+                    db.first_name,
+                    db.last_name,
+                    db.email,
+                    db.address,
+                    db.birthday,
+                    klantType,
+                    interests
+                );
+            }
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException("Error mapping MemberEF to Member domain model.", ex);
+            }
+
         }
+
     }
 }

@@ -250,6 +250,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnesDataEF\\FitnesDataEF.csproj": {
+                "projectPath": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnesDataEF\\FitnesDataEF.csproj"
+              },
               "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessBL\\FitnessBL.csproj": {
                 "projectPath": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessBL\\FitnessBL.csproj"
               }
