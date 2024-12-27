@@ -29,5 +29,29 @@ namespace FitnessBL.Services
                 throw new Exception("getMember");
             }
         }
+
+        public Member AddMember(Member member)
+        {
+            try
+            {
+                return repo.AddMember(member);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("AddMember");
+            }
+        }
+
+        public void UpdateMember(Member member)
+        {
+            try
+            {
+                repo.UpdateMember(member);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("UpdateMember");
+            }
+        }
     }
 }

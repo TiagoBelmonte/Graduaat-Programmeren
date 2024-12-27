@@ -26,6 +26,8 @@ namespace FitnessREST
 
             builder.Services.AddSingleton<IMemberRepo>(r => new MemberRepo(connectionString));
             builder.Services.AddSingleton<MemberService>();
+            builder.Services.AddSingleton<IEquipmentRepo>(r => new EquipmentRepo(connectionString));
+            builder.Services.AddSingleton<EquipmentService>();
             var app = builder.Build();
 
             app.UseCors("AllowSpecificOrigin");

@@ -9,37 +9,16 @@ namespace FitnessBL.Model
 {
     public class Equipment
     {
-        
-        // Dit Id wordt waarschijnlijk door de database gegenereerd en is read-only
-        public int? equipment_id { get; }
 
-        // Private veld voor de beschrijving
-        private string device_type;
+        public int? equipment_id { get; set; }
+        public string device_type { get; set; }
+        public bool maintenance { get; set; }
 
-        // Constructor
-        public Equipment(string device_type)
-        {
-            Device_type = device_type; // De Beschrijving wordt gevalideerd door de setter
-        }
-        public Equipment(int? id, string device_type)
+        public Equipment(int? id, string device, bool main)
         {
             equipment_id = id;
-            Device_type = device_type; // De Beschrijving wordt gevalideerd door de setter
-        }
-
-        // Eigenschap voor de Beschrijving
-        public string Device_type
-        {
-            get { return device_type; }
-            set
-            {
-                // Valideer of de Beschrijving niet leeg of null is
-                if (string.IsNullOrWhiteSpace(value))
-                {
-                    throw new DomeinExceptions("device_type mag niet leeg zijn.");
-                }
-                device_type = value; // Toewijzing aan het private veld
-            }
+            device_type = device;
+            maintenance = main;
         }
     }
 }

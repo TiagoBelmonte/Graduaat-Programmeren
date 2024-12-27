@@ -684,6 +684,7 @@
       },
       "FitnessREST/1.0.0": {
         "dependencies": {
+          "FitnesDataEF": "1.0.0",
           "FitnessBL": "1.0.0",
           "Swashbuckle.AspNetCore": "6.4.0"
         },

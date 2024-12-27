@@ -41,5 +41,36 @@ namespace FitnesDataEF.Mappers
 
         }
 
+        public static MemberEF MapToDB(Member m)
+        {
+            try
+            {
+                // Convert enum to string
+                string klantType = m.membertype.ToString();
+                // Convert list to comma-separated string
+                string interests = m.interests == null
+                    ? null
+                    : string.Join(",", m.interests);
+                return new MemberEF(
+                    m.member_id,
+                    m.first_name,
+                    m.last_name,
+                    m.email,
+                    m.address,
+                    m.birthday,
+                    interests,
+                    klantType,
+                    null,
+                    null,
+                    null,
+                    null
+                );
+            }
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException("Error mapping Member m model to MemberEF.", ex);
+            }
+        }
+
     }
 }

@@ -14,7 +14,7 @@ namespace FitnesDataEF.Model
         {
         }
 
-        public MemberEF(int memberId, string firstName, string lastName, string Email, string Address, DateTime Birthday, string Interests, string memberType, ICollection<ReservationEF> reservations, ICollection<RunningSessionMainEF> runningSessions, ICollection<CyclingSessionEF> cyclingSessions, ICollection<ProgramMemberEF> programMembers)
+        public MemberEF(int? memberId, string firstName, string lastName, string Email, string Address, DateTime Birthday, string Interests, string memberType, ICollection<ReservationEF> reservations, ICollection<RunningSessionMainEF> runningSessions, ICollection<CyclingSessionEF> cyclingSessions, ICollection<ProgramMemberEF> programMembers)
         {
             member_id = memberId;
             first_name = firstName;
@@ -31,7 +31,7 @@ namespace FitnesDataEF.Model
         }
 
         [Key]
-        public int member_id { get; set; }
+        public int? member_id { get; set; }
 
         [Required]
         [MaxLength(45)]

@@ -11,7 +11,7 @@ namespace FitnessBL.Model
 {
     public class Member
     {
-        public int member_id { get; set; }
+        public int? member_id { get; set; }
         public string first_name { get; set; }
         public string last_name { get; set; }
         public string email { get; set; }
@@ -20,7 +20,7 @@ namespace FitnessBL.Model
         public KlantType membertype { get; set; } // Gebruik het KlantType enum
         public List<string> interests { get; set; }
 
-        public Member(int member_id, string first_name, string last_name, string email, string address, DateTime birthday, KlantType membertype, List<string> interests)
+        public Member(int? member_id, string first_name, string last_name, string email, string address, DateTime birthday, KlantType membertype, List<string> interests)
         {
             this.member_id = member_id;
             this.first_name = first_name;
@@ -31,10 +31,6 @@ namespace FitnessBL.Model
             this.membertype = membertype; // Gebruik KlantType
             this.interests = interests;
         }
-
-
-        // Property to serialize enum as string
-        public string memberType => membertype.ToString();
     }
 
 

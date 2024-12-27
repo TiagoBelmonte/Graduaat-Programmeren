@@ -46,5 +46,81 @@ namespace FitnessREST.Controllers
                 return StatusCode(500, ex.Message);
             }
         }
+
+        [HttpPost("/GebruikerToevoegen")]
+        public ActionResult<Member> AddMember([FromBody] MemberDTO memberDTO)
+        {
+            try
+            {
+                // Assuming the member_id is auto-generated, you can pass null or default value
+                Member member = new Member(
+                    null, // or default(int?)
+                    memberDTO.first_name,
+                    memberDTO.last_name,
+                    memberDTO.email,
+                    memberDTO.address,
+                    memberDTO.birthday,
+                    memberDTO.memberType,
+                    memberDTO.interests
+                );
+
+                member = memberService.AddMember(member);
+                return Ok(member);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+        }
+
+        [HttpPatch("/GebruikergegevensUpdaten/{id}")]
+        public IActionResult updateMember(
+    int id,
+    [FromQuery] string first_name = null,
+    [FromQuery] string last_name = null,
+    [FromQuery] string email = null,
+    [FromQuery] string address = null,
+    [FromQuery] DateTime? birthday = null,
+    [FromQuery] string memberType = null,
+    [FromQuery] List<string> interests = null
+)
+        {
+            try
+            {
+                // Haal de gebruiker op uit de database
+                Member member = memberService.GetMember(id);
+                if (member == null)
+                {
+                    return NotFound("Gebruiker niet gevonden");
+                }
+
+                // Pas alleen de velden aan die zijn meegegeven (niet null)
+                if (!string.IsNullOrEmpty(first_name))
+                    member.first_name = first_name;
+                if (!string.IsNullOrEmpty(last_name))
+                    member.last_name = last_name;
+                if (!string.IsNullOrEmpty(email))
+                    member.email = email;
+                if (!string.IsNullOrEmpty(address))
+                    member.address = address;
+                if (birthday.HasValue)
+                    member.birthday = birthday.Value;
+                //if (!string.IsNullOrEmpty(memberType))
+                //    member.membertype = memberType;
+                if (interests != null)
+                    member.interests = interests;
+
+                // Update het record in de database
+                memberService.UpdateMember(member);
+
+                return NoContent(); // 204 No Content
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Er is een fout opgetreden: {ex.Message}");
+            }
+        }
+
+
     }
 }
