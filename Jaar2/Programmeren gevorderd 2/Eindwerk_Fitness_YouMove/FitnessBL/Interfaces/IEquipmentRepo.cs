@@ -10,6 +10,7 @@ namespace FitnessBL.Interfaces
     public interface IEquipmentRepo
     {
         Equipment addEquipment(Equipment equipment);
+        Equipment GetEquipment(int id);
         void updateEquipment(Equipment equipment);
     }
 }

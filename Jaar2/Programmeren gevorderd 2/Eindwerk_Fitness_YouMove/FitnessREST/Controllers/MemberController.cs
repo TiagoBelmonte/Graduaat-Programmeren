@@ -10,10 +10,12 @@ namespace FitnessREST.Controllers
     public class MemberController : ControllerBase
     {
         private readonly MemberService memberService;
+        private readonly ProgramMembersService programMembersService;
 
-        public MemberController(MemberService memberService)
+        public MemberController(MemberService memberService, ProgramMembersService programMembersService)
         {
             this.memberService = memberService;
+            this.programMembersService = programMembersService;
         }
 
         [HttpGet("/AlgemeneGegevensGebruikerOpzoekenViaId/{id}")]
@@ -75,15 +77,15 @@ namespace FitnessREST.Controllers
 
         [HttpPatch("/GebruikergegevensUpdaten/{id}")]
         public IActionResult updateMember(
-    int id,
-    [FromQuery] string first_name = null,
-    [FromQuery] string last_name = null,
-    [FromQuery] string email = null,
-    [FromQuery] string address = null,
-    [FromQuery] DateTime? birthday = null,
-    [FromQuery] string memberType = null,
-    [FromQuery] List<string> interests = null
-)
+            int id,
+            [FromQuery] string first_name = null,
+            [FromQuery] string last_name = null,
+            [FromQuery] string email = null,
+            [FromQuery] string address = null,
+            [FromQuery] DateTime? birthday = null,
+            [FromQuery] string memberType = null,
+            [FromQuery] List<string> interests = null
+            )
         {
             try
             {
@@ -118,6 +120,34 @@ namespace FitnessREST.Controllers
             catch (Exception ex)
             {
                 return StatusCode(500, $"Er is een fout opgetreden: {ex.Message}");
+            }
+        }
+
+        [HttpGet("/AlleProgrammasWaarvoorIngeschrevenOphalenViaMemberID/{memberId}")]
+        public ActionResult<List<ProgramMember>> GetProgramMembers(int memberId)
+        {
+            try
+            {
+                List<ProgramMember> programMembers = programMembersService.GetProgramMembersByMemberId(memberId);
+                if (programMembers == null)
+                {
+                    return NotFound("Gebruiker niet gevonden");
+                }
+
+                foreach (ProgramMember programMember in programMembers)
+                {
+                    ProgramMemberDTO DTO = new ProgramMemberDTO
+                    {
+                        programCode = programMember.ProgramCodeString,
+                        member = (int)programMember.MemberInt,
+                    };
+                }
+                return Ok(programMembers);
+            }
+            catch (Exception ex)
+            {
+
+                return StatusCode(500, ex.Message);
             }
         }
 

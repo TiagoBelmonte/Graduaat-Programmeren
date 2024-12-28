@@ -9,114 +9,43 @@ namespace FitnessBL.Model
 {
     public class Program
     {
-        // Velden
-        private string name;
-        private string target;
-        private DateTime startdate;
-        private int max_members;
-        private List<Member> members;
+        // Eigenschappen
+        public string programCode { get; set; }
+        public string name { get; set; }
+        public string target { get; set; }
+        public DateTime startDate { get; set; }
+        public int max_members { get; set; }
+        public List<Member> Members { get; set; }
 
-        public string? programCode { get; }
-
-        public string Name
+        // Constructor
+        public Program(string programCode, string name, string target, DateTime startDate, int maxMembers, List<Member> members)
         {
-            get { return name; }
-            set
-            {
-                if (string.IsNullOrWhiteSpace(value))
-                {
-                    throw new DomeinExceptions("name mag niet leeg zijn.");
-                }
-                name = value;
-            }
-        }
+            //if (string.IsNullOrWhiteSpace(name))
+            //{
+            //    throw new DomeinExceptions("Name mag niet leeg zijn.");
+            //}
 
-        public string Target
-        {
-            get { return target; }
-            set
-            {
-                if (string.IsNullOrWhiteSpace(value))
-                {
-                    throw new DomeinExceptions("target mag niet leeg zijn.");
-                }
-                target = value;
-            }
-        }
+            //if (string.IsNullOrWhiteSpace(target))
+            //{
+            //    throw new DomeinExceptions("Target mag niet leeg zijn.");
+            //}
 
-        public DateTime Startdate
-        {
-            get { return startdate; }
-            set
-            {
-                if (value < DateTime.Now)
-                {
-                    throw new DomeinExceptions("startdate mag niet in het verleden liggen.");
-                }
-                startdate = value;
-            }
-        }
+            //if (startDate < DateTime.Now)
+            //{
+            //    throw new DomeinExceptions("Startdate mag niet in het verleden liggen.");
+            //}
 
-        public int Max_members
-        {
-            get { return max_members; }
-            set
-            {
-                if (value <= 0)
-                {
-                    throw new DomeinExceptions("Max leden moet groter dan 0 zijn.");
-                }
-                max_members = value;
-            }
-        }
+            //if (maxMembers <= 0)
+            //{
+            //    throw new DomeinExceptions("MaxMembers moet groter dan 0 zijn.");
+            //}
 
-        public List<Member> Members
-        {
-            get { return members; }
-            set
-            {
-                if (value == null)
-                {
-                    throw new DomeinExceptions("De klantenlijst mag niet null zijn.");
-                }
-                members = value;
-            }
-        }
-
-        public Program(string code,string name, string target, DateTime startdate, int max_members, List<Member> members)
-        {
-            programCode = code;
-            Name = name;
-            Target = target;
-            Startdate = startdate;
-            Max_members = max_members;
-            Members = members ?? new List<Member>(); // Zorgt ervoor dat members nooit null is
-        }
-
-        // Methoden
-        public void VoegKlantToe(Member klant)
-        {
-            if (members.Count >= max_members)
-            {
-                throw new DomeinExceptions("Maximaal aantal leden is bereikt.");
-            }
-
-            if (members.Contains(klant))
-            {
-                throw new DomeinExceptions("De klant is al toegevoegd.");
-            }
-
-            members.Add(klant);
-        }
-
-        public void VerwijderKlant(Member klant)
-        {
-            if (!members.Contains(klant))
-            {
-                throw new DomeinExceptions("De klant is niet gevonden in de lijst.");
-            }
-
-            members.Remove(klant);
+            this.programCode = programCode;
+            this.name = name;
+            this.target = target;
+            this.startDate = startDate;
+            max_members = maxMembers;
+            Members = members ?? new List<Member>(); // Zorg ervoor dat Members nooit null is
         }
     }
 }

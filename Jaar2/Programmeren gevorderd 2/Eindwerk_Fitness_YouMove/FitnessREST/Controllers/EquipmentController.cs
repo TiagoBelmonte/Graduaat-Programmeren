@@ -24,13 +24,27 @@ namespace FitnessREST.Controllers
             try
             {
                 Equipment equipment = new Equipment(
-                    null, // or default(int?)
+                    default(int?),
                     equipmentDTO.device_type,
-                    equipmentDTO.maintenance
+                    false
                 );
 
                 equipment = equipmentService.AddEquipment(equipment);
                 return Ok(equipment);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+        }
+
+        [HttpPatch("/ToestelInOnderhoudPlaatsen/{id}")]
+        public ActionResult<Equipment> UpdateEquipment(int id)
+        {
+            try
+            {
+                equipmentService.updateEquipment(id);
+                return Ok("Toestel in onderhoud geplaatst");
             }
             catch (Exception ex)
             {

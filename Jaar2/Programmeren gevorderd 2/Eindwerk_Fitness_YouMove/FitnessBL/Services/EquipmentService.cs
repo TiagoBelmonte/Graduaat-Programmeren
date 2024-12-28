@@ -30,10 +30,12 @@ namespace FitnessBL.Services
             }
         }
 
-        public void updateEquipment(Equipment equipment)
+        public void updateEquipment(int id)
         {
             try
             {
+                Equipment equipment = repo.GetEquipment(id);
+                equipment.maintenance = true;
                 repo.updateEquipment(equipment);
             }
             catch (Exception ex)

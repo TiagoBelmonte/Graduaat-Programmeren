@@ -6,7 +6,7 @@ using System.Text.Json.Serialization;
 
 namespace FitnessREST
 {
-    public class Program
+    public class ProgramREST
     {
         public static void Main(string[] args)
         {
@@ -28,6 +28,13 @@ namespace FitnessREST
             builder.Services.AddSingleton<MemberService>();
             builder.Services.AddSingleton<IEquipmentRepo>(r => new EquipmentRepo(connectionString));
             builder.Services.AddSingleton<EquipmentService>();
+            builder.Services.AddSingleton<IProgramRepo>(r => new ProgramRepo(connectionString));
+            builder.Services.AddSingleton<ProgramService>();
+            builder.Services.AddSingleton<IReservationRepo>(r => new ReservationRepo(connectionString));
+            builder.Services.AddSingleton<ReservationService>();
+            builder.Services.AddSingleton<IProgramMembersRepo>( r => new ProgramMembersRepo(connectionString));
+            builder.Services.AddSingleton<ProgramMembersService>();
+
             var app = builder.Build();
 
             app.UseCors("AllowSpecificOrigin");

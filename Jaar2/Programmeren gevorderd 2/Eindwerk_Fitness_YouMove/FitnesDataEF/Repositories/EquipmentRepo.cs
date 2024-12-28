@@ -2,6 +2,7 @@
 using FitnesDataEF.Model;
 using FitnessBL.Interfaces;
 using FitnessBL.Model;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,6 +23,15 @@ namespace FitnesDataEF.Repositories
         {
             ctx.SaveChanges();
             ctx.ChangeTracker.Clear();
+        }
+
+
+        public Equipment GetEquipment(int id)
+        {
+
+
+            return MapEquipment.MapToDomain(ctx.equipment.Where(x => x.equipment_id == id).AsNoTracking().FirstOrDefault());
+
         }
 
         public Equipment addEquipment(Equipment equipment)
@@ -47,6 +57,7 @@ namespace FitnesDataEF.Repositories
             try
             {
                 ctx.equipment.Update(MapEquipment.mapToDB(equipment));
+                SaveAndClear();
             }
             catch (Exception)
             {

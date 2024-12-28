@@ -24,6 +24,6 @@ namespace FitnesDataEF.Model
         public ProgramEF program { get; set; }
 
         [ForeignKey(nameof(member_id))]
-        public MemberEF members { get; set; }
+        public MemberEF member { get; set; }
     }
 }

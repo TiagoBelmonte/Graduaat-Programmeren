@@ -27,6 +27,15 @@ namespace FitnesDataEF.Model
             members = Member;
         }
 
+        public ReservationEF(int reservationId, int equipmentId, int timeSlotId, DateTime Date, int memberId)
+        {
+            reservation_id = reservationId;
+            equipment_id = equipmentId;
+            time_slot_id = timeSlotId;
+            date = Date;
+            member_id = memberId;
+        }
+
         [Key]
         public int reservation_id { get; set; }
 
