@@ -72,7 +72,7 @@ namespace FitnesDataEF.Repositories
                 //        ctx.equipments.ToList(),
                 //        ctx.members.ToList()
                 //    )).ToList();
-                return null;
+                //return null;
             }
             catch (Exception ex)
             {
@@ -80,9 +80,37 @@ namespace FitnesDataEF.Repositories
             }
         }
 
-        public List<Reservation> GetReservationsByMember(int member_id)
+        public List<Reservation> GetReservationsByMember(int memberid)
         {
-            throw new NotImplementedException();
+            List<Reservation> reservations = new List<Reservation>();
+            try
+            {
+                List<ReservationEF> reservationEFs = ctx.reservation
+                    .Where(r => r.member_id == memberid)
+                    .ToList();
+
+                List<TimeSlotEF> timeSlotEFs = ctx.time_slot.ToList();
+                List<Time_slot> timeSlots = timeSlotEFs.Select(ts => new Time_slot
+                {
+                    time_slot_id = ts.time_slot_id,
+                    start_time = ts.start_time,
+                    end_time = ts.end_time,
+                    part_of_day = ts.part_of_day
+                }).ToList();
+
+                List<Equipment> equipments = ctx.equipment.ToList();
+                List<Member> members = ctx.members.ToList();
+
+                foreach (ReservationEF REF in reservationEFs)
+                {
+                    reservations.Add(MapReservation.MapToDomain(REF, timeSlots, equipments, members));
+                }
+                return reservations;
+            }
+            catch (Exception)
+            {
+                throw new Exception("ReservationRepo - GetReservationsByMemberID");
+            }
         }
 
         public void UpdateReservation(Reservation reservation)

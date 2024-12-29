@@ -11,11 +11,15 @@ namespace FitnessREST.Controllers
     {
         private readonly MemberService memberService;
         private readonly ProgramMembersService programMembersService;
+        private  readonly CyclingSessionService cyclingSessionService;
+        private readonly RunningSession_mainService runningSession_MainService;
 
-        public MemberController(MemberService memberService, ProgramMembersService programMembersService)
+        public MemberController(MemberService memberService, ProgramMembersService programMembersService, CyclingSessionService cyclingSessionService, RunningSession_mainService runningSession_MainService)
         {
             this.memberService = memberService;
             this.programMembersService = programMembersService;
+            this.cyclingSessionService = cyclingSessionService;
+            this.runningSession_MainService = runningSession_MainService;
         }
 
         [HttpGet("/AlgemeneGegevensGebruikerOpzoekenViaId/{id}")]
@@ -151,6 +155,82 @@ namespace FitnessREST.Controllers
             }
         }
 
+        [HttpGet("/CyclingSessionVanGebruikerOpzoekenViaId/{id}")]
+        public ActionResult<List<Cyclingsession>> GetCyclingSession(int id)
+        {
+            try
+            {
+                List<Cyclingsession> cyclingSessions = cyclingSessionService.GetCyclingSessions(id);
+                if (cyclingSessions == null)
+                {
+                    return NotFound("Gebruiker niet gevonden");
+                }
+
+                foreach (Cyclingsession cs in cyclingSessions)
+                {
+                    CyclingSessionDTO DTO = new CyclingSessionDTO
+                    {
+                        cyclingsession_id = cs.cyclingsession_id,
+                        date = cs.date,
+                        duration = cs.duration,
+                        avg_watt = cs.avg_watt,
+                        max_watt = cs.max_watt,
+                        avg_cadence = cs.avg_cadence,
+                        max_cadence = cs.max_cadence,
+                        trainingtype = cs.trainingtype,
+                        comment = cs.comment,
+                        memberID = cs.memberID
+                    };
+                }
+
+                return Ok(cyclingSessions);
+            }
+            catch (Exception ex)
+            {
+
+                return StatusCode(500, ex.Message);
+            }
+
+
+
+        }
+
+        [HttpGet("/RunningSessionVanGebruikerOpzoekenViaId/{id}")]
+        public ActionResult<List<Runningsession_main>> GetRunningSession(int id)
+        {
+            try
+            {
+                List<Runningsession_main> runningSessions = runningSession_MainService.GetRunningSession_mainByMemberId(id);
+                List<RunningSession_mainDTO> DTOs = new List<RunningSession_mainDTO>();
+                if (runningSessions == null)
+                {
+                    return NotFound("Gebruiker niet gevonden");
+                }
+
+                foreach (Runningsession_main rs in runningSessions)
+                {
+                    RunningSession_mainDTO DTO = new RunningSession_mainDTO
+                    {
+                        runningSession_id = rs.runningSession_id,
+                        date = rs.date,
+                        duration = rs.duration,
+                        avg_speed = rs.avg_speed,
+                        member_id = rs.member_id
+                    };
+                    DTOs.Add(DTO);
+                }
+
+                return Ok(DTOs);
+            }
+            catch (Exception ex)
+            {
+
+                return StatusCode(500, ex.Message);
+            }
+
+
+
+        }
 
     }
 }

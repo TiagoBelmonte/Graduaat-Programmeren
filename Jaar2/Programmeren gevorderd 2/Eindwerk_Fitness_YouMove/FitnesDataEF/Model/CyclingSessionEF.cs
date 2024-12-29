@@ -5,6 +5,8 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using FitnessBL.Enum;
+using FitnessBL.Model;
 
 namespace FitnesDataEF.Model
 {
@@ -14,7 +16,7 @@ namespace FitnesDataEF.Model
         {
         }
 
-        public CyclingSessionEF(int cyclingSessionId, DateTime Date, int Duration, int avgWatt, int maxWatt, int avgCadence, int maxCadence, string trainingType, string Comment, int memberId, MemberEF member)
+        public CyclingSessionEF(int cyclingSessionId, DateTime Date, int Duration, int avgWatt, int maxWatt, int avgCadence, int maxCadence, Trainingtype trainingType, string Comment, int memberId, MemberEF member)
         {
             cyclingSession_id = cyclingSessionId;
             date = Date;
@@ -23,8 +25,8 @@ namespace FitnesDataEF.Model
             max_watt = maxWatt;
             avg_cadence = avgCadence;
             max_cadence = maxCadence;
-            trainingtype = trainingType;
-            comment = comment;
+            trainingtype = trainingType.ToString(); // Convert enum to string
+            comment = Comment;
             member_id = memberId;
             members = member;
         }

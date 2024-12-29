@@ -34,6 +34,12 @@ namespace FitnessREST
             builder.Services.AddSingleton<ReservationService>();
             builder.Services.AddSingleton<IProgramMembersRepo>( r => new ProgramMembersRepo(connectionString));
             builder.Services.AddSingleton<ProgramMembersService>();
+            builder.Services.AddSingleton<ICyclingSession>(r => new CyclingSessionRepo(connectionString));
+            builder.Services.AddSingleton<CyclingSessionService>();
+            builder.Services.AddSingleton<IRunningSession_mainRepo>(r => new Runningsession_mainRepo(connectionString));
+            builder.Services.AddSingleton<RunningSession_mainService>();
+            builder.Services.AddSingleton<IRunningSession_detailRepo>(r => new RunningSession_detailRepo(connectionString));
+            builder.Services.AddSingleton<RunningSession_detailService>();
 
             var app = builder.Build();
 

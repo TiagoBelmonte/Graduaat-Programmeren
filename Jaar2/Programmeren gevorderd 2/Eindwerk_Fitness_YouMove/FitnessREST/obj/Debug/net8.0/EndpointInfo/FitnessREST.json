@@ -306,6 +306,104 @@
         }
       }
     },
+    "/CyclingSessionVanGebruikerOpzoekenViaId/{id}": {
+      "get": {
+        "tags": [
+          "Member"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Cyclingsession"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Cyclingsession"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Cyclingsession"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RunningSessionVanGebruikerOpzoekenViaId/{id}": {
+      "get": {
+        "tags": [
+          "Member"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Runningsession_main"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Runningsession_main"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Runningsession_main"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/ProgrammaToevoegen": {
       "post": {
         "tags": [
@@ -438,10 +536,121 @@
           }
         }
       }
+    },
+    "/CyclingSessionOpvragenviaID/{id}": {
+      "get": {
+        "tags": [
+          "TrainningSession"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Cyclingsession"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Cyclingsession"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Cyclingsession"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RunningSessionOpvragenMetDetails/{id}": {
+      "get": {
+        "tags": [
+          "TrainningSession"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
     }
   },
   "components": {
     "schemas": {
+      "Cyclingsession": {
+        "type": "object",
+        "properties": {
+          "cyclingsession_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "duration": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "avg_watt": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "max_watt": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "avg_cadence": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "max_cadence": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "trainingtype": {
+            "$ref": "#/components/schemas/Trainingtype"
+          },
+          "comment": {
+            "type": "string",
+            "nullable": true
+          },
+          "member": {
+            "$ref": "#/components/schemas/Member"
+          },
+          "memberID": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
       "Equipment": {
         "type": "object",
         "properties": {
@@ -657,6 +866,45 @@
       "ProgramREST": {
         "type": "object",
         "additionalProperties": false
+      },
+      "Runningsession_main": {
+        "type": "object",
+        "properties": {
+          "runningSession_id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "member": {
+            "$ref": "#/components/schemas/Member"
+          },
+          "member_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "duration": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "avg_speed": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Trainingtype": {
+        "enum": [
+          "fun",
+          "endurance",
+          "interval",
+          "recovery"
+        ],
+        "type": "string"
       }
     }
   }

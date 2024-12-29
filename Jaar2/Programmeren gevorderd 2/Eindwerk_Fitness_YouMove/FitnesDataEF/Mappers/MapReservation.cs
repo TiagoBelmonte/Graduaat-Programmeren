@@ -11,10 +11,7 @@ namespace FitnesDataEF.Mappers
     public class MapReservation
     {
         public static Reservation MapToDomain(
-            ReservationEF db,
-            List<Time_slot> timeSlots,
-            List<Equipment> equipments,
-            List<Member> members
+            ReservationEF db
             )
         {
             try

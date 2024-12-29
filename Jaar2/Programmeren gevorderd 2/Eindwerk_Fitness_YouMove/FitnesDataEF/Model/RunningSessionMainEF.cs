@@ -14,7 +14,7 @@ namespace FitnesDataEF.Model
         {
         }
 
-        public RunningSessionMainEF(int runningSessionId, DateTime Date, int memberId, int Duration, float avgSpeed, MemberEF member, ICollection<RunningSessionDetailEF> RunningSessionDetails)
+        public RunningSessionMainEF(int runningSessionId, DateTime Date, int memberId, int Duration, int avgSpeed, MemberEF member, ICollection<RunningSessionDetailEF> RunningSessionDetails)
         {
             runningSession_id = runningSessionId;
             date = Date;
@@ -37,7 +37,7 @@ namespace FitnesDataEF.Model
         [Required]
         public int duration { get; set; }
 
-        public float avg_speed { get; set; }
+        public int avg_speed { get; set; }
 
         [ForeignKey(nameof(member_id))]
         public MemberEF members { get; set; }
