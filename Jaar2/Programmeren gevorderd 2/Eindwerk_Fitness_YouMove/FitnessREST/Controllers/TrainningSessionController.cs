@@ -42,7 +42,7 @@ namespace FitnessREST.Controllers
                     max_cadence = cyclingsession.max_cadence,
                     trainingtype = cyclingsession.trainingtype,
                     comment = cyclingsession.comment,
-                    memberID = cyclingsession.memberID
+                    member = cyclingsession.member
 
                 };
                 return Ok(DTO);

@@ -18,7 +18,7 @@ namespace FitnesDataEF.Mappers
                 // Convert db.trainingtype from string to Trainingtype enum
                 Trainingtype trainingTypeEnum = Enum.Parse<Trainingtype>(db.trainingtype);
 
-                return new Cyclingsession(db.cyclingSession_id, db.date, db.duration, db.avg_watt, db.max_watt, db.avg_cadence, db.max_cadence, trainingTypeEnum, db.comment, db.member_id);
+                return new Cyclingsession(db.cyclingSession_id, db.date, db.duration, db.avg_watt, db.max_watt, db.avg_cadence, db.max_cadence, trainingTypeEnum, db.comment, MapMember.MapToDomain(db.members));
             }
             catch (Exception)
             {

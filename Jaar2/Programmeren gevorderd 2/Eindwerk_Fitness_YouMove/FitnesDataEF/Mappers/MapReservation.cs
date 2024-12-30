@@ -22,28 +22,20 @@ namespace FitnesDataEF.Mappers
                 // Controleer of de time_slot_id en equipment_id in de database niet null zijn
                 if (db.time_slot_id != null && db.equipment_id != null)
                 {
-                    // Zoek de bijbehorende Time_slot en Equipment
-                    Time_slot timeSlot = timeSlots.FirstOrDefault(ts => ts.time_slot_id == db.time_slot_id);
-                    Equipment equipment = equipments.FirstOrDefault(eq => eq.equipment_id == db.equipment_id);
+                    
 
-                    if (timeSlot != null && equipment != null)
+                    if (db.timeslot != null && db.equipment != null)
                     {
-                        timeSlotEquipment.Add(timeSlot, equipment);
+                        timeSlotEquipment.Add(MapTimeSlot.MapToDomain(db.timeslot),MapEquipment.MapToDomain(db.equipment));
                     }
                 }
 
-                // Zoek de bijbehorende Member op basis van member_id
-                Member member = members.FirstOrDefault(m => m.member_id == db.member_id);
-                if (member == null)
-                {
-                    throw new Exception($"Member met ID {db.member_id} niet gevonden.");
-                }
 
                 // Maak een nieuwe Reservation met de gemapte waarden
                 return new Reservation(
                     db.reservation_id,
                     timeSlotEquipment,
-                    member,
+                    MapMember.MapToDomain(db.members),
                     db.date
                 );
             }

@@ -1,8 +1,10 @@
-﻿namespace FitnessREST.DTO
+﻿using FitnessBL.Model;
+
+namespace FitnessREST.DTO
 {
     public class ProgramMemberDTO
     {
-        public string programCode { get; set; }
-        public int member { get; set; }
+        public Program programCode { get; set; }
+        public Member member { get; set; }
     }
 }

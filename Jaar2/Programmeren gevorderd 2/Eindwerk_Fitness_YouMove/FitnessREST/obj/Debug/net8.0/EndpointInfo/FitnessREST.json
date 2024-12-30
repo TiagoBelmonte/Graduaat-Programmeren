@@ -257,6 +257,55 @@
         }
       }
     },
+    "/AlleGemaakteReservatiesOphalenViaMemberID/{memberId}": {
+      "get": {
+        "tags": [
+          "Member"
+        ],
+        "parameters": [
+          {
+            "name": "memberId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Reservation"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Reservation"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Reservation"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/AlleProgrammasWaarvoorIngeschrevenOphalenViaMemberID/{memberId}": {
       "get": {
         "tags": [
@@ -643,10 +692,6 @@
           },
           "member": {
             "$ref": "#/components/schemas/Member"
-          },
-          "memberID": {
-            "type": "integer",
-            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -855,16 +900,37 @@
           "programCodeString": {
             "type": "string",
             "nullable": true
-          },
-          "memberInt": {
-            "type": "integer",
-            "format": "int32"
           }
         },
         "additionalProperties": false
       },
       "ProgramREST": {
         "type": "object",
+        "additionalProperties": false
+      },
+      "Reservation": {
+        "type": "object",
+        "properties": {
+          "reservationId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "member": {
+            "$ref": "#/components/schemas/Member"
+          },
+          "date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "timeSlotEquipment": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/Equipment"
+            },
+            "nullable": true
+          }
+        },
         "additionalProperties": false
       },
       "Runningsession_main": {

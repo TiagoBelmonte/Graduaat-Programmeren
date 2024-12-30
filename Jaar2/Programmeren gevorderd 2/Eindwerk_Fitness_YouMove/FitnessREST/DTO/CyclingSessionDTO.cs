@@ -14,7 +14,6 @@ namespace FitnessREST.DTO
         public int max_cadence { get; set; }
         public Trainingtype trainingtype { get; set; } // Enum in plaats van string
         public string? comment { get; set; }
-        //public Member member { get; set; }
-        public int memberID { get; set; }
+        public Member member { get; set; }
     }
 }

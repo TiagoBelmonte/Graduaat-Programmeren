@@ -1,11 +1,25 @@
-﻿namespace FitnessREST.DTO
+﻿using FitnessBL.Model;
+using System.Text.Json.Serialization;
+
+namespace FitnessREST.DTO
 {
     public class ReservationDTO
     {
-        public int reservation_id { get; set; }
-        public int equipment_id { get; set; }
-        public int time_slot_id { get; set; }
-        public DateTime date { get; set; }
-        public int member_id { get; set; }
+        public int? ReservationId { get; set; }
+        public Member Member { get; set; }
+        public DateTime Date { get; set; }
+        // Originele dictionary
+        [JsonIgnore] // Verberg dit veld bij serialisatie
+        public Dictionary<Time_slot, Equipment> TimeSlotEquipment { get; set; }
+
+        // JSON-vriendelijke representatie
+        public Dictionary<string, Equipment> TimeSlotEquipmentFormatted
+        {
+            get
+            {
+                return TimeSlotEquipment?
+                    .ToDictionary(kvp => kvp.Key.ToString(), kvp => kvp.Value);
+            }
+        }
     }
 }

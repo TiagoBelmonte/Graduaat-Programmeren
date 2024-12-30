@@ -19,7 +19,6 @@ namespace FitnessBL.Model
         public Trainingtype trainingtype { get; set; } // Enum in plaats van string
         public string? comment { get; set; }
         public Member member { get; set; }
-        public int memberID { get; set; }
 
         public Cyclingsession(
             int id,
@@ -43,30 +42,6 @@ namespace FitnessBL.Model
             this.trainingtype = trainingtype;
             this.comment = comment;
             this.member = member;
-        }
-
-        public Cyclingsession(
-            int id,
-            DateTime date,
-            int duration,
-            int avg_watt,
-            int max_watt,
-            int avg_cadence,
-            int max_cadence,
-            Trainingtype trainingtype, // Parameter aangepast naar Trainingtype
-            string? comment,
-            int memberid)
-        {
-            cyclingsession_id = id;
-            this.date = date;
-            this.duration = duration;
-            this.avg_watt = avg_watt;
-            this.max_watt = max_watt; // Fix voor dubbele toewijzing
-            this.avg_cadence = avg_cadence;
-            this.max_cadence = max_cadence;
-            this.trainingtype = trainingtype;
-            this.comment = comment;
-            memberid = memberID;
         }
     }
 }

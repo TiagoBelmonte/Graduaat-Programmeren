@@ -12,17 +12,11 @@ namespace FitnessBL.Model
         public Member member { get; set; }
 
         public string ProgramCodeString { get; set; }
-        public int MemberInt { get; set; }
         public ProgramMember(Program programCode, Member member)
         {
             this.programCode = programCode;
             this.member = member;
         }
 
-        public ProgramMember(string programCode, int member)
-        {
-            ProgramCodeString = programCode;
-            MemberInt = member;
-        }
     }
 }

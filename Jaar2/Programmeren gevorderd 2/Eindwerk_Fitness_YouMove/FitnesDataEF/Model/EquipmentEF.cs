@@ -21,7 +21,7 @@ public class EquipmentEF
     [MaxLength(45)]
     public string device_type { get; set; }
 
-    public bool maintenance { get; set; }
+    public bool? maintenance { get; set; }
 
     public ICollection<ReservationEF> reservation { get; set; }
 }

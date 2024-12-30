@@ -24,6 +24,18 @@ namespace FitnesDataEF.Model
         public string part_of_day { get; set; }
 
         public ICollection<ReservationEF> reservation { get; set; }
+
+        public TimeSlotEF()
+        {
+        }
+
+        public TimeSlotEF(int timeSlotId, int startTime, int endTime, string partOfDay)
+        {
+            time_slot_id = timeSlotId;
+            start_time = startTime;
+            end_time = endTime;
+            part_of_day = partOfDay;
+        }
     }
 
 }

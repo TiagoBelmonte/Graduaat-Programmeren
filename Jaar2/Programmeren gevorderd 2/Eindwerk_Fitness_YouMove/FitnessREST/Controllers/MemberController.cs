@@ -13,13 +13,15 @@ namespace FitnessREST.Controllers
         private readonly ProgramMembersService programMembersService;
         private  readonly CyclingSessionService cyclingSessionService;
         private readonly RunningSession_mainService runningSession_MainService;
+        private readonly ReservationService reservationService;
 
-        public MemberController(MemberService memberService, ProgramMembersService programMembersService, CyclingSessionService cyclingSessionService, RunningSession_mainService runningSession_MainService)
+        public MemberController(MemberService memberService, ProgramMembersService programMembersService, CyclingSessionService cyclingSessionService, RunningSession_mainService runningSession_MainService, ReservationService reservationService)
         {
             this.memberService = memberService;
             this.programMembersService = programMembersService;
             this.cyclingSessionService = cyclingSessionService;
             this.runningSession_MainService = runningSession_MainService;
+            this.reservationService = reservationService;
         }
 
         [HttpGet("/AlgemeneGegevensGebruikerOpzoekenViaId/{id}")]
@@ -127,6 +129,39 @@ namespace FitnessREST.Controllers
             }
         }
 
+        [HttpGet("/AlleGemaakteReservatiesOphalenViaMemberID/{memberId}")]
+        public ActionResult<List<Reservation>> GetReservations(int memberId)
+        {
+            try
+            {
+                List<ReservationDTO> DTOs = new List<ReservationDTO>();
+                List<Reservation> reservations = reservationService.getReservationsByMemberID(memberId);
+                if (reservations == null)
+                {
+                    return NotFound("Gebruiker niet gevonden");
+                }
+
+                foreach (Reservation RS in reservations)
+                {
+                    ReservationDTO DTO = new ReservationDTO
+                    {
+                        ReservationId = (int)RS.ReservationId,
+                        TimeSlotEquipment = RS.TimeSlotEquipment,
+                        Member = RS.Member,
+                        Date = RS.Date
+                    };
+
+                    DTOs.Add(DTO);
+                }
+                return Ok(DTOs);
+            }
+            catch (Exception ex)
+            {
+
+                return StatusCode(500, ex.Message);
+            }
+        }
+
         [HttpGet("/AlleProgrammasWaarvoorIngeschrevenOphalenViaMemberID/{memberId}")]
         public ActionResult<List<ProgramMember>> GetProgramMembers(int memberId)
         {
@@ -142,8 +177,8 @@ namespace FitnessREST.Controllers
                 {
                     ProgramMemberDTO DTO = new ProgramMemberDTO
                     {
-                        programCode = programMember.ProgramCodeString,
-                        member = (int)programMember.MemberInt,
+                        programCode = programMember.programCode,
+                        member = programMember.member,
                     };
                 }
                 return Ok(programMembers);
@@ -179,7 +214,7 @@ namespace FitnessREST.Controllers
                         max_cadence = cs.max_cadence,
                         trainingtype = cs.trainingtype,
                         comment = cs.comment,
-                        memberID = cs.memberID
+                        member = cs.member
                     };
                 }
 

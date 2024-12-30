@@ -72,7 +72,7 @@ namespace FitnesDataEF.Repositories
                 //        ctx.equipments.ToList(),
                 //        ctx.members.ToList()
                 //    )).ToList();
-                //return null;
+                return null;
             }
             catch (Exception ex)
             {
@@ -85,25 +85,28 @@ namespace FitnesDataEF.Repositories
             List<Reservation> reservations = new List<Reservation>();
             try
             {
-                List<ReservationEF> reservationEFs = ctx.reservation
+              List<ReservationEF> reservationEFs = ctx.reservation
                     .Where(r => r.member_id == memberid)
                     .ToList();
-
-                List<TimeSlotEF> timeSlotEFs = ctx.time_slot.ToList();
-                List<Time_slot> timeSlots = timeSlotEFs.Select(ts => new Time_slot
-                {
-                    time_slot_id = ts.time_slot_id,
-                    start_time = ts.start_time,
-                    end_time = ts.end_time,
-                    part_of_day = ts.part_of_day
-                }).ToList();
-
-                List<Equipment> equipments = ctx.equipment.ToList();
-                List<Member> members = ctx.members.ToList();
-
+                if (!reservationEFs.Any())
+                    throw new Exception($"Geen reservaties gevonden voor lid met ID {memberid}.");
+                // Map alle gevonden ReservationEFs naar Reservation
                 foreach (ReservationEF REF in reservationEFs)
                 {
-                    reservations.Add(MapReservation.MapToDomain(REF, timeSlots, equipments, members));
+                    EquipmentEF equipmentEF = ctx.equipment
+                        .Where(e => e.equipment_id == REF.equipment_id)
+                        .FirstOrDefault();
+                    MemberEF memberEF = ctx.members
+                        .Where(m => m.member_id == memberid)
+                        .FirstOrDefault();
+                    TimeSlotEF timeSlotEF = ctx.time_slot
+                        .Where(t => t.time_slot_id == REF.time_slot_id)
+                        .FirstOrDefault();
+                    
+                    REF.members = memberEF;
+                    REF.timeslot = timeSlotEF;
+                    REF.equipment = equipmentEF;
+                    reservations.Add(MapReservation.MapToDomain(REF));
                 }
                 return reservations;
             }

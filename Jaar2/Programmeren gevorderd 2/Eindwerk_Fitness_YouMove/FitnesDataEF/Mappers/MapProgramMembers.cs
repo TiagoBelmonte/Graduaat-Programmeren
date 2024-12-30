@@ -14,7 +14,7 @@ namespace FitnesDataEF.Mappers
         {
             try
             {
-                return new ProgramMember(db.programCode,db.member_id);
+                return new ProgramMember(MapProgram.MapToDomain(db.program),MapMember.MapToDomain(db.member));
             }
             catch (Exception)
             {

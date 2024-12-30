@@ -25,6 +25,7 @@ namespace FitnesDataEF.Repositories
             try
             {
                 CyclingSessionEF cyclingSessionEF = ctx.cyclingsession.FirstOrDefault(x => x.cyclingSession_id == sessionId);
+                MemberEF memberEF = ctx.members.FirstOrDefault(x => x.member_id == cyclingSessionEF.member_id);
                 return MapCyclingSession.MapToDomain(cyclingSessionEF);
             }
             catch (Exception)
@@ -49,6 +50,8 @@ namespace FitnesDataEF.Repositories
 			{
                 foreach (CyclingSessionEF C in cyclingSessionsEF)
                 {
+                    MemberEF memberEF = ctx.members.FirstOrDefault(x => x.member_id == C.member_id);
+                    C.members = memberEF;
                     sessions.Add(MapCyclingSession.MapToDomain(C));
                 }
                 return sessions;

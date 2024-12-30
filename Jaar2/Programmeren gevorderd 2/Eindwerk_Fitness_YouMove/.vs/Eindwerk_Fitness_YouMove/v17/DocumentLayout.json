@@ -3,16 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5883E2B4-CD3F-445D-A4B8-A318C441FAFC}|FitnesDataEF\\FitnesDataEF.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\eindwerk_fitness_youmove\\fitnesdataef\\repositories\\reservationrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5883E2B4-CD3F-445D-A4B8-A318C441FAFC}|FitnesDataEF\\FitnesDataEF.csproj|solutionrelative:fitnesdataef\\repositories\\reservationrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67ECD513-7E15-42DD-AA52-928F4E4DC945}|FitnessBL\\FitnessBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\eindwerk_fitness_youmove\\fitnessbl\\model\\runningsession_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67ECD513-7E15-42DD-AA52-928F4E4DC945}|FitnessBL\\FitnessBL.csproj|solutionrelative:fitnessbl\\model\\runningsession_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5883E2B4-CD3F-445D-A4B8-A318C441FAFC}|FitnesDataEF\\FitnesDataEF.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\eindwerk_fitness_youmove\\fitnesdataef\\mappers\\mapreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5883E2B4-CD3F-445D-A4B8-A318C441FAFC}|FitnesDataEF\\FitnesDataEF.csproj|solutionrelative:fitnesdataef\\mappers\\mapreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67ECD513-7E15-42DD-AA52-928F4E4DC945}|FitnessBL\\FitnessBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\eindwerk_fitness_youmove\\fitnessbl\\model\\runningsession_detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67ECD513-7E15-42DD-AA52-928F4E4DC945}|FitnessBL\\FitnessBL.csproj|solutionrelative:fitnessbl\\model\\runningsession_detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67ECD513-7E15-42DD-AA52-928F4E4DC945}|FitnessBL\\FitnessBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\eindwerk_fitness_youmove\\fitnessbl\\interfaces\\ireservationrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67ECD513-7E15-42DD-AA52-928F4E4DC945}|FitnessBL\\FitnessBL.csproj|solutionrelative:fitnessbl\\interfaces\\ireservationrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5883E2B4-CD3F-445D-A4B8-A318C441FAFC}|FitnesDataEF\\FitnesDataEF.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\eindwerk_fitness_youmove\\fitnesdataef\\model\\runningsessionmainef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5883E2B4-CD3F-445D-A4B8-A318C441FAFC}|FitnesDataEF\\FitnesDataEF.csproj|solutionrelative:fitnesdataef\\model\\runningsessionmainef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B239C76E-952F-4CCC-BD1F-0B4F7A7F8E96}|FitnessREST\\FitnessREST.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\eindwerk_fitness_youmove\\fitnessrest\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B239C76E-952F-4CCC-BD1F-0B4F7A7F8E96}|FitnessREST\\FitnessREST.csproj|solutionrelative:fitnessrest\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5883E2B4-CD3F-445D-A4B8-A318C441FAFC}|FitnesDataEF\\FitnesDataEF.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\eindwerk_fitness_youmove\\fitnesdataef\\repositories\\programmembersrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5883E2B4-CD3F-445D-A4B8-A318C441FAFC}|FitnesDataEF\\FitnesDataEF.csproj|solutionrelative:fitnesdataef\\repositories\\programmembersrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67ECD513-7E15-42DD-AA52-928F4E4DC945}|FitnessBL\\FitnessBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\eindwerk_fitness_youmove\\fitnessbl\\services\\programmembersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67ECD513-7E15-42DD-AA52-928F4E4DC945}|FitnessBL\\FitnessBL.csproj|solutionrelative:fitnessbl\\services\\programmembersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B239C76E-952F-4CCC-BD1F-0B4F7A7F8E96}|FitnessREST\\FitnessREST.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\eindwerk_fitness_youmove\\fitnessrest\\controllers\\programcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B239C76E-952F-4CCC-BD1F-0B4F7A7F8E96}|FitnessREST\\FitnessREST.csproj|solutionrelative:fitnessrest\\controllers\\programcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B239C76E-952F-4CCC-BD1F-0B4F7A7F8E96}|FitnessREST\\FitnessREST.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\eindwerk_fitness_youmove\\fitnessrest\\dto\\programmemberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B239C76E-952F-4CCC-BD1F-0B4F7A7F8E96}|FitnessREST\\FitnessREST.csproj|solutionrelative:fitnessrest\\dto\\programmemberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67ECD513-7E15-42DD-AA52-928F4E4DC945}|FitnessBL\\FitnessBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\eindwerk_fitness_youmove\\fitnessbl\\model\\programmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67ECD513-7E15-42DD-AA52-928F4E4DC945}|FitnessBL\\FitnessBL.csproj|solutionrelative:fitnessbl\\model\\programmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5883E2B4-CD3F-445D-A4B8-A318C441FAFC}|FitnesDataEF\\FitnesDataEF.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\eindwerk_fitness_youmove\\fitnesdataef\\mappers\\mapprogrammembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5883E2B4-CD3F-445D-A4B8-A318C441FAFC}|FitnesDataEF\\FitnesDataEF.csproj|solutionrelative:fitnesdataef\\mappers\\mapprogrammembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5883E2B4-CD3F-445D-A4B8-A318C441FAFC}|FitnesDataEF\\FitnesDataEF.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\eindwerk_fitness_youmove\\fitnesdataef\\model\\programmemberef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5883E2B4-CD3F-445D-A4B8-A318C441FAFC}|FitnesDataEF\\FitnesDataEF.csproj|solutionrelative:fitnesdataef\\model\\programmemberef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5883E2B4-CD3F-445D-A4B8-A318C441FAFC}|FitnesDataEF\\FitnesDataEF.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\eindwerk_fitness_youmove\\fitnesdataef\\model\\memberef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5883E2B4-CD3F-445D-A4B8-A318C441FAFC}|FitnesDataEF\\FitnesDataEF.csproj|solutionrelative:fitnesdataef\\model\\memberef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5883E2B4-CD3F-445D-A4B8-A318C441FAFC}|FitnesDataEF\\FitnesDataEF.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\eindwerk_fitness_youmove\\fitnesdataef\\model\\equipmentef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5883E2B4-CD3F-445D-A4B8-A318C441FAFC}|FitnesDataEF\\FitnesDataEF.csproj|solutionrelative:fitnesdataef\\model\\equipmentef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5883E2B4-CD3F-445D-A4B8-A318C441FAFC}|FitnesDataEF\\FitnesDataEF.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\eindwerk_fitness_youmove\\fitnesdataef\\model\\cyclingsessionef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5883E2B4-CD3F-445D-A4B8-A318C441FAFC}|FitnesDataEF\\FitnesDataEF.csproj|solutionrelative:fitnesdataef\\model\\cyclingsessionef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5883E2B4-CD3F-445D-A4B8-A318C441FAFC}|FitnesDataEF\\FitnesDataEF.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar2\\programmeren gevorderd 2\\eindwerk_fitness_youmove\\fitnesdataef\\repositories\\equipmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5883E2B4-CD3F-445D-A4B8-A318C441FAFC}|FitnesDataEF\\FitnesDataEF.csproj|solutionrelative:fitnesdataef\\repositories\\equipmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,21 +70,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MapReservation.cs",
-              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnesDataEF\\Mappers\\MapReservation.cs",
-              "RelativeDocumentMoniker": "FitnesDataEF\\Mappers\\MapReservation.cs",
-              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnesDataEF\\Mappers\\MapReservation.cs",
-              "RelativeToolTip": "FitnesDataEF\\Mappers\\MapReservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T16:44:14.463Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -44,27 +79,196 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ReservationRepo.cs",
-              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnesDataEF\\Repositories\\ReservationRepo.cs",
-              "RelativeDocumentMoniker": "FitnesDataEF\\Repositories\\ReservationRepo.cs",
-              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnesDataEF\\Repositories\\ReservationRepo.cs",
-              "RelativeToolTip": "FitnesDataEF\\Repositories\\ReservationRepo.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAApwF0AAAARAAAAAAAAAA==",
+              "Title": "Runningsession_main.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessBL\\Model\\Runningsession_main.cs",
+              "RelativeDocumentMoniker": "FitnessBL\\Model\\Runningsession_main.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessBL\\Model\\Runningsession_main.cs",
+              "RelativeToolTip": "FitnessBL\\Model\\Runningsession_main.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T16:38:30.703Z",
+              "WhenOpened": "2024-12-30T11:10:11.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Runningsession_detail.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessBL\\Model\\Runningsession_detail.cs",
+              "RelativeDocumentMoniker": "FitnessBL\\Model\\Runningsession_detail.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessBL\\Model\\Runningsession_detail.cs",
+              "RelativeToolTip": "FitnessBL\\Model\\Runningsession_detail.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T11:09:55.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IReservationRepo.cs",
-              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessBL\\Interfaces\\IReservationRepo.cs",
-              "RelativeDocumentMoniker": "FitnessBL\\Interfaces\\IReservationRepo.cs",
-              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessBL\\Interfaces\\IReservationRepo.cs",
-              "RelativeToolTip": "FitnessBL\\Interfaces\\IReservationRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAABBAAAAAAAAAA==",
+              "Title": "RunningSessionMainEF.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnesDataEF\\Model\\RunningSessionMainEF.cs",
+              "RelativeDocumentMoniker": "FitnesDataEF\\Model\\RunningSessionMainEF.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnesDataEF\\Model\\RunningSessionMainEF.cs",
+              "RelativeToolTip": "FitnesDataEF\\Model\\RunningSessionMainEF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T16:38:19.25Z",
+              "WhenOpened": "2024-12-30T11:09:43.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProgramController.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessREST\\Controllers\\ProgramController.cs",
+              "RelativeDocumentMoniker": "FitnessREST\\Controllers\\ProgramController.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessREST\\Controllers\\ProgramController.cs",
+              "RelativeToolTip": "FitnessREST\\Controllers\\ProgramController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T11:05:59.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProgramMemberDTO.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessREST\\DTO\\ProgramMemberDTO.cs",
+              "RelativeDocumentMoniker": "FitnessREST\\DTO\\ProgramMemberDTO.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessREST\\DTO\\ProgramMemberDTO.cs",
+              "RelativeToolTip": "FitnessREST\\DTO\\ProgramMemberDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T11:04:54.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessREST\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "FitnessREST\\Controllers\\MemberController.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessREST\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "FitnessREST\\Controllers\\MemberController.cs",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAuwPYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T11:04:38.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProgramMembersService.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessBL\\Services\\ProgramMembersService.cs",
+              "RelativeDocumentMoniker": "FitnessBL\\Services\\ProgramMembersService.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessBL\\Services\\ProgramMembersService.cs",
+              "RelativeToolTip": "FitnessBL\\Services\\ProgramMembersService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T11:04:31.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProgramMembersRepo.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnesDataEF\\Repositories\\ProgramMembersRepo.cs",
+              "RelativeDocumentMoniker": "FitnesDataEF\\Repositories\\ProgramMembersRepo.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnesDataEF\\Repositories\\ProgramMembersRepo.cs",
+              "RelativeToolTip": "FitnesDataEF\\Repositories\\ProgramMembersRepo.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T11:01:36.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProgramMember.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessBL\\Model\\ProgramMember.cs",
+              "RelativeDocumentMoniker": "FitnessBL\\Model\\ProgramMember.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnessBL\\Model\\ProgramMember.cs",
+              "RelativeToolTip": "FitnessBL\\Model\\ProgramMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T11:00:19.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MapProgramMembers.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnesDataEF\\Mappers\\MapProgramMembers.cs",
+              "RelativeDocumentMoniker": "FitnesDataEF\\Mappers\\MapProgramMembers.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnesDataEF\\Mappers\\MapProgramMembers.cs",
+              "RelativeToolTip": "FitnesDataEF\\Mappers\\MapProgramMembers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T11:00:12.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProgramMemberEF.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnesDataEF\\Model\\ProgramMemberEF.cs",
+              "RelativeDocumentMoniker": "FitnesDataEF\\Model\\ProgramMemberEF.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnesDataEF\\Model\\ProgramMemberEF.cs",
+              "RelativeToolTip": "FitnesDataEF\\Model\\ProgramMemberEF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T11:00:03.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MemberEF.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnesDataEF\\Model\\MemberEF.cs",
+              "RelativeDocumentMoniker": "FitnesDataEF\\Model\\MemberEF.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnesDataEF\\Model\\MemberEF.cs",
+              "RelativeToolTip": "FitnesDataEF\\Model\\MemberEF.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T10:59:32.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EquipmentEF.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnesDataEF\\Model\\EquipmentEF.cs",
+              "RelativeDocumentMoniker": "FitnesDataEF\\Model\\EquipmentEF.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnesDataEF\\Model\\EquipmentEF.cs",
+              "RelativeToolTip": "FitnesDataEF\\Model\\EquipmentEF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T10:59:25.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CyclingSessionEF.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnesDataEF\\Model\\CyclingSessionEF.cs",
+              "RelativeDocumentMoniker": "FitnesDataEF\\Model\\CyclingSessionEF.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnesDataEF\\Model\\CyclingSessionEF.cs",
+              "RelativeToolTip": "FitnesDataEF\\Model\\CyclingSessionEF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T10:59:17.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EquipmentRepo.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnesDataEF\\Repositories\\EquipmentRepo.cs",
+              "RelativeDocumentMoniker": "FitnesDataEF\\Repositories\\EquipmentRepo.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar2\\Programmeren gevorderd 2\\Eindwerk_Fitness_YouMove\\FitnesDataEF\\Repositories\\EquipmentRepo.cs",
+              "RelativeToolTip": "FitnesDataEF\\Repositories\\EquipmentRepo.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T10:59:05.085Z",
               "EditorCaption": ""
             }
           ]

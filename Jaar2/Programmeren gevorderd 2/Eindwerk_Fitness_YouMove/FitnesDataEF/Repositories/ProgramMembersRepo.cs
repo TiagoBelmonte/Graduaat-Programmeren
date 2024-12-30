@@ -50,7 +50,10 @@ namespace FitnesDataEF.Repositories
 
         public ProgramMember GetProgramMember(string id)
         {
-            return mapProgramMembers.MapToDomain(ctx.programmembers.Where(x => x.programCode.Equals(id)).FirstOrDefault());
+            ProgramMemberEF programMemberEF = ctx.programmembers.Where(x => x.programCode.Equals(id)).FirstOrDefault();
+            programMemberEF.program = ctx.program.Where(x => x.programCode.Equals(programMemberEF.programCode)).FirstOrDefault();
+            programMemberEF.member = ctx.members.Where(x => x.member_id == programMemberEF.member_id).FirstOrDefault();
+            return mapProgramMembers.MapToDomain(programMemberEF);
         }
     }
 }
