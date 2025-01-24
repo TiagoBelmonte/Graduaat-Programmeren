@@ -1,4 +1,5 @@
-﻿using FitnessBL.Interfaces;
+﻿using FitnessBL.Exceptions;
+using FitnessBL.Interfaces;
 using FitnessBL.Model;
 using System;
 using System.Collections.Generic;
@@ -51,6 +52,27 @@ namespace FitnessBL.Services
 
                 throw new Exception("getReservationsByMemberID");
             }
+        }
+
+        public int GetNieuwReservationId()
+        {
+            return repo.GetNieuwReservationId();
+        }
+
+        public Reservation GetReservationId(int id)
+        {
+            if (id <= 0)
+                throw new ServiceException(
+                    "ReservationService - GetReservationId - Voer een geldig id in >0!"
+                );
+
+            Reservation reservation = repo.GetReservationId(id);
+            if (reservation == null)
+                throw new ServiceException(
+                    "ReservationService - GetReservationId - Er is geen Reservation met dit Id "
+                );
+
+            return reservation;
         }
     }
 }

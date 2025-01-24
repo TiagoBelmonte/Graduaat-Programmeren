@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\EindewerkTuinCentrum\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1F0AFEF-A7E7-4D99-9B3C-A668FE919C2A}|TuinCentrumDL_File\\TuinCentrumDL_File.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar1\\programmeren gevorderd\\eindewerktuincentrum\\tuincentrumdl_file\\fileprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1F0AFEF-A7E7-4D99-9B3C-A668FE919C2A}|TuinCentrumDL_File\\TuinCentrumDL_File.csproj|solutionrelative:tuincentrumdl_file\\fileprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69DE78C7-054B-46D0-8097-AD9777FF1E74}|TuinCentrumDataUpload\\TuinCentrumUI.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar1\\programmeren gevorderd\\eindewerktuincentrum\\tuincentrumdataupload\\offerteaanmaken\\offertestap2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69DE78C7-054B-46D0-8097-AD9777FF1E74}|TuinCentrumDataUpload\\TuinCentrumUI.csproj|solutionrelative:tuincentrumdataupload\\offerteaanmaken\\offertestap2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{050B8C81-50C7-4042-AC3C-B10FA06EC764}|TuinCentrumDL_SQL\\TuinCentrumDL_SQL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar1\\programmeren gevorderd\\eindewerktuincentrum\\tuincentrumdl_sql\\tuincentrumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{050B8C81-50C7-4042-AC3C-B10FA06EC764}|TuinCentrumDL_SQL\\TuinCentrumDL_SQL.csproj|solutionrelative:tuincentrumdl_sql\\tuincentrumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FACB89FF-DE04-4F31-A500-61984A1E5499}|TuinCentrumBL\\TuinCentrumBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar1\\programmeren gevorderd\\eindewerktuincentrum\\tuincentrumbl\\model\\offerte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FACB89FF-DE04-4F31-A500-61984A1E5499}|TuinCentrumBL\\TuinCentrumBL.csproj|solutionrelative:tuincentrumbl\\model\\offerte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FACB89FF-DE04-4F31-A500-61984A1E5499}|TuinCentrumBL\\TuinCentrumBL.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar1\\programmeren gevorderd\\eindewerktuincentrum\\tuincentrumbl\\manager\\tuincentrummanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FACB89FF-DE04-4F31-A500-61984A1E5499}|TuinCentrumBL\\TuinCentrumBL.csproj|solutionrelative:tuincentrumbl\\manager\\tuincentrummanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1F0AFEF-A7E7-4D99-9B3C-A668FE919C2A}|TuinCentrumDL_File\\TuinCentrumDL_File.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar1\\programmeren gevorderd\\eindewerktuincentrum\\tuincentrumdl_file\\fileprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F0AFEF-A7E7-4D99-9B3C-A668FE919C2A}|TuinCentrumDL_File\\TuinCentrumDL_File.csproj|solutionrelative:tuincentrumdl_file\\fileprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69DE78C7-054B-46D0-8097-AD9777FF1E74}|TuinCentrumDataUpload\\TuinCentrumUI.csproj|c:\\users\\tbelm\\documenten\\graduaat-programmeren\\jaar1\\programmeren gevorderd\\eindewerktuincentrum\\tuincentrumdataupload\\dataupload.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,11 +38,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "OfferteStap2.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumDataUpload\\OfferteAanmaken\\OfferteStap2.xaml.cs",
+              "RelativeDocumentMoniker": "TuinCentrumDataUpload\\OfferteAanmaken\\OfferteStap2.xaml.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumDataUpload\\OfferteAanmaken\\OfferteStap2.xaml.cs",
+              "RelativeToolTip": "TuinCentrumDataUpload\\OfferteAanmaken\\OfferteStap2.xaml.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwEsAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T20:24:32.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Offerte.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumBL\\Model\\Offerte.cs",
+              "RelativeDocumentMoniker": "TuinCentrumBL\\Model\\Offerte.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumBL\\Model\\Offerte.cs",
+              "RelativeToolTip": "TuinCentrumBL\\Model\\Offerte.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T20:24:08.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TuincentrumManager.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumBL\\manager\\TuincentrumManager.cs",
+              "RelativeDocumentMoniker": "TuinCentrumBL\\manager\\TuincentrumManager.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumBL\\manager\\TuincentrumManager.cs",
+              "RelativeToolTip": "TuinCentrumBL\\manager\\TuincentrumManager.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T20:23:38.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "FileProcessor.cs",
               "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumDL_File\\FileProcessor.cs",
               "RelativeDocumentMoniker": "TuinCentrumDL_File\\FileProcessor.cs",
@@ -43,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "DataUpload.xaml.cs",
               "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumDataUpload\\DataUpload.xaml.cs",
               "RelativeDocumentMoniker": "TuinCentrumDataUpload\\DataUpload.xaml.cs",
@@ -62,18 +117,14 @@
               "RelativeDocumentMoniker": "TuinCentrumDL_SQL\\TuincentrumRepository.cs",
               "ToolTip": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumDL_SQL\\TuincentrumRepository.cs",
               "RelativeToolTip": "TuinCentrumDL_SQL\\TuincentrumRepository.cs",
-              "ViewState": "AgIAAMsAAAAAAAAAAAAAwOQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAGEBAAAAAAAAAAAgwHcBAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T10:41:35.308Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ClassDiagram1.cd",
               "DocumentMoniker": "C:\\Users\\tbelm\\Documenten\\Graduaat-Programmeren\\Jaar1\\programmeren gevorderd\\EindewerkTuinCentrum\\TuinCentrumBL\\ClassDiagram1.cd",
               "RelativeDocumentMoniker": "TuinCentrumBL\\ClassDiagram1.cd",

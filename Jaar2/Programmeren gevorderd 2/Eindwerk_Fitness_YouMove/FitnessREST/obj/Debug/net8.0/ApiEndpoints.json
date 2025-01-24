@@ -275,6 +275,22 @@
   },
   {
     "ContainingType": "FitnessREST.Controllers.ReservationController",
+    "Method": "AddReservation",
+    "RelativePath": "ReservationToevoegen",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reservation",
+        "Type": "FitnessBL.Model.Reservation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessREST.Controllers.ReservationController",
     "Method": "DeleteReservation",
     "RelativePath": "ReservationVerwijderen/{id}",
     "HttpMethod": "DELETE",

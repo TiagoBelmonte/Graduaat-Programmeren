@@ -2,6 +2,7 @@
 using FitnesDataEF.Model;
 using FitnessBL.Interfaces;
 using FitnessBL.Model;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,7 +27,12 @@ namespace FitnesDataEF.Repositories
         }
         public void AddReservation(Reservation reservation)
         {
-            throw new NotImplementedException();
+            var reservationEFs = MapReservation.MapToDB(reservation);
+            foreach (var reservationEF in reservationEFs)
+            {
+                ctx.reservation.Add(reservationEF);
+            }
+            SaveAndClear();
         }
 
         public void DeleteReservation(int id)
@@ -119,6 +125,45 @@ namespace FitnesDataEF.Repositories
         public void UpdateReservation(Reservation reservation)
         {
             throw new NotImplementedException();
+        }
+
+        public int GetNieuwReservationId()
+        {
+            try
+            {
+                int hoogstBestaandId = ctx.reservation.Max(r => r.reservation_id);
+                return hoogstBestaandId + 1;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("ReservationRepo - GetNieuwReservationId");
+            }
+        }
+
+        public Reservation GetReservationId(int id)
+        {
+            try
+            {
+                var reservationEF = ctx.reservation
+                    .Where(r => r.reservation_id == id)
+                    .Include(m => m.members)
+                    .Include(e => e.equipment)
+                    .Include(t => t.timeslot)
+                    .AsNoTracking()
+                    .FirstOrDefault();
+
+                if (reservationEF == null)
+                {
+                    throw new Exception($"Geen reservatie gevonden met ID {id}.");
+                }
+
+                // Map de gevonden ReservationEF naar een Reservation
+                return MapReservation.MapToDomain(reservationEF);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("ReservationRepo - GetReservationById", ex);
+            }
         }
     }
 }

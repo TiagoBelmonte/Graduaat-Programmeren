@@ -1,4 +1,5 @@
-﻿using FitnessBL.Interfaces;
+﻿using FitnessBL.Exceptions;
+using FitnessBL.Interfaces;
 using FitnessBL.Model;
 using System;
 using System.Collections.Generic;
@@ -17,6 +18,15 @@ namespace FitnessBL.Services
             this.repo = repo;
         }
 
+        public Equipment GetEquipmentId(int id)
+        {
+            Equipment equipment = repo.GetEquipmentId(id);
+            if (equipment == null)
+                throw new ServiceException(
+                    "EquipmentService - GetEquipmentId - Er is geen equipment met dit id!"
+                );
+            return equipment;
+        }
 
         public Equipment AddEquipment(Equipment equipment)
         {
@@ -43,5 +53,6 @@ namespace FitnessBL.Services
                 throw new Exception("UpdateEquipment");
             }
         }
+
     }
 }

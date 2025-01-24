@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TuinCentrumUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+213c9272a2928e9e0d60372f621fa6223cd91a27")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f16ef8e7bdaaff541750132fc4e6b8023c429f10")]
 [assembly: System.Reflection.AssemblyProductAttribute("TuinCentrumUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TuinCentrumUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

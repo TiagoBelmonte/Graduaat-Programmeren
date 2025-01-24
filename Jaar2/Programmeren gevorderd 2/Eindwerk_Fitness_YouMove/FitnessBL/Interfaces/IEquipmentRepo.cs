@@ -11,6 +11,7 @@ namespace FitnessBL.Interfaces
     {
         Equipment addEquipment(Equipment equipment);
         Equipment GetEquipment(int id);
+        Equipment GetEquipmentId(int id);
         void updateEquipment(Equipment equipment);
     }
 }

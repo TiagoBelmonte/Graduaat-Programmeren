@@ -1,4 +1,5 @@
-﻿using FitnessBL.Model;
+﻿using FitnessBL.Exceptions;
+using FitnessBL.Model;
 using FitnessBL.Services;
 using FitnessREST.DTO;
 using Microsoft.AspNetCore.Mvc;
@@ -32,6 +33,10 @@ namespace FitnessREST.Controllers
                 equipment = equipmentService.AddEquipment(equipment);
                 return Ok(equipment);
             }
+            catch (ServiceException ex)
+            {
+                return BadRequest(ex.Message);
+            }
             catch (Exception ex)
             {
                 return StatusCode(500, ex.Message);
@@ -46,9 +51,9 @@ namespace FitnessREST.Controllers
                 equipmentService.updateEquipment(id);
                 return Ok("Toestel in onderhoud geplaatst");
             }
-            catch (Exception ex)
+            catch (ServiceException ex)
             {
-                return StatusCode(500, ex.Message);
+                return BadRequest(ex.Message);
             }
         }
 

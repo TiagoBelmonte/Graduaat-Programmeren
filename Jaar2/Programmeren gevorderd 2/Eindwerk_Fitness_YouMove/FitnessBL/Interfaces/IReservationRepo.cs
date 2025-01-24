@@ -14,5 +14,7 @@ namespace FitnessBL.Interfaces
         void UpdateReservation(Reservation reservation);
         List<Reservation> GetReservationsById(int id);
         List<Reservation> GetReservationsByMember(int member_id);
+        int GetNieuwReservationId();
+        Reservation GetReservationId(int id);
     }
 }

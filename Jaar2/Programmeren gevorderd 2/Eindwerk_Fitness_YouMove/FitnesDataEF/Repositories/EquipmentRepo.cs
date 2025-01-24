@@ -65,5 +65,29 @@ namespace FitnesDataEF.Repositories
                 throw new Exception("EquipmentRepo - updateEquipment");
             }
         }
+
+        public Equipment GetEquipmentId(int id)
+        {
+            try
+            {
+                EquipmentEF equipmentEF = ctx
+                    .equipment.Where(x => x.equipment_id == id)
+                    .AsNoTracking()
+                    .FirstOrDefault();
+
+                if (equipmentEF == null)
+                {
+                    return null;
+                }
+                else
+                {
+                    return MapEquipment.MapToDomain(equipmentEF);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("EquipmentRepo - GetEquipomentId", ex);
+            }
+        }
     }
 }
