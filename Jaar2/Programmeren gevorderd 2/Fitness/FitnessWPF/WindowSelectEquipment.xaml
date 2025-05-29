@@ -1,0 +1,83 @@
+﻿<Window x:Class="FitnessWPF.WindowSelectEquipment"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Select Equipment"
+        Height="450"
+        Width="800"
+        Background="LightGray">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <TextBlock Text="Select Equipment for Time Slots"
+                   FontSize="20"
+                   FontWeight="Bold"
+                   Foreground="#34495E"
+                   HorizontalAlignment="Center"
+                   Margin="0,0,0,20"
+                   Grid.Row="0"/>
+
+        <!-- Content -->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Time Slot 1 -->
+            <StackPanel Grid.Column="0" Margin="0,0,20,0">
+                <TextBlock Text="Time Slot 1" FontSize="16" FontWeight="Bold" Foreground="#2C3E50" Margin="0,0,0,10"/>
+                <Label Content="Available Equipment:" FontSize="14" Foreground="#566573" />
+                <ListBox x:Name="listboxEquipment1" 
+                         Height="120"
+                         BorderBrush="#BDC3C7"
+                         MouseDoubleClick="Equipment1_MouseDoubleClick" 
+                         Margin="0,0,0,10"/>
+                <Label Content="Selected Equipment:" FontSize="14" Foreground="#566573" />
+                <ListBox x:Name="listboxSelectedEquipment1" 
+                         Height="100"
+                         BorderBrush="#BDC3C7" />
+            </StackPanel>
+
+            <!-- Divider -->
+            <Rectangle Grid.Column="1"
+                       Width="2"
+                       Fill="#BDC3C7"
+                       VerticalAlignment="Stretch"
+                       Margin="0,10,0,10"/>
+
+            <!-- Time Slot 2 -->
+            <StackPanel Grid.Column="2" Margin="20,0,0,0">
+                <TextBlock Text="Time Slot 2" FontSize="16" FontWeight="Bold" Foreground="#2C3E50" Margin="0,0,0,10"/>
+                <Label Content="Available Equipment:" FontSize="14" Foreground="#566573" />
+                <ListBox x:Name="listboxEquipment2" 
+                         Height="120"
+                         BorderBrush="#BDC3C7"
+                         MouseDoubleClick="Equipment2_MouseDoubleClick" 
+                         Margin="0,0,0,10"/>
+                <Label Content="Selected Equipment:" FontSize="14" Foreground="#566573" />
+                <ListBox x:Name="listboxSelectedEquipment2" 
+                         Height="100"
+                         BorderBrush="#BDC3C7" />
+            </StackPanel>
+        </Grid>
+
+        <!-- Save Button -->
+        <Button x:Name="buttonSaveEquipment"
+                Content="Save Equipment"
+                Background="#5DADE2"
+                Foreground="White"
+                FontWeight="Bold"
+                Width="150"
+                Height="40"
+                HorizontalAlignment="Center"
+                Margin="0,20,0,0"
+                Grid.Row="2"
+                Click="buttonSaveEquipment_Click"/>
+    </Grid>
+</Window>

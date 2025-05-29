@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tbelm\\Downloads\\Fitness\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88F67215-1C25-4EF4-A71A-1C5219E1471F}|FitnessBL\\FitnessBL.csproj|c:\\users\\tbelm\\downloads\\fitness\\fitnessbl\\model\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88F67215-1C25-4EF4-A71A-1C5219E1471F}|FitnessBL\\FitnessBL.csproj|solutionrelative:fitnessbl\\model\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42FF76DA-E7B4-4F76-AD69-8B031AAB97F8}|FitnessTests\\FitnessTests.csproj|c:\\users\\tbelm\\downloads\\fitness\\fitnesstests\\reservationcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42FF76DA-E7B4-4F76-AD69-8B031AAB97F8}|FitnessTests\\FitnessTests.csproj|solutionrelative:fitnesstests\\reservationcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1968EAF4-2413-49FE-92F0-074D7F83A19A}|FitnessWPF\\FitnessWPF.csproj|c:\\users\\tbelm\\downloads\\fitness\\fitnesswpf\\model\\reservationaanmakendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1968EAF4-2413-49FE-92F0-074D7F83A19A}|FitnessWPF\\FitnessWPF.csproj|solutionrelative:fitnesswpf\\model\\reservationaanmakendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42FF76DA-E7B4-4F76-AD69-8B031AAB97F8}|FitnessTests\\FitnessTests.csproj|c:\\users\\tbelm\\downloads\\fitness\\fitnesstests\\programcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42FF76DA-E7B4-4F76-AD69-8B031AAB97F8}|FitnessTests\\FitnessTests.csproj|solutionrelative:fitnesstests\\programcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA93D06C-9792-4BD2-9BFA-C8AD930EAD28}|ConsoleAppDatabaseEF\\ConsoleAppDatabaseEF.csproj|c:\\users\\tbelm\\downloads\\fitness\\consoleappdatabaseef\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA93D06C-9792-4BD2-9BFA-C8AD930EAD28}|ConsoleAppDatabaseEF\\ConsoleAppDatabaseEF.csproj|solutionrelative:consoleappdatabaseef\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Downloads\\Fitness\\FitnessBL\\Model\\Reservation.cs",
+              "RelativeDocumentMoniker": "FitnessBL\\Model\\Reservation.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Downloads\\Fitness\\FitnessBL\\Model\\Reservation.cs",
+              "RelativeToolTip": "FitnessBL\\Model\\Reservation.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T11:37:06.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReservationAanmakenDTO.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Downloads\\Fitness\\FitnessWPF\\Model\\ReservationAanmakenDTO.cs",
+              "RelativeDocumentMoniker": "FitnessWPF\\Model\\ReservationAanmakenDTO.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Downloads\\Fitness\\FitnessWPF\\Model\\ReservationAanmakenDTO.cs",
+              "RelativeToolTip": "FitnessWPF\\Model\\ReservationAanmakenDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T11:35:59.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservationControllerTest.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Downloads\\Fitness\\FitnessTests\\ReservationControllerTest.cs",
+              "RelativeDocumentMoniker": "FitnessTests\\ReservationControllerTest.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Downloads\\Fitness\\FitnessTests\\ReservationControllerTest.cs",
+              "RelativeToolTip": "FitnessTests\\ReservationControllerTest.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAwIwAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T09:14:37.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProgramControllerTest.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Downloads\\Fitness\\FitnessTests\\ProgramControllerTest.cs",
+              "RelativeDocumentMoniker": "FitnessTests\\ProgramControllerTest.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Downloads\\Fitness\\FitnessTests\\ProgramControllerTest.cs",
+              "RelativeToolTip": "FitnessTests\\ProgramControllerTest.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwEUAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T09:14:22.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tbelm\\Downloads\\Fitness\\ConsoleAppDatabaseEF\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleAppDatabaseEF\\Program.cs",
+              "ToolTip": "C:\\Users\\tbelm\\Downloads\\Fitness\\ConsoleAppDatabaseEF\\Program.cs",
+              "RelativeToolTip": "ConsoleAppDatabaseEF\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T08:51:30.083Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

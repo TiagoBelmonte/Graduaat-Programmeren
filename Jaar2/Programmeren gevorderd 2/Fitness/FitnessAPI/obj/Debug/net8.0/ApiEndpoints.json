@@ -1,0 +1,509 @@
+[
+  {
+    "ContainingType": "FitnessAPI.Controllers.EquipmentController",
+    "Method": "GetAllAvailableEquipment",
+    "RelativePath": "AllAvailableEquipment/{dateAsString}/{timeSlotId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dateAsString",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "timeSlotId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.MemberController",
+    "Method": "GetProgramListMember",
+    "RelativePath": "AlleProgramsPerMemberID/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.EquipmentController",
+    "Method": "AddEquipment",
+    "RelativePath": "Equipment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "equipmentDTO",
+        "Type": "FitnessAPI.DTO.EquipmentAanmakenDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.EquipmentController",
+    "Method": "EquipmentPlaatsOnderhoud",
+    "RelativePath": "EquipmentInOnderhoud",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "equipmentid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.EquipmentController",
+    "Method": "EquipmentVerwijderOnderhoud",
+    "RelativePath": "EquipmentUitOnderhoud",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "equipmentid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.EquipmentController",
+    "Method": "GetEquipmentId",
+    "RelativePath": "EquipmentViaId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.EquipmentController",
+    "Method": "DeleteEquipment",
+    "RelativePath": "EquipmenViaId/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.MemberController",
+    "Method": "GetMembers",
+    "RelativePath": "LijstMembers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.Time_slotController",
+    "Method": "GetTimeSlots",
+    "RelativePath": "LijstTimeSlots",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.MemberController",
+    "Method": "AddMember",
+    "RelativePath": "Member",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "memberDTO",
+        "Type": "FitnessAPI.DTO.MemberAanmakenDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.MemberController",
+    "Method": "UpdateMember",
+    "RelativePath": "Member/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateRequest",
+        "Type": "FitnessAPI.DTO.MemberAanmakenDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.MemberController",
+    "Method": "GetMemberId",
+    "RelativePath": "MemberViaId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.MemberController",
+    "Method": "DeleteMember",
+    "RelativePath": "MemberViaId/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.MemberController",
+    "Method": "GetMemberNaam",
+    "RelativePath": "MemberViaNaam/{voornaam}/{achternaam}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "voornaam",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "achternaam",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.ProgramController",
+    "Method": "AddProgram",
+    "RelativePath": "Programma",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "programDTO",
+        "Type": "FitnessAPI.DTO.ProgramAanmakenDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.ProgramController",
+    "Method": "UpdateProgram",
+    "RelativePath": "Programma/{programCode}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "programCode",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateRequest",
+        "Type": "FitnessAPI.DTO.ProgramAanmakenDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.ProgramController",
+    "Method": "GetProgramCode",
+    "RelativePath": "ProgrammaViaProgramCode/{programCode}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "programCode",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.ReservationController",
+    "Method": "CreateReservation",
+    "RelativePath": "Reservation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reservationDTO",
+        "Type": "FitnessAPI.DTO.ReservationAanmakenDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.ReservationController",
+    "Method": "UpdateReservationTimeSlots",
+    "RelativePath": "Reservation/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "reservationAanpassenDTO",
+        "Type": "FitnessAPI.DTO.ReservationAanpassenDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.ReservationController",
+    "Method": "DeleteReservation",
+    "RelativePath": "Reservation/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.MemberController",
+    "Method": "GetReservationsMember",
+    "RelativePath": "ReservationsMember/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.ReservationController",
+    "Method": "GetReservationID",
+    "RelativePath": "ReservationViaId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.Time_slotController",
+    "Method": "GetTime_slotId",
+    "RelativePath": "Time_slotViaId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.MemberController",
+    "Method": "GetTrainingSessionsMemberGegevensTijd",
+    "RelativePath": "TrainingSessionsMember(GesorteerdOpTijd)/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.MemberController",
+    "Method": "GetTrainingSessionsMember",
+    "RelativePath": "TrainingSessionsMember/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.MemberController",
+    "Method": "GetTrainingSessionsMemberAantalPerMaandInJaar",
+    "RelativePath": "TrainingSessionsMemberAantalPerMaandInJaar/{id}/{jaar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "jaar",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.MemberController",
+    "Method": "GetTrainingSessionsMemberAantalPerMaandInJaarMetType",
+    "RelativePath": "TrainingSessionsMemberAantalPerMaandInJaarMetType/{id}/{jaar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "jaar",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.MemberController",
+    "Method": "GetTrainingSessionsMemberInMaandInJaar",
+    "RelativePath": "TrainingSessionsMemberInMaandInJaar/{id}/{maand}/{jaar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "maand",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "jaar",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAPI.Controllers.MemberController",
+    "Method": "TrainingSessionsMemberPerMaandInJaar",
+    "RelativePath": "TrainingSessionsMemberVanMaandInJaar/{id}/{maand}/{jaar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "maand",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "jaar",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

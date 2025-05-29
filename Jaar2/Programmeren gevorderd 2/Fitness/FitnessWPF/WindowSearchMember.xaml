@@ -1,0 +1,112 @@
+﻿<Window x:Class="FitnessWPF.WindowSearchMember"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Search Member"
+        Height="400"
+        Width="500"
+        Background="#F5F5F5">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header Section -->
+        <StackPanel Grid.Row="0" Margin="0,0,0,20" VerticalAlignment="Top">
+            <TextBlock Text="Search for a Member"
+                       FontSize="20"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"
+                       Foreground="#2E4053"
+                       Margin="0,0,0,5"/>
+            <TextBlock Text="Enter the member's name to look them up."
+                       FontSize="14"
+                       FontStyle="Italic"
+                       HorizontalAlignment="Center"
+                       Foreground="#566573"/>
+        </StackPanel>
+
+        <!-- Content Section -->
+        <StackPanel Grid.Row="1" VerticalAlignment="Top">
+            <!-- Search Input -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10">
+                <Label Content="Name:" FontSize="14" Foreground="#2E4053" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                <TextBox x:Name="txtNameMember"
+                 Width="250"
+                 Height="25"
+                 BorderBrush="#D6DBDF"
+                 Background="White"/>
+            </StackPanel>
+
+            <!-- Hidden ID Input -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10" Visibility="Hidden">
+                <Label Content="ID:" FontSize="14" Foreground="#2E4053" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                <TextBox x:Name="txtBoxIdMember"
+                 Width="250"
+                 Height="25"
+                 BorderBrush="#D6DBDF"
+                 Background="White"/>
+            </StackPanel>
+
+            <!-- Search Button -->
+            <Button x:Name="buttonSearch"
+            Content="Search"
+            Width="120"
+            Height="30"
+            Background="#5DADE2"
+            Foreground="White"
+            FontWeight="Bold"
+            BorderBrush="#2980B9"
+            HorizontalAlignment="Center"
+            Margin="0,0,0,10"
+            Click="buttonSearch_Click"/>
+
+            <!-- Member Details -->
+            <Grid Margin="0,20,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,5">
+                    <Label Content="ID:" FontWeight="Bold" Foreground="#2E4053" Width="150"/>
+                    <Label x:Name="lblIdFoundMember" Content="" Foreground="#566573"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,5">
+                    <Label Content="Name:" FontWeight="Bold" Foreground="#2E4053" Width="150"/>
+                    <Label x:Name="lblNameFoundMember" Content="" Foreground="#566573"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,5">
+                    <Label Content="Address:" FontWeight="Bold" Foreground="#2E4053" Width="150"/>
+                    <Label x:Name="lblAdresFoundMember" Content="" Foreground="#566573"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="0,5">
+                    <Label Content="Number of Reservations:" FontWeight="Bold" Foreground="#2E4053" Width="150"/>
+                    <Label x:Name="lblCountReservations" Content="" Foreground="#566573"/>
+                </StackPanel>
+            </Grid>
+
+            <!-- Make Reservation Button -->
+            <Button x:Name="buttonMakeReservation"
+            Content="Make Reservation"
+            Width="250"
+            Height="30"
+            Background="#58D68D"
+            Foreground="White"
+            FontWeight="Bold"
+            BorderBrush="#28B463"
+            HorizontalAlignment="Center"
+            Margin="0,10,0,0"
+            Click="buttonMakeReservation_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

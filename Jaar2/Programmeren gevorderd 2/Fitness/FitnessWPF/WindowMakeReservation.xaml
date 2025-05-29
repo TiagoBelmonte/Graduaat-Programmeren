@@ -1,0 +1,60 @@
+﻿<Window x:Class="FitnessWPF.WindowMakeReservation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Make Reservation"
+        Height="450"
+        Width="800"
+        Background="LightGray">
+    <Grid Margin="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <TextBlock Grid.ColumnSpan="2" Text="Make a Reservation" 
+                   FontSize="20" FontWeight="Bold" 
+                   HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+        <!-- Left Panel: Date and Time Slots -->
+        <StackPanel Grid.Row="1" Grid.Column="0" Margin="0,0,10,0">
+            <Label Content="Date:" FontWeight="Bold"/>
+            <Calendar x:Name="calendar" Height="200" Margin="0,0,0,20" 
+                      PreviewMouseDoubleClick="Calendar_PreviewMouseDoubleClick"/>
+
+            <Label Content="Time Slots:" FontWeight="Bold"/>
+            <ListBox x:Name="listboxTimeSlots" Height="150" Margin="0,10,0,0"
+                     MouseDoubleClick="listboxTimeSlots_DoubleClick"/>
+        </StackPanel>
+
+        <!-- Right Panel: Selected Details -->
+        <StackPanel Grid.Row="1" Grid.Column="1" Margin="10,0,0,0">
+            <Label Content="Selected Date:" FontWeight="Bold"/>
+            <TextBlock x:Name="lblSelectedDate" Margin="0,0,0,20"/>
+
+            <Label Content="Selected Time Slots:" FontWeight="Bold"/>
+            <TextBlock x:Name="lblSelectedTimeSlot" TextWrapping="Wrap" Height="50" Margin="0,0,0,10"/>
+
+            <CheckBox x:Name="checkBoxExtraTimeSlot" Content="Add Next Time Slot"
+                      Checked="ExtraTimeSlot_Checked" Unchecked="ExtraTimeSlot_Unchecked"/>
+
+            <Label Content="Equipment:" FontWeight="Bold" Margin="0,20,0,0"/>
+            <Button Content="Find Equipment" Width="120" Margin="0,10,0,0"
+                    Click="FindEquipment_Click"/>
+            <TextBlock x:Name="lblEquipmentTS1" Margin="0,10,0,0"/>
+            <TextBlock x:Name="lblEquipmentTS2" Margin="0,10,0,0"/>
+        </StackPanel>
+
+        <!-- Footer -->
+        <Button x:Name="buttonMakeReservation" Content="Make Reservation" 
+                Grid.Row="2" Grid.ColumnSpan="2"
+                HorizontalAlignment="Center" Width="150" Height="40"
+                Background="DarkSlateBlue" Foreground="White" FontWeight="Bold" 
+                Click="buttonMakeReservation_Click"/>
+    </Grid>
+</Window>
