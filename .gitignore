@@ -1,0 +1,29 @@
+# Virtuele omgevingen
+.venv/
+venv/
+
+# Python bytecode en cache
+__pycache__/
+*.py[cod]
+
+# Editorbestanden
+.vscode/
+.idea/
+
+# Systeem- en logbestanden
+.DS_Store
+Thumbs.db
+*.log
+
+# Gevoelige bestanden
+chat_assistant/.env
+chat_assistant/credentials.json
+chat_assistant/token.json
+chat_assistant/utils/config.py
+
+# Overige ongewenste bestanden
+*.sqlite3
+*.db
+*.bak
+*.tmp
+*.swp
