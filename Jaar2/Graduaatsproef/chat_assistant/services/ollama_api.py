@@ -5,7 +5,10 @@ def ask_ollama(prompt):
         "http://localhost:11434/api/chat",
         json={
             "model": "llama3",
-            "messages": [{"role": "user", "content": prompt}],
+            "messages": [
+                {"role": "system", "content": "Beantwoord alle vragen in het Nederlands, ook als de vraag in het Engels wordt gesteld."},
+                {"role": "user", "content": prompt}
+                ],
             "stream": False
         }
     )
