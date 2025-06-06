@@ -20,7 +20,7 @@ def maak_weer_zin(data: dict, vraag: str, stad: str) -> str:
             return f"Nee, het is niet echt warm in {stad.capitalize()} – het is {beschrijving} en {temperatuur}°C."
     
     elif "koud" in vraag_lc:
-        if temperatuur < 10:
+        if temperatuur < 18:
             return f"Ja, het is koud in {stad.capitalize()} met slechts {temperatuur}°C en {beschrijving}."
         else:
             return f"Nee, het is niet echt koud in {stad.capitalize()}, het is {beschrijving} en {temperatuur}°C."
