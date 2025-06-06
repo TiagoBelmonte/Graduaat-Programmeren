@@ -1,8 +1,14 @@
 from services.google_calendar_api import get_events_for_day
 from services.weather_api import get_weather
-from utils.nlp_utils import detect_weather_question
-from utils.weather_response_builder import maak_weer_zin
+from services.news_api import fetch_news
 from services.ollama_api import ask_ollama
+
+from utils.nlp_utils import detect_weather_question, detect_news_question
+from utils.weather_response_builder import maak_weer_zin
+from utils.news__response_builder import maak_nieuwszin
+
+
+
 
 def behandel_vraag(vraag: str) -> str:
     vraag_lc = vraag.lower()
@@ -25,5 +31,16 @@ def behandel_vraag(vraag: str) -> str:
         else:
             return data
 
-    # Fallback: vraag aan LLM
+        # Intentie: nieuws
+    nieuws_info = detect_news_question(vraag)
+    if nieuws_info:
+        topic = nieuws_info.get("topic", "algemeen")
+        articles = fetch_news(topic=topic)
+        if isinstance(articles, list):
+            return maak_nieuwszin(articles, onderwerp=topic)
+        else:
+            return articles  # foutmelding als string
+
+
+    # Fallback: LLM
     return ask_ollama(vraag)
