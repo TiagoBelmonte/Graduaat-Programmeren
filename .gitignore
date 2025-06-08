@@ -28,3 +28,4 @@ chat_assistant/utils/config.py
 *.tmp
 *.swp
 token.json
+token.json
