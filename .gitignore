@@ -20,6 +20,7 @@ chat_assistant/.env
 chat_assistant/credentials.json
 chat_assistant/token.json
 chat_assistant/utils/config.py
+token.json
 
 # Overige ongewenste bestanden
 *.sqlite3
@@ -27,7 +28,3 @@ chat_assistant/utils/config.py
 *.bak
 *.tmp
 *.swp
-token.json
-token.json
-token.json
-token.json
