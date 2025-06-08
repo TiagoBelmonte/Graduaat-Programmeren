@@ -27,3 +27,4 @@ chat_assistant/utils/config.py
 *.bak
 *.tmp
 *.swp
+token.json
