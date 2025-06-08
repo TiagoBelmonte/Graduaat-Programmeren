@@ -1,5 +1,5 @@
 from utils.speech import get_voice_input
-from utils.assistant_utils import speak, clean_text
+from utils.assistant_utils import speak, clean_text, stop_speech
 from handlers.intent_handlers import behandel_vraag
 
 
@@ -18,6 +18,8 @@ def main():
 
         antwoord = behandel_vraag(vraag)
         print(f"🤖 Antwoord: {antwoord}")
+        # Reset eventuele vorige stop
+        stop_speech()  # zet stop_generatie = True → dan False voor nieuwe run
         spreektekst = clean_text(antwoord)
         speak(spreektekst)
 

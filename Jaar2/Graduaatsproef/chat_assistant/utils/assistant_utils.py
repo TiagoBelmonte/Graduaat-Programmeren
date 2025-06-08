@@ -5,12 +5,15 @@ import time
 import os
 import re
 
+stop_generatie = False  # globale vlag
+
 def clean_text(text):
-    # Verwijder ongewenste tekens zoals asterisks
-    text = re.sub(r'[*_`"]', "", text)
-    return text.strip()
+    return re.sub(r'[*_`"]', "", text).strip()
 
 async def speak_async(text):
+    global stop_generatie
+    stop_generatie = False
+
     output_file = "temp.mp3"
     communicate = edge_tts.Communicate(text, voice="nl-NL-MaartenNeural")
     await communicate.save(output_file)
@@ -20,12 +23,20 @@ async def speak_async(text):
     pygame.mixer.music.play()
 
     while pygame.mixer.music.get_busy():
-        time.sleep(0.1)
+        if stop_generatie:
+            pygame.mixer.music.stop()
+            break
+        await asyncio.sleep(0.1)
 
-    pygame.mixer.music.stop()
     pygame.mixer.quit()
-    time.sleep(0.2)
-    os.remove(output_file)
+    try:
+        os.remove(output_file)
+    except:
+        pass
 
 def speak(text):
     asyncio.run(speak_async(text))
+
+def stop_speech():
+    global stop_generatie
+    stop_generatie = True

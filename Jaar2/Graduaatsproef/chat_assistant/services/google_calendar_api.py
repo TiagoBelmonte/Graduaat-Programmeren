@@ -5,6 +5,7 @@ from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from google.auth.transport.requests import Request
+from utils.google_calendar_response_builder import maak_agendazinnen
 
 # ✅ Absoluut pad naar credentials en token
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # => pad tot services/
@@ -64,16 +65,5 @@ def get_events_for_day(day="today"):
 
     events = events_result.get('items', [])
 
-    if not events:
-        return f"Je hebt geen afspraken {('deze week' if day == 'week' else 'morgen' if day == 'tomorrow' else 'vandaag')}."
+    return maak_agendazinnen(events, day)
 
-    antwoord = f"Je hebt {len(events)} afspraak{'en' if len(events) > 1 else ''} "
-    antwoord += "deze week:\n" if day == "week" else "morgen:\n" if day == "tomorrow" else "vandaag:\n"
-
-    for event in events:
-        start = event['start'].get('dateTime', event['start'].get('date'))
-        tijd = start.split("T")[1][:5] if "T" in start else "Hele dag"
-        titel = event.get('summary', 'Zonder titel')
-        antwoord += f"- om {tijd}: {titel}\n"
-
-    return antwoord.strip()

@@ -5,12 +5,13 @@ import threading
 import pyttsx3
 import asyncio
 import edge_tts
+import pygame
 
 import sys, os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from utils.speech import get_voice_input
-from utils.assistant_utils import speak, clean_text
+from utils.assistant_utils import speak, clean_text, stop_speech
 from handlers.intent_handlers import behandel_vraag
 
 
@@ -38,6 +39,11 @@ vraag_label.pack(pady=5)
 # Antwoordlabel
 response_label = tk.Label(root, text="", fg="white", bg="black", font=("Helvetica", 14), wraplength=350, justify="left")
 response_label.pack(pady=20)
+
+# Voor annulering
+stop_generatie = False
+animation_job = None
+
 
 # Functie om de knopstatus in te stellen
 # Globale animatie-ID
@@ -67,10 +73,15 @@ def animate_dots(base_text, step=0, max_steps=3, interval=500):
 
 # Typewriter effect
 def typewriter_effect(text, index=0):
-    if index < len(text):
-        current = response_label.cget("text")
-        response_label.config(text=current + text[index])
-        root.after(30, lambda: typewriter_effect(text, index + 1))
+    global stop_generatie
+
+    if stop_generatie or index >= len(text):
+        return
+
+    current = response_label.cget("text")
+    response_label.config(text=current + text[index])
+    root.after(30, lambda: typewriter_effect(text, index + 1))
+
 
 async def speak_with_edge_tts(text):
     try:
@@ -80,8 +91,30 @@ async def speak_with_edge_tts(text):
         print(f"⚠️ Fout bij spreken: {e}")
 
 
+def annuleer_generatie():
+    global stop_generatie, animation_job
+
+    stop_generatie = True
+    stop_speech()  # stop edge-tts spraak
+
+    # Stop animatie als die bezig is
+    if animation_job:
+        root.after_cancel(animation_job)
+
+    # Reset UI
+    response_label.config(text="")  # ⬅️ verwijder het antwoord
+    vraag_label.config(text="❌ Generatie geannuleerd.")
+    set_button_state("🎤 Spreek", enabled=True)
+
+    
+
+
 # Microfoon luisteren en verwerken
 def luister_en_verwerk():
+    global stop_generatie
+    stop_generatie = False
+
+    
     try:
         # Disable knop & toon luisteren
         set_button_state("🎙️ Aan het luisteren", enabled=False)
@@ -144,6 +177,24 @@ speak_button = tk.Button(
     command=lambda: threading.Thread(target=luister_en_verwerk).start()
 )
 speak_button.pack(pady=10)
+
+cancel_button = tk.Button(
+    root,
+    text="❌ Annuleer",
+    font=("Helvetica", 12),
+    bg="darkred",
+    fg="white",
+    activebackground="#b22222",
+    activeforeground="white",
+    padx=10,
+    pady=5,
+    bd=0,
+    relief="flat",
+    cursor="hand2",
+    command=annuleer_generatie
+)
+cancel_button.pack(pady=5)
+
 
 
 root.mainloop()
