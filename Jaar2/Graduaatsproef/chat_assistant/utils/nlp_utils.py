@@ -53,3 +53,16 @@ def detect_news_question(vraag: str):
 
     return None
 
+def detect_email_question(vraag: str):
+    vraag = vraag.lower()
+
+    if any(w in vraag for w in ["mail", "mails", "e-mail", "e-mails", "inbox"]):
+        # Zoek termen na "over", "met", "als onderwerp", etc.
+        patroon = r"(?:over|met(?:\s+als)?(?:\s+onderwerp)?|onderwerp)\s+(?:\"|')?([\w\s\-]+)(?:\"|')?"
+        match = re.search(patroon, vraag)
+        if match:
+            onderwerp = match.group(1).strip()
+            return onderwerp
+
+    return None
+

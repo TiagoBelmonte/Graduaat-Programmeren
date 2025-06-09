@@ -9,7 +9,10 @@ from googleapiclient.discovery import build
 from google.auth.transport.requests import Request
 
 class CalendarService:
-    SCOPES = ['https://www.googleapis.com/auth/calendar.readonly']
+    SCOPES = [
+    "https://www.googleapis.com/auth/calendar.readonly",
+    "https://www.googleapis.com/auth/gmail.readonly"
+    ]
 
     def __init__(self, credentials_path=None, token_path=None):
         base_dir = os.path.dirname(os.path.abspath(__file__))
