@@ -5,7 +5,7 @@ def maak_nieuwszin(articles, onderwerp=None):
         titel = artikel.get("title", "Geen titel beschikbaar")
         bron = artikel.get("source_id", "een nieuwsbron")
 
-        zin = f"- Volgens {bron} lees ik: '{titel}."  # persoonlijker en spraakvriendelijk
+        zin = f"- Volgens {bron} lees ik: '{titel}."
         zinnen.append(zin)
 
     if onderwerp:

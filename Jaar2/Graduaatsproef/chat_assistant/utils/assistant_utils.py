@@ -1,7 +1,6 @@
 import asyncio
 import edge_tts
 import pygame
-import time
 import os
 import re
 

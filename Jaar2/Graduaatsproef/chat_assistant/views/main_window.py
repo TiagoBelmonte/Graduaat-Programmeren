@@ -3,16 +3,15 @@ from PIL import Image, ImageTk
 import speech_recognition as sr
 import threading
 import pyttsx3
-import asyncio
 import edge_tts
-import pygame
 
 import sys, os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from utils.speech import get_voice_input
 from utils.assistant_utils import speak, clean_text, stop_speech
-from handlers.intent_handlers import behandel_vraag
+from controllers.chatbot_controller import ChatbotController
+
 
 
 
@@ -21,6 +20,7 @@ engine = pyttsx3.init()
 
 # UI instellen
 root = tk.Tk()
+chatbot = ChatbotController()
 root.title("GraPro Assistent")
 root.configure(bg="black")
 root.geometry("400x600")
@@ -141,7 +141,7 @@ def luister_en_verwerk():
         root.update_idletasks()
 
         # Vraag verwerken
-        antwoord = behandel_vraag(vraag)
+        antwoord = chatbot.behandel_vraag(vraag)
         print("🤖 Antwoord:", antwoord)
 
         # Antwoord tonen en spreken

@@ -48,7 +48,7 @@ def detect_news_question(vraag: str):
     if any(w in vraag for w in nieuws_woorden):
         return {
             "topic": category or "wereld",  # ✅ fallback naar 'wereld' i.p.v. 'general'
-            "country": country  # ✅ mag None zijn → dan zoekt newsdata.io wereldwijd
+            "country": country
         }
 
     return None

@@ -1,31 +1,40 @@
+# services/weather_api.py
+
 import os
 import requests
 from dotenv import load_dotenv
 
-load_dotenv()  # ✅ Laadt .env in
+load_dotenv()
 
-def get_weather(city: str, raw: bool = False):  # ✅ raw-parameter toegevoegd
-    api_key = os.getenv("OPENWEATHER_API_KEY")
-    if not api_key:
-        return "⚠️ Geen API-sleutel gevonden voor OpenWeather."
+class WeatherService:
+    def __init__(self, api_key=None):
+        self.api_key = api_key or os.getenv("OPENWEATHER_API_KEY")
+        self.base_url = "https://api.openweathermap.org/data/2.5/weather"
 
-    url = (
-        f"https://api.openweathermap.org/data/2.5/weather"
-        f"?q={city}&appid={api_key}&units=metric&lang=nl"
-    )
+    def get_weather(self, city: str, raw: bool = False):
+        if not self.api_key:
+            return "⚠️ Geen API-sleutel gevonden voor OpenWeather."
 
-    try:  # ✅ correcte inspringing
-        response = requests.get(url)
-        response.raise_for_status()
-        data = response.json()
+        params = {
+            "q": city,
+            "appid": self.api_key,
+            "units": "metric",
+            "lang": "nl"
+        }
 
-        if raw:
-            return data  # ✅ geef volledige data terug
+        try:
+            response = requests.get(self.base_url, params=params)
+            response.raise_for_status()
+            data = response.json()
 
-        temp = data["main"]["temp"]
-        desc = data["weather"][0]["description"]
-        return f"In {city.capitalize()} is het {temp}°C met {desc}."
-    except requests.RequestException:
-        return "⚠️ Er is iets misgegaan bij het ophalen van het weer."
-    except KeyError:
-        return "⚠️ Ongeldige stad of onverwacht antwoord van de API."
+            if raw:
+                return data
+
+            temp = data["main"]["temp"]
+            desc = data["weather"][0]["description"]
+            return f"In {city.capitalize()} is het {temp}°C met {desc}."
+
+        except requests.RequestException:
+            return "⚠️ Er is iets misgegaan bij het ophalen van het weer."
+        except KeyError:
+            return "⚠️ Ongeldige stad of onverwacht antwoord van de API."

@@ -10,7 +10,7 @@ def get_voice_input():
             print(f"🗣️ Jij zei: {text}")
             return text
         except sr.UnknownValueError:
-            print("❌ Niet verstaan, probeer opnieuw.")
+            print("❌ Ik kon je spraak niet verstaan. Probeer het opnieuw.")
             return ""
         except sr.RequestError as e:
             print(f"⚠️ Fout bij spraakherkenning: {e}")
