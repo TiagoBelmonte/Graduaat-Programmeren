@@ -12,4 +12,4 @@ class WeatherController:
         if isinstance(data, dict):
             return maak_weer_zin(data, vraag, stad)
         else:
-            return data  # foutmelding als string
+            return data

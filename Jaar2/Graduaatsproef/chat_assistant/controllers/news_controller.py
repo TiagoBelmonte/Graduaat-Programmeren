@@ -14,4 +14,4 @@ class NewsController:
             zin = maak_nieuwszin(artikelen, onderwerp)
             return zin, links
         else:
-            return artikelen, []  # foutmelding
+            return artikelen, []
